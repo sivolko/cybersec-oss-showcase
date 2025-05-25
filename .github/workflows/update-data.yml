@@ -16,9 +16,16 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: write  # Required to push changes back to repo
+      actions: read    # Required to read workflow files
+      
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0  # Fetch full history for better git operations
       
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -42,18 +49,21 @@ jobs:
       run: |
         if [ -n "$(git status --porcelain)" ]; then
           echo "changed=true" >> $GITHUB_OUTPUT
+          echo "Files changed:"
+          git status --porcelain
         else
           echo "changed=false" >> $GITHUB_OUTPUT
+          echo "No changes detected"
         fi
         
     - name: Commit and push changes
       if: steps.verify-changed-files.outputs.changed == 'true'
       run: |
         git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.name "GitHub Action Bot"
         git add .
-        git commit -m "🤖 Auto-update: GitHub metrics and README ($(date +'%Y-%m-%d %H:%M'))"
-        git push
+        git commit -m "🤖 Auto-update: GitHub metrics and README ($(date +'%Y-%m-%d %H:%M UTC'))"
+        git push origin main
         
     - name: Create summary
       if: always()
@@ -66,6 +76,11 @@ jobs:
         echo "" >> $GITHUB_STEP_SUMMARY
         
         if [ -f "data/metadata.json" ]; then
-          echo "**Metadata:**" >> $GITHUB_STEP_SUMMARY
+          echo "**Scraper Metadata:**" >> $GITHUB_STEP_SUMMARY
+          echo '```json' >> $GITHUB_STEP_SUMMARY
           cat data/metadata.json >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
         fi
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Repository:** https://github.com/sivolko/cybersec-oss-showcase" >> $GITHUB_STEP_SUMMARY
