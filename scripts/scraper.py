@@ -279,19 +279,20 @@ def generate_readme(tools_data: Dict[str, List[Dict]]) -> str:
 
 [![Auto Update](https://github.com/sivolko/cybersec-oss-showcase/actions/workflows/update-data.yml/badge.svg)](https://github.com/sivolko/cybersec-oss-showcase/actions/workflows/update-data.yml)
 [![Last Updated](https://img.shields.io/badge/last%20updated-{datetime.now().strftime('%Y--%m--%d')}-brightgreen.svg)](https://github.com/sivolko/cybersec-oss-showcase)
+[![GitHub Pages](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-blue.svg)](https://sivolko.github.io/cybersec-oss-showcase)
 
 ## 📊 Dashboard Overview
 
 - **Total Tools Tracked**: {total_tools}
 - **Categories**: {len(tools_data)}
-- **Auto-Updated**: Every 6 hours
+- **Auto-Updated**: Daily at midnight UTC
 - **Last Scan**: {datetime.now().strftime('%Y-%m-%d')}
 - **Total Community**: {scraper.format_number(total_stars)}+ stars
 
 ## 🗂️ Categories
 
 | Category | Tools | Top Tool | Stars |
-|----------|-------|----------|---------|
+|----------|-------|----------|-------|
 """
     
     # Add category overview table
@@ -309,6 +310,58 @@ def generate_readme(tools_data: Dict[str, List[Dict]]) -> str:
         
         readme += f"| [{category_name}](#{category_key.replace('_', '-')}) | {tool_count} | {top_tool_name} | {top_tool_stars} ⭐ |\n"
     
+    # Add trending section early - right after categories table
+    readme += f"""
+
+---
+
+## 🔥 Trending This Week
+
+<!-- AUTO-GENERATED: This section is updated by GitHub Actions -->
+
+"""
+    
+    # Find most recently updated tools
+    all_tools = []
+    for tools in tools_data.values():
+        all_tools.extend(tools)
+    
+    recently_active = sorted(all_tools, key=lambda x: x.get('last_commit_days_ago', 999))
+    
+    for i, tool in enumerate(recently_active[:5], 1):
+        name = tool.get('name', 'Unknown')
+        repo = tool.get('full_name', '')
+        days_ago = tool.get('last_commit_days_ago', -1)
+        stars = scraper.format_number(tool.get('stars', 0))
+        health_score = tool.get('health_score', 0)
+        
+        # Health indicator
+        if health_score >= 80:
+            health_emoji = "🟢"
+        elif health_score >= 60:
+            health_emoji = "🟡"
+        else:
+            health_emoji = "🔴"
+        
+        readme += f"{i}. **{health_emoji} [{name}](https://github.com/{repo})** ({stars} ⭐) - Last updated {scraper.format_time_ago(days_ago)}\n"
+    
+    # Add most starred tools this week
+    most_starred = sorted(all_tools, key=lambda x: x.get('stars', 0), reverse=True)
+    
+    readme += f"""
+
+### ⭐ Most Popular Projects
+
+"""
+    
+    for i, tool in enumerate(most_starred[:5], 1):
+        name = tool.get('name', 'Unknown')
+        repo = tool.get('full_name', '')
+        stars = scraper.format_number(tool.get('stars', 0))
+        language = tool.get('language', 'Unknown')
+        
+        readme += f"{i}. **[{name}](https://github.com/{repo})** ({stars} ⭐) - {language}\n"
+
     readme += "\n---\n\n"
     
     # Add detailed sections for each category
@@ -365,32 +418,9 @@ def generate_readme(tools_data: Dict[str, List[Dict]]) -> str:
         
         readme += "\n"
     
-    # Add trending section
-    readme += """## 📈 Trending This Week
+    readme += """## 🤖 Automation
 
-<!-- AUTO-GENERATED: This section is updated by GitHub Actions -->
-
-🔥 **Most Active Projects:**
-
-"""
-    
-    # Find most recently updated tools
-    all_tools = []
-    for tools in tools_data.values():
-        all_tools.extend(tools)
-    
-    recently_active = sorted(all_tools, key=lambda x: x.get('last_commit_days_ago', 999))
-    
-    for i, tool in enumerate(recently_active[:5], 1):
-        name = tool.get('name', 'Unknown')
-        repo = tool.get('full_name', '')
-        days_ago = tool.get('last_commit_days_ago', -1)
-        stars = scraper.format_number(tool.get('stars', 0))
-        readme += f"{i}. **[{name}](https://github.com/{repo})** ({stars} ⭐) - Last updated {scraper.format_time_ago(days_ago)}\n"
-    
-    readme += """\n## 🤖 Automation
-
-This showcase is automatically updated every 6 hours using GitHub Actions. The scraper:
+This showcase is automatically updated daily using GitHub Actions. The scraper:
 
 - ✅ Fetches latest GitHub metrics (stars, forks, last commit)
 - ✅ Checks for new releases and updates
