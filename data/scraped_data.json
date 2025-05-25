@@ -212,7 +212,7 @@
         "prerelease": false
       },
       "contributors_count": 255,
-      "last_commit_days_ago": 4,
+      "last_commit_days_ago": 5,
       "health_score": 87
     },
     {
@@ -1622,7 +1622,7 @@
       "stars": 11377,
       "forks": 2244,
       "watchers": 11377,
-      "open_issues": 479,
+      "open_issues": 480,
       "language": "C",
       "created_at": "2011-12-16T19:43:47Z",
       "updated_at": "2025-05-25T12:18:50Z",

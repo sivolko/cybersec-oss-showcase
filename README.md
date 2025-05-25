@@ -4,19 +4,20 @@
 
 [![Auto Update](https://github.com/sivolko/cybersec-oss-showcase/actions/workflows/update-data.yml/badge.svg)](https://github.com/sivolko/cybersec-oss-showcase/actions/workflows/update-data.yml)
 [![Last Updated](https://img.shields.io/badge/last%20updated-2025--05--25-brightgreen.svg)](https://github.com/sivolko/cybersec-oss-showcase)
+[![GitHub Pages](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-blue.svg)](https://sivolko.github.io/cybersec-oss-showcase)
 
 ## 📊 Dashboard Overview
 
 - **Total Tools Tracked**: 48
 - **Categories**: 10
-- **Auto-Updated**: Every 6 hours
+- **Auto-Updated**: Daily at midnight UTC
 - **Last Scan**: 2025-05-25
 - **Total Community**: 461.4k+ stars
 
 ## 🗂️ Categories
 
 | Category | Tools | Top Tool | Stars |
-|----------|-------|----------|---------|
+|----------|-------|----------|-------|
 | [🔍 Vulnerability Scanners](#vulnerability-scanners) | 6 | nuclei | 23.4k ⭐ |
 | [🤖 Security Automation](#security-automation) | 5 | wazuh | 12.5k ⭐ |
 | [🕵️ Threat Intelligence](#threat-intelligence) | 4 | opencti | 7.3k ⭐ |
@@ -28,6 +29,28 @@
 | [🔒 Cryptography](#cryptography) | 4 | openssl | 27.4k ⭐ |
 | [📚 Security Learning](#security-learning) | 5 | DVWA | 11.2k ⭐ |
 
+
+---
+
+## 🔥 Trending This Week
+
+<!-- AUTO-GENERATED: This section is updated by GitHub Actions -->
+
+1. **🟢 [zeek](https://github.com/zeek/zeek)** (6.9k ⭐) - Last updated Today
+2. **🟢 [opencti](https://github.com/OpenCTI-Platform/opencti)** (7.3k ⭐) - Last updated Today
+3. **🟢 [john](https://github.com/openwall/john)** (11.4k ⭐) - Last updated Today
+4. **🟢 [cryptography](https://github.com/pyca/cryptography)** (7.0k ⭐) - Last updated Today
+5. **🟢 [nuclei](https://github.com/projectdiscovery/nuclei)** (23.4k ⭐) - Last updated 1 day ago
+
+
+### ⭐ Most Popular Projects
+
+1. **[metasploit-framework](https://github.com/rapid7/metasploit-framework)** (35.6k ⭐) - Ruby
+2. **[sqlmap](https://github.com/sqlmapproject/sqlmap)** (34.2k ⭐) - Python
+3. **[openssl](https://github.com/openssl/openssl)** (27.4k ⭐) - C
+4. **[trivy](https://github.com/aquasecurity/trivy)** (26.9k ⭐) - Go
+5. **[nuclei](https://github.com/projectdiscovery/nuclei)** (23.4k ⭐) - Go
+
 ---
 
 ## 🔍 Vulnerability Scanners
@@ -37,7 +60,7 @@
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
 | [nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global secur... | 23.4k ⭐ | Go | 1 day ago | 🟢 |
-| [zaproxy](https://github.com/zaproxy/zaproxy) | The ZAP by Checkmarx Core project | 13.6k ⭐ | Java | 4 days ago | 🟢 |
+| [zaproxy](https://github.com/zaproxy/zaproxy) | The ZAP by Checkmarx Core project | 13.6k ⭐ | Java | 5 days ago | 🟢 |
 | [nmap](https://github.com/nmap/nmap) | Nmap - the Network Mapper. Github mirror of official SVN repository. | 11.1k ⭐ | C | 1 day ago | 🟡 |
 | [nikto](https://github.com/sullo/nikto) | Nikto web server scanner | 9.3k ⭐ | Perl | 1 week ago | 🟢 |
 | [wpscan](https://github.com/wpscanteam/wpscan) | WPScan WordPress security scanner. Written for security professionals and blog m... | 9.0k ⭐ | Ruby | 6 days ago | 🟢 |
@@ -148,21 +171,9 @@
 | [ctf-writeups](https://github.com/VulnHub/ctf-writeups) | CTF write-ups from the VulnHub CTF Team | 701 ⭐ | None | 7 years ago | 🔴 |
 | [picoCTF](https://github.com/picoCTF/picoCTF) | The platform used to run picoCTF 2019. (deprecated) | 298 ⭐ | Python | 1 year ago | 🔴 |
 
-## 📈 Trending This Week
-
-<!-- AUTO-GENERATED: This section is updated by GitHub Actions -->
-
-🔥 **Most Active Projects:**
-
-1. **[zeek](https://github.com/zeek/zeek)** (6.9k ⭐) - Last updated Today
-2. **[opencti](https://github.com/OpenCTI-Platform/opencti)** (7.3k ⭐) - Last updated Today
-3. **[john](https://github.com/openwall/john)** (11.4k ⭐) - Last updated Today
-4. **[cryptography](https://github.com/pyca/cryptography)** (7.0k ⭐) - Last updated Today
-5. **[nuclei](https://github.com/projectdiscovery/nuclei)** (23.4k ⭐) - Last updated 1 day ago
-
 ## 🤖 Automation
 
-This showcase is automatically updated every 6 hours using GitHub Actions. The scraper:
+This showcase is automatically updated daily using GitHub Actions. The scraper:
 
 - ✅ Fetches latest GitHub metrics (stars, forks, last commit)
 - ✅ Checks for new releases and updates
