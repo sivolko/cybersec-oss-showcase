@@ -32,6 +32,41 @@ vulnerability_scanners:
     description: "WordPress vulnerability scanner"
     homepage: "https://wpscan.com/"
 
+  # New individual tools
+  - name: "agentic-security"
+    repo: "msoedov/agentic_security"
+    description: "Agentic LLM Vulnerability Scanner / AI red teaming kit for testing AI/LLM security"
+    homepage: "https://agentic-security.vercel.app"
+    
+  - name: "w3af"
+    repo: "andresriancho/w3af"
+    description: "Web application attack and audit framework, the open source web vulnerability scanner"
+    homepage: "http://w3af.org/"
+    
+  - name: "raccoon"
+    repo: "evyatarmeged/Raccoon"
+    description: "High performance offensive security tool for reconnaissance and vulnerability scanning"
+    
+  - name: "sqlifinder"
+    repo: "americo/sqlifinder"
+    description: "SQL Injection Vulnerability Scanner made with Python"
+    
+  - name: "a2sv"
+    repo: "hahwul/a2sv"
+    description: "Auto Scanning to SSL Vulnerability"
+    
+  - name: "yandi-scanner"
+    repo: "RASSec/yandi-scanner"
+    description: "Network Security Vulnerability Scanner"
+    
+  - name: "jira-lens"
+    repo: "MayankPandey01/Jira-Lens"
+    description: "Fast and customizable vulnerability scanner For JIRA written in Python"
+    
+  - name: "salt-scanner"
+    repo: "0x4D31/salt-scanner"
+    description: "Linux vulnerability scanner based on Salt Open and Vulners audit API"
+
 security_automation:
   - name: "semgrep"
     repo: "semgrep/semgrep"
@@ -57,6 +92,12 @@ security_automation:
     repo: "zeek/zeek"
     description: "Network security monitoring platform"
     homepage: "https://zeek.org/"
+
+  # New individual tool
+  - name: "security-manage-framework"
+    repo: "we1h0/SecurityManageFramwork"
+    description: "Security management platform for enterprise intranet with asset and vulnerability management"
+    homepage: "https://my.oschina.net/u/3867729/"
 
 threat_intelligence:
   - name: "misp"
@@ -194,6 +235,50 @@ penetration_testing:
     repo: "openwall/john"
     description: "John the Ripper password cracker"
     homepage: "https://www.openwall.com/john/"
+
+  # New individual tools
+  - name: "fsociety"
+    repo: "Manisso/fsociety"
+    description: "fsociety Hacking Tools Pack – A Penetration Testing Framework"
+    
+  - name: "tomcat-war-deployer"
+    repo: "mgeeky/tomcatWarDeployer"
+    description: "Apache Tomcat auto WAR deployment & pwning penetration testing tool"
+    
+  - name: "freeway"
+    repo: "FLOCK4H/Freeway"
+    description: "WiFi Penetration Testing & Auditing Tool"
+    
+  - name: "peniot"
+    repo: "yakuza8/peniot"
+    description: "PENIOT: Penetration Testing Tool for IoT"
+    homepage: "https://senior.ceng.metu.edu.tr/2019/peniot/"
+    
+  - name: "webmap"
+    repo: "Anteste/WebMap"
+    description: "Python tool to automate Nmap, Nikto and Dirsearch execution during Web Penetration Testing"
+    homepage: "https://anteste.yo.fr/"
+    
+  - name: "ratel"
+    repo: "FrenchCisco/RATel"
+    description: "Open source penetration test tool for Windows machine control (RAT)"
+    
+  - name: "beef-over-wan"
+    repo: "stormshadow07/BeeF-Over-Wan"
+    description: "Browser Exploitation Framework setup tool for WAN access without port forwarding"
+    
+  - name: "white-dav"
+    repo: "whxitte/white-dav"
+    description: "Website penetration testing tool for testing webdav server vulnerabilities"
+    
+  - name: "g3nius-tools-sploit"
+    repo: "witblack/G3nius-Tools-Sploit"
+    description: "Penetration testing tool with plugins for advanced cybersecurity attacks"
+    homepage: "https://BugZone.ir"
+    
+  - name: "mr-crackbot-ai-nano"
+    repo: "salvadordata/Mr.-CrackBot-AI-Nano"
+    description: "AI-driven penetration testing tool using NVIDIA Jetson Nano for password cracking and Wi-Fi testing"
     
 cryptography:
   - name: "libsodium"
@@ -234,7 +319,7 @@ security_learning:
     repo: "VulnHub/ctf-writeups"
     description: "Collection of CTF writeups"
     
-  - name: "picoctf"
+  - name: "picoct"
     repo: "picoCTF/picoCTF"
     description: "PicoCTF platform development"
     homepage: "https://picoctf.org/"
@@ -243,3 +328,73 @@ security_learning:
     repo: "OverTheWireOrg/overthewire.org"
     description: "OverTheWire wargames website"
     homepage: "https://overthewire.org/"
+
+# New categories for individual tools
+network_security:
+  - name: "xray"
+    repo: "evilsocket/xray"
+    description: "XRay is a tool for recon, mapping and OSINT gathering from public networks"
+    
+  - name: "scilla"
+    repo: "edoardottt/scilla"
+    description: "Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration"
+    homepage: "https://edoardottt.com/"
+    
+  - name: "netventory"
+    repo: "RamboRogers/netventory"
+    description: "Fast single binary network scanning tool with beautiful TUI and WebUI"
+    homepage: "https://matthewrogers.org"
+    
+  - name: "prismx"
+    repo: "yqcs/prismx"
+    description: "Automated Enterprise Network Security Risk Detection and Vulnerability Scanning Tool"
+    homepage: "https://prismx.io/"
+    
+  - name: "turbo-scanner"
+    repo: "mytechnotalent/turbo-scanner"
+    description: "Port scanner and service detection tool using 1000 goroutines for high-speed scanning"
+    
+  - name: "packemon"
+    repo: "ddddddO/packemon"
+    description: "TUI tool for sending packets and monitoring network interfaces on Linux/macOS"
+
+information_gathering:
+  - name: "argus"
+    repo: "jasonxtn/Argus"
+    description: "The Ultimate Information Gathering Toolkit"
+    
+  - name: "ominis-osint"
+    repo: "AnonCatalyst/Ominis-OSINT"
+    description: "OSINT tool for online information gathering by querying Google for search results"
+    homepage: "https://pypi.org/project/Ominis-OSINT/"
+    
+  - name: "chiasmodon"
+    repo: "chiasmod0n/chiasmodon"
+    description: "OSINT tool for domain-related data gathering including emails, credentials, CIDRs, ASNs, and subdomains"
+    homepage: "http://chiasmodon.online"
+    
+  - name: "gasmask"
+    repo: "twelvesec/gasmask"
+    description: "Information gathering tool - OSINT"
+    homepage: "https://www.twelvesec.com/"
+    
+  - name: "ircp"
+    repo: "internet-relay-chat/IRCP"
+    description: "Robust information gathering tool for large scale reconnaissance on Internet Relay Chat servers"
+    homepage: "https://internetrelaychat.org"
+
+mobile_security:
+  - name: "androbugs-framework"
+    repo: "AndroBugs/AndroBugs_Framework"
+    description: "Efficient Android vulnerability scanner for developers and security researchers"
+
+blockchain_security:
+  - name: "mythril"
+    repo: "ConsenSysDiligence/mythril"
+    description: "Security analysis tool for Ethereum smart contracts using symbolic execution"
+    homepage: "https://mythx.io/"
+    
+  - name: "octopus"
+    repo: "FuzzingLabs/octopus"
+    description: "Security Analysis tool for WebAssembly module (wasm) and Blockchain Smart Contracts (BTC/ETH/NEO/EOS)"
+    homepage: "https://fuzzinglabs.com/"
