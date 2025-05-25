@@ -1,400 +1,2052 @@
-# Cybersecurity OSS Tools Database
-# This file contains the curated list of tools that the scraper monitors
-# Format: category -> list of tools with repo info
-
 vulnerability_scanners:
-  - name: "nuclei"
-    repo: "projectdiscovery/nuclei"
-    description: "Fast vulnerability scanner using YAML templates for web apps, networks, and cloud infrastructure"
-    homepage: "https://nuclei.projectdiscovery.io/"
-    
-  - name: "nmap"
-    repo: "nmap/nmap"
-    description: "Network discovery and security auditing tool"
-    homepage: "https://nmap.org/"
-    
-  - name: "openvas"
-    repo: "greenbone/openvas-scanner"
-    description: "Full-featured vulnerability scanner"
-    homepage: "https://www.openvas.org/"
-    
-  - name: "nikto"
-    repo: "sullo/nikto"
-    description: "Web server vulnerability scanner"
-    
-  - name: "zap"
-    repo: "zaproxy/zaproxy"
-    description: "OWASP web application security scanner"
-    homepage: "https://www.zaproxy.org/"
-    
-  - name: "wpscan"
-    repo: "wpscanteam/wpscan"
-    description: "WordPress vulnerability scanner"
-    homepage: "https://wpscan.com/"
-
-  # New individual tools
-  - name: "agentic-security"
-    repo: "msoedov/agentic_security"
-    description: "Agentic LLM Vulnerability Scanner / AI red teaming kit for testing AI/LLM security"
-    homepage: "https://agentic-security.vercel.app"
-    
-  - name: "w3af"
-    repo: "andresriancho/w3af"
-    description: "Web application attack and audit framework, the open source web vulnerability scanner"
-    homepage: "http://w3af.org/"
-    
-  - name: "raccoon"
-    repo: "evyatarmeged/Raccoon"
-    description: "High performance offensive security tool for reconnaissance and vulnerability scanning"
-    
-  - name: "sqlifinder"
-    repo: "americo/sqlifinder"
-    description: "SQL Injection Vulnerability Scanner made with Python"
-    
-  - name: "a2sv"
-    repo: "hahwul/a2sv"
-    description: "Auto Scanning to SSL Vulnerability"
-    
-  - name: "yandi-scanner"
-    repo: "RASSec/yandi-scanner"
-    description: "Network Security Vulnerability Scanner"
-    
-  - name: "jira-lens"
-    repo: "MayankPandey01/Jira-Lens"
-    description: "Fast and customizable vulnerability scanner For JIRA written in Python"
-    
-  - name: "salt-scanner"
-    repo: "0x4D31/salt-scanner"
-    description: "Linux vulnerability scanner based on Salt Open and Vulners audit API"
-
+- name: nuclei
+  repo: projectdiscovery/nuclei
+  description: Fast vulnerability scanner using YAML templates for web apps, networks,
+    and cloud infrastructure
+  homepage: https://nuclei.projectdiscovery.io/
+- name: nmap
+  repo: nmap/nmap
+  description: Network discovery and security auditing tool
+  homepage: https://nmap.org/
+- name: openvas
+  repo: greenbone/openvas-scanner
+  description: Full-featured vulnerability scanner
+  homepage: https://www.openvas.org/
+- name: nikto
+  repo: sullo/nikto
+  description: Web server vulnerability scanner
+- name: zap
+  repo: zaproxy/zaproxy
+  description: OWASP web application security scanner
+  homepage: https://www.zaproxy.org/
+- name: wpscan
+  repo: wpscanteam/wpscan
+  description: WordPress vulnerability scanner
+  homepage: https://wpscan.com/
+- name: agentic-security
+  repo: msoedov/agentic_security
+  description: Agentic LLM Vulnerability Scanner / AI red teaming kit for testing
+    AI/LLM security
+  homepage: https://agentic-security.vercel.app
+- name: w3af
+  repo: andresriancho/w3af
+  description: Web application attack and audit framework, the open source web vulnerability
+    scanner
+  homepage: http://w3af.org/
+- name: raccoon
+  repo: evyatarmeged/Raccoon
+  description: High performance offensive security tool for reconnaissance and vulnerability
+    scanning
+- name: sqlifinder
+  repo: americo/sqlifinder
+  description: SQL Injection Vulnerability Scanner made with Python
+- name: a2sv
+  repo: hahwul/a2sv
+  description: Auto Scanning to SSL Vulnerability
+- name: yandi-scanner
+  repo: RASSec/yandi-scanner
+  description: Network Security Vulnerability Scanner
+- name: jira-lens
+  repo: MayankPandey01/Jira-Lens
+  description: Fast and customizable vulnerability scanner For JIRA written in Python
+- name: salt-scanner
+  repo: 0x4D31/salt-scanner
+  description: Linux vulnerability scanner based on Salt Open and Vulners audit API
+- name: Awesome-Hacking
+  repo: Hack-with-Github/Awesome-Hacking
+  description: A collection of various awesome lists for hackers, pentesters and security
+    researchers
+- name: quivr
+  repo: QuivrHQ/quivr
+  description: 'Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your
+    product rather than the RAG. Easy integration in existing products with customisation!  Any
+    LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you
+    want. '
+- name: nginxconfig.io
+  repo: digitalocean/nginxconfig.io
+  description: ⚙️ NGINX config generator on steroids 💉
+- name: sniffnet
+  repo: GyulyVGC/sniffnet
+  description: Comfortably monitor your Internet traffic 🕵️‍♂️
+- name: keepassxc
+  repo: keepassxreboot/keepassxc
+  description: KeePassXC is a cross-platform community-driven port of the Windows
+    application “Keepass Password Safe”.
+- name: API-Security-Checklist
+  repo: shieldfy/API-Security-Checklist
+  description: Checklist of the most important security countermeasures when designing,
+    testing, and releasing your API
+- name: macOS-Security-and-Privacy-Guide
+  repo: drduh/macOS-Security-and-Privacy-Guide
+  description: Community guide to securing and improving privacy on macOS.
+- name: security-guide-for-developers
+  repo: FallibleInc/security-guide-for-developers
+  description: Security Guide for Developers (实用性开发人员安全须知)
+- name: trufflehog
+  repo: trufflesecurity/trufflehog
+  description: Find, verify, and analyze leaked credentials
+- name: personal-security-checklist
+  repo: Lissy93/personal-security-checklist
+  description: 🔒 A compiled checklist of 300+ tips for protecting digital security
+    and privacy in 2024
+- name: How-To-Secure-A-Linux-Server
+  repo: imthenachoman/How-To-Secure-A-Linux-Server
+  description: An evolving how-to guide for securing a Linux server.
+- name: infisical
+  repo: Infisical/infisical
+  description: Infisical is the open-source platform for secrets management, internal
+    PKI, and SSH access.
+- name: cutter
+  repo: rizinorg/cutter
+  description: Free and Open Source Reverse Engineering Platform powered by rizin
+- name: DB-GPT
+  repo: eosphoros-ai/DB-GPT
+  description: AI Native Data App Development framework with AWEL(Agentic Workflow
+    Expression Language) and Agents
+- name: RustScan
+  repo: bee-san/RustScan
+  description: 🤖 The Modern Port Scanner 🤖
+- name: ProxmoxVE
+  repo: community-scripts/ProxmoxVE
+  description: 'Proxmox VE Helper-Scripts (Community Edition) '
+- name: Atlas
+  repo: Atlas-OS/Atlas
+  description: 🚀 An open and lightweight modification to Windows, designed to optimize
+    performance, privacy and usability.
+- name: DOMPurify
+  repo: cure53/DOMPurify
+  description: 'DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for
+    HTML, MathML and SVG. DOMPurify works with a secure default, but offers a lot
+    of configurability and hooks. Demo:'
+- name: chezmoi
+  repo: twpayne/chezmoi
+  description: Manage your dotfiles across multiple diverse machines, securely.
+- name: javascript-obfuscator
+  repo: javascript-obfuscator/javascript-obfuscator
+  description: A powerful obfuscator for JavaScript and Node.js
+- name: hacker101
+  repo: Hacker0x01/hacker101
+  description: Source code for Hacker101.com - a free online web and mobile security
+    class.
+- name: wifiphisher
+  repo: wifiphisher/wifiphisher
+  description: The Rogue Access Point Framework
+- name: nginx-admins-handbook
+  repo: trimstray/nginx-admins-handbook
+  description: How to improve NGINX performance, security, and other important things.
+- name: secguide
+  repo: Tencent/secguide
+  description: 面向开发人员梳理的代码安全指南
+- name: awesome-security
+  repo: sbilly/awesome-security
+  description: A collection of awesome software, libraries, documents, books, resources
+    and cools stuffs about security.
+- name: dirsearch
+  repo: maurosoria/dirsearch
+  description: Web path scanner
+- name: gophish
+  repo: gophish/gophish
+  description: Open-Source Phishing Toolkit
+- name: keeweb
+  repo: keeweb/keeweb
+  description: Free cross-platform password manager compatible with KeePass
+- name: routersploit
+  repo: threat9/routersploit
+  description: Exploitation Framework for Embedded Devices
+- name: awesome-web-security
+  repo: qazbnm456/awesome-web-security
+  description: 🐶 A curated list of Web Security materials and resources.
+- name: openvpn
+  repo: OpenVPN/openvpn
+  description: OpenVPN  is  an open source VPN daemon
+- name: vuls
+  repo: future-architect/vuls
+  description: Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress,
+    Programming language libraries, Network devices
+- name: urh
+  repo: jopohl/urh
+  description: 'Universal Radio Hacker: Investigate Wireless Protocols Like A Boss'
+- name: user.js
+  repo: arkenfox/user.js
+  description: 'Firefox privacy, security and anti-tracking: a comprehensive user.js
+    template for configuration and hardening'
+- name: oss-fuzz
+  repo: google/oss-fuzz
+  description: OSS-Fuzz - continuous fuzzing for open source software.
+- name: xray
+  repo: chaitin/xray
+  description: 一款长亭自研的完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc | 使用之前务必先阅读文档
+- name: kubescape
+  repo: kubescape/kubescape
+  description: Kubescape is an open-source Kubernetes security platform for your IDE,
+    CI/CD pipelines, and clusters. It includes risk analysis, security, compliance,
+    and misconfiguration scanning, saving Kubernetes users and administrators precious
+    time, effort, and resources.
+- name: helmet
+  repo: helmetjs/helmet
+  description: Help secure Express apps with various HTTP headers
+- name: nuclei-templates
+  repo: projectdiscovery/nuclei-templates
+  description: Community curated list of templates for the nuclei engine to find security
+    vulnerabilities.
+- name: how-to-secure-anything
+  repo: veeral-patel/how-to-secure-anything
+  description: 'How to systematically secure anything: a repository about security
+    engineering'
+- name: 404StarLink
+  repo: knownsec/404StarLink
+  description: 404StarLink - 推荐优质、有意义、有趣、坚持维护的安全开源项目
+- name: Quasar
+  repo: quasar/Quasar
+  description: Remote Administration Tool for Windows
+- name: h4cker
+  repo: The-Art-of-Hacking/h4cker
+  description: This repository is primarily maintained by Omar Santos (@santosomar)
+    and includes thousands of resources related to ethical hacking, bug bounties,
+    digital forensics and incident response (DFIR), artificial intelligence security,
+    vulnerability research, exploit development, reverse engineering, and more.
+- name: Reverse-Engineering
+  repo: mytechnotalent/Reverse-Engineering
+  description: A FREE comprehensive reverse engineering tutorial covering x86, x64,
+    32-bit/64-bit ARM, 8-bit AVR and 32-bit RISC-V architectures.
+- name: Sn1per
+  repo: 1N3/Sn1per
+  description: Attack Surface Management Platform
+- name: pyWhat
+  repo: bee-san/pyWhat
+  description: 🐸   Identify anything. pyWhat easily lets you identify emails, IP addresses,
+    and more. Feed it a .pcap file or some text and it'll tell you what it is! 🧙‍♀️
+- name: RedTeam-Tools
+  repo: A-poc/RedTeam-Tools
+  description: Tools and Techniques for Red Team / Penetration Testing
+- name: caldera
+  repo: mitre/caldera
+  description: Automated Adversary Emulation Platform
+- name: Awesome-GPT-Agents
+  repo: fr0gger/Awesome-GPT-Agents
+  description: A curated list of GPT agents for cybersecurity
+- name: awesome-security-hardening
+  repo: decalage2/awesome-security-hardening
+  description: A collection of awesome security hardening guides, tools and other
+    resources
+- name: gnuradio
+  repo: gnuradio/gnuradio
+  description: GNU Radio – the Free and Open Software Radio Ecosystem
+- name: faraday
+  repo: infobyte/faraday
+  description: Open Source Vulnerability Management Platform
+- name: awesome-cybersecurity-blueteam
+  repo: fabacab/awesome-cybersecurity-blueteam
+  description: :computer:🛡️ A curated collection of awesome resources, tools, and
+    other shiny things for cybersecurity blue teams.
+- name: Villain
+  repo: t3l3machus/Villain
+  description: Villain is a high level stage 0/1 C2 framework that can handle multiple
+    reverse TCP & HoaxShell-based shells, enhance their functionality with additional
+    features (commands, utilities) and share them among connected sibling servers
+    (Villain instances running on different machines).
+- name: BrowserBox
+  repo: BrowserBox/BrowserBox
+  description: 🌀 Embeddable remote browser security with safe source code https://dosaygo.com
+- name: Security-PPT
+  repo: FeeiCN/Security-PPT
+  description: Security-related Slide Presentation & Security Research Report（大安全各领域各公司各会议分享的PPT以及各类安全研究报告）
+- name: Packer-Fuzzer
+  repo: rtcatc/Packer-Fuzzer
+  description: 'Packer Fuzzer is a fast and efficient scanner for security detection
+    of websites constructed by javascript module bundler such as Webpack. '
+- name: RedEye
+  repo: cisagov/RedEye
+  description: RedEye is a visual analytic tool supporting Red & Blue Team operations
+- name: Keylogger
+  repo: aydinnyunus/Keylogger
+  description: Get Keyboard,Mouse,ScreenShot,Microphone Inputs from Target Computer
+    and Send to your Mail.
+- name: reconspider
+  repo: bhavsec/reconspider
+  description: 🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning
+    IP Address, Emails, Websites, Organizations.
+- name: blackhat-python3
+  repo: EONRaider/blackhat-python3
+  description: Source code for the book "Black Hat Python" by Justin Seitz. The code
+    has been fully converted to Python 3, reformatted to comply with PEP8 standards
+    and refactored to eliminate dependency issues involving the implementation of
+    deprecated libraries.
+- name: attack-navigator
+  repo: mitre-attack/attack-navigator
+  description: Web app that provides basic navigation and annotation of ATT&CK matrices
+- name: burpgpt
+  repo: aress31/burpgpt
+  description: A Burp Suite extension that integrates OpenAI's GPT to perform an additional
+    passive scan for discovering highly bespoke vulnerabilities and enables running
+    traffic-based analysis of any type.
+- name: Microsoft-365-Defender-Hunting-Queries
+  repo: microsoft/Microsoft-365-Defender-Hunting-Queries
+  description: Sample queries for Advanced hunting in Microsoft 365 Defender
+- name: Nidhogg
+  repo: Idov31/Nidhogg
+  description: Nidhogg is an all-in-one simple to use windows kernel rootkit.
+- name: awesome-list
+  repo: 0xor0ne/awesome-list
+  description: Cybersecurity oriented awesome list
+- name: gosearch
+  repo: ibnaleem/gosearch
+  description: 🔍 Search anyone's digital footprint across 300+ websites
+- name: unshackle
+  repo: Fadi002/unshackle
+  description: Open-source tool to bypass windows and linux passwords from bootable
+    usb
+- name: adversary_emulation_library
+  repo: center-for-threat-informed-defense/adversary_emulation_library
+  description: 'An open library of adversary emulation plans designed to empower organizations
+    to test their defenses based on real-world TTPs. '
+- name: metlo
+  repo: metlo-labs/metlo
+  description: Metlo is an open-source API security platform.
+- name: Red-Teaming-TTPs
+  repo: RoseSecurity/Red-Teaming-TTPs
+  description: Useful Techniques, Tactics, and Procedures for red teamers and defenders,
+    alike!
+- name: SecurityInterviewGuide
+  repo: FeeiCN/SecurityInterviewGuide
+  description: 网络信息安全从业者面试指南
+- name: node-opcua
+  repo: node-opcua/node-opcua
+  description: Unlocking the Full Potential of OPC UA with Typescript and NodeJS -
+    http://node-opcua.github.io/
+- name: rengine
+  repo: yogeshojha/rengine
+  description: reNgine is an automated reconnaissance framework for web applications
+    with a focus on highly configurable streamlined recon process via Engines, recon
+    data correlation and organization, continuous monitoring, backed by a database,
+    and simple yet intuitive User Interface. reNgine makes it easy for penetration
+    testers to gather reconnaissance with minimal configuration and with the help
+    of reNgine's correlation, it just makes recon effortless.
+- name: cve
+  repo: trickest/cve
+  description: Gather and update all available and newest CVEs with their PoC.
+- name: AllAboutBugBounty
+  repo: daffainfo/AllAboutBugBounty
+  description: All about bug bounty (bypasses, payloads, and etc)
+- name: bugbounty-cheatsheet
+  repo: EdOverflow/bugbounty-cheatsheet
+  description: A list of interesting payloads, tips and tricks for bug bounty hunters.
+- name: can-i-take-over-xyz
+  repo: EdOverflow/can-i-take-over-xyz
+  description: '"Can I take over XYZ?" — a list of services and how to claim (sub)domains
+    with dangling DNS records.'
+- name: cameradar
+  repo: Ullaakut/cameradar
+  description: Cameradar hacks its way into RTSP videosurveillance cameras
+- name: awesome-sec-talks
+  repo: PaulSec/awesome-sec-talks
+  description: A collected list of awesome security talks
+- name: LinkFinder
+  repo: GerbenJavado/LinkFinder
+  description: A python script that finds endpoints in JavaScript files
+- name: xunfeng
+  repo: ysrc/xunfeng
+  description: 巡风是一款适用于企业内网的漏洞快速应急，巡航扫描系统。
+- name: awesome-api-security
+  repo: arainho/awesome-api-security
+  description: A collection of awesome API Security tools and resources. The focus
+    goes to open-source tools and resources that benefit all the community.
+- name: Pwdb-Public
+  repo: ignis-sec/Pwdb-Public
+  description: A collection of all the data i could extract from 1 billion leaked
+    credentials from internet.
+- name: KeyDecoder
+  repo: MaximeBeasse/KeyDecoder
+  description: KeyDecoder app lets you use your smartphone or tablet to decode your
+    mechanical keys in seconds.
+- name: emba
+  repo: e-m-b-a/emba
+  description: EMBA - The firmware security analyzer
+- name: SecurityAdvisories
+  repo: Roave/SecurityAdvisories
+  description: ':closed_lock_with_key: Security advisories as a simple composer exclusion
+    list, updated daily'
+- name: jaeles
+  repo: jaeles-project/jaeles
+  description: The Swiss Army knife for automated Web Application Testing
+- name: subjack
+  repo: haccer/subjack
+  description: Subdomain Takeover tool written in Go
+- name: Adalanche
+  repo: lkarlslund/Adalanche
+  description: Attack Graph Visualizer and Explorer (Active Directory) ...Who's *really*
+    Domain Admin?
+- name: top25-parameter
+  repo: lutfumertceylan/top25-parameter
+  description: For basic researches, top 25 vulnerability parameters that can be used
+    in automation tools or manual recon. 🛡️⚔️🧙
+- name: Bashfuscator
+  repo: Bashfuscator/Bashfuscator
+  description: A fully configurable and extendable Bash obfuscation framework. This
+    tool is intended to help both red team and blue team.
+- name: wordlists
+  repo: trickest/wordlists
+  description: Real-world infosec wordlists, updated regularly
+- name: sx
+  repo: v-byte-cpu/sx
+  description: ':vulcan_salute: Fast, modern, easy-to-use network scanner'
+- name: changeme
+  repo: ztgrace/changeme
+  description: A default credential scanner.
+- name: GooFuzz
+  repo: m3n0sd0n4ld/GooFuzz
+  description: GooFuzz is a tool to perform fuzzing with an OSINT approach, managing
+    to enumerate directories, files, subdomains or parameters without leaving evidence
+    on the target's server and by means of advanced Google searches (Google Dorking).
+- name: inventory
+  repo: trickest/inventory
+  description: Asset inventory of over 800 public bug bounty programs.
+- name: API-SecurityEmpire
+  repo: Cyber-Guy1/API-SecurityEmpire
+  description: API Security Project aims to present unique attack & defense methods
+    in API Security field
+- name: PowerShell-for-Hackers
+  repo: I-Am-Jakoby/PowerShell-for-Hackers
+  description: 'This repository is a collection of powershell functions every hacker
+    should know '
+- name: go-dork
+  repo: dwisiswant0/go-dork
+  description: The fastest dork scanner written in Go.
+- name: xxe-injection-payload-list
+  repo: payloadbox/xxe-injection-payload-list
+  description: 🎯 XML External Entity (XXE) Injection Payload List
+- name: ScopeSentry
+  repo: Autumn-27/ScopeSentry
+  description: ScopeSentry-Cyberspace mapping, subdomain enumeration, port scanning,
+    sensitive information discovery, vulnerability scanning, distributed nodes
+- name: fleet
+  repo: kolide/fleet
+  description: A flexible control server for osquery fleets
+- name: Detect-It-Easy
+  repo: horsicq/Detect-It-Easy
+  description: Program for determining types of files for Windows, Linux and MacOS.
+- name: yakit
+  repo: yaklang/yakit
+  description: Cyber Security ALL-IN-ONE Platform
+- name: GOAD
+  repo: Orange-Cyberdefense/GOAD
+  description: game of active directory
+- name: reconftw
+  repo: six2dez/reconftw
+  description: reconFTW is a tool designed to perform automated recon on a target
+    domain by running the best set of tools to perform scanning and finding out vulnerabilities
+- name: WhatWeb
+  repo: urbanadventurer/WhatWeb
+  description: Next generation web scanner
+- name: Ladon
+  repo: k8gege/Ladon
+  description: Ladon大型内网渗透扫描器，PowerShell、Cobalt Strike插件、内存加载、无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。网络资产探测32种协议(ICMP\NBT\DNS\MAC\SMB\WMI\SSH\HTTP\HTTPS\Exchange\mssql\FTP\RDP)或方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等，大量高危漏洞检测模块MS17010、Zimbra、Exchange
+- name: Kernelhub
+  repo: Ascotbe/Kernelhub
+  description: ':palm_tree:Linux、macOS、Windows Kernel privilege escalation vulnerability
+    collection, with compilation environment, demo GIF map, vulnerability details,
+    executable file  (提权漏洞合集) '
+- name: BypassAV
+  repo: matro7sh/BypassAV
+  description: This map lists the essential techniques to bypass anti-virus and EDR
+- name: pentest-guide
+  repo: Voorivex/pentest-guide
+  description: Penetration tests guide based on OWASP including test cases, resources
+    and examples.
+- name: CloudFail
+  repo: m0rtem/CloudFail
+  description: Utilize misconfigured DNS and old database records to find hidden IP's
+    behind the CloudFlare network
+- name: SUDO_KILLER
+  repo: TH3xACE/SUDO_KILLER
+  description: A tool designed to exploit a privilege escalation vulnerability in
+    the sudo program on Unix-like systems. It takes advantage of a specific misconfiguration
+    or flaw in sudo to gain elevated privileges on the system, essentially allowing
+    a regular user to execute commands as the root user.
+- name: Dictionary-Of-Pentesting
+  repo: insightglacier/Dictionary-Of-Pentesting
+  description: Dictionary collection project such as Pentesing, Fuzzing, Bruteforce
+    and BugBounty. 渗透测试、SRC漏洞挖掘、爆破、Fuzzing等字典收集项目。
+- name: linWinPwn
+  repo: lefayjey/linWinPwn
+  description: linWinPwn is a bash script that streamlines the use of a number of
+    Active Directory tools
+- name: vulnx
+  repo: anouarbensaad/vulnx
+  description: vulnx 🕷️ an intelligent Bot, Shell can achieve automatic injection,
+    and help researchers detect security vulnerabilities CMS system. It can perform
+    a quick CMS security detection, information collection (including sub-domain name,
+    ip address, country information, organizational information and time zone, etc.)
+    and vulnerability scanning.
+- name: HolyTips
+  repo: HolyBugx/HolyTips
+  description: A Collection of Notes, Checklists, Writeups on Bug Bounty Hunting and
+    Web Application Security.
+- name: XAttacker
+  repo: Moham3dRiahi/XAttacker
+  description: X Attacker Tool ☣ Website Vulnerability Scanner & Auto Exploiter
+- name: K8CScan
+  repo: k8gege/K8CScan
+  description: 'K8Ladon大型内网渗透自定义插件化扫描神器，包含信息收集、网络资产、漏洞扫描、密码爆破、漏洞利用，程序采用多线程批量扫描大型内网多个IP段C段主机，目前插件包含:
+    C段旁注扫描、子域名扫描、Ftp密码爆破、Mysql密码爆破、Oracle密码爆破、MSSQL密码爆破、Windows/Linux系统密码爆破、存活主机扫描、端口扫描、Web信息探测、操作系统版本探测、Cisco思科设备扫描等,支持调用任意外部程序或脚本，支持Cobalt
+    Strike联动'
+- name: XSpear
+  repo: hahwul/XSpear
+  description: 🔱 Powerfull XSS Scanning and Parameter analysis tool&gem
+- name: pythem
+  repo: m4n3dw0lf/pythem
+  description: pentest framework
+- name: reverse_ssh
+  repo: NHAS/reverse_ssh
+  description: 'SSH based reverse shell '
+- name: bypass-url-parser
+  repo: laluka/bypass-url-parser
+  description: bypass-url-parser
+- name: osv-scanner
+  repo: google/osv-scanner
+  description: Vulnerability scanner written in Go which uses the data provided by
+    https://osv.dev
+- name: Nettacker
+  repo: OWASP/Nettacker
+  description: Automated Penetration Testing Framework - Open-Source Vulnerability
+    Scanner - Vulnerability Management
+- name: crawlergo
+  repo: Qianlitp/crawlergo
+  description: A powerful browser crawler for web vulnerability scanners
+- name: POC-T
+  repo: Xyntax/POC-T
+  description: 渗透测试插件化并发框架 / Open-sourced remote vulnerability PoC/EXP framework
+- name: rapidscan
+  repo: skavngr/rapidscan
+  description: ':new: The Multi-Tool Web Vulnerability Scanner. '
+- name: BurpBounty
+  repo: wagiro/BurpBounty
+  description: Burp Bounty (Scan Check Builder in BApp Store) is a extension of Burp
+    Suite that allows you, in a quick and simple way, to improve the active and passive
+    scanner by means of personalized rules through a very intuitive graphical interface.
+- name: BinAbsInspector
+  repo: KeenSecurityLab/BinAbsInspector
+  description: 'BinAbsInspector: Vulnerability Scanner for Binaries'
+- name: firmware-analysis-toolkit
+  repo: attify/firmware-analysis-toolkit
+  description: 'Toolkit to emulate firmware and analyse it for security vulnerabilities '
+- name: crlfuzz
+  repo: dwisiswant0/crlfuzz
+  description: A fast tool to scan CRLF vulnerability written in Go
+- name: Corsy
+  repo: s0md3v/Corsy
+  description: CORS Misconfiguration Scanner
+- name: cwe_checker
+  repo: fkie-cad/cwe_checker
+  description: cwe_checker finds vulnerable patterns in binary executables
+- name: Silver
+  repo: s0md3v/Silver
+  description: Mass scan IPs for vulnerable services
+- name: Terrapin-Scanner
+  repo: RUB-NDS/Terrapin-Scanner
+  description: 'This repository contains a simple vulnerability scanner for the Terrapin
+    attack present in the paper "Terrapin Attack: Breaking SSH Channel Integrity By
+    Sequence Number Manipulation".'
+- name: betterscan
+  repo: tcosolutions/betterscan
+  description: Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners
+    with One Report (Code, IaC) - Betterscan
+- name: Garud
+  repo: R0X4R/Garud
+  description: An automation tool that scans sub-domains, sub-domain takeover, then
+    filters out XSS, SSTI, SSRF, and more injection point parameters and scans for
+    some low hanging vulnerabilities automatically.
+- name: killshot
+  repo: bahaabdelwahed/killshot
+  description: A Penetration Testing Framework, Information gathering tool & Website
+    Vulnerability Scanner
+- name: Artemis
+  repo: CERT-Polska/Artemis
+  description: A modular vulnerability scanner with automatic report generation capabilities.
+- name: log4j-detector
+  repo: mergebase/log4j-detector
+  description: A public open sourced tool.  Log4J scanner that detects vulnerable
+    Log4J versions (CVE-2021-44228, CVE-2021-45046, etc) on your file-system within
+    any application. It is able to even find Log4J instances that are hidden several
+    layers deep. Works on Linux, Windows, and Mac, and everywhere else Java runs,
+    too!  TAG_OS_TOOL, OWNER_KELLY, DC_PUBLIC
+- name: wscan
+  repo: chushuai/wscan
+  description: ' Wscan is a web security scanner that focuses on web security, dedicated
+    to making web security accessible to everyone.'
+- name: HexraysToolbox
+  repo: patois/HexraysToolbox
+  description: Hexrays Toolbox - Find code patterns within the Hexrays ctree
+- name: BurpExtend
+  repo: dongfangyuxiao/BurpExtend
+  description: 基于Burp插件开发打造渗透测试自动化
+- name: ChYing
+  repo: yhy0/ChYing
+  description: 承影 - 一款安全工具箱,集成了目录扫描、JWT、Swagger 测试、编/解码、轻量级 BurpSuite、杀软辅助功能
+- name: it-depends
+  repo: trailofbits/it-depends
+  description: A tool to automatically build a dependency graph and Software Bill
+    of Materials (SBOM) for packages and arbitrary source code repositories.
+- name: sub404
+  repo: r3curs1v3-pr0xy/sub404
+  description: A python tool to check subdomain takeover vulnerability
+- name: security-checker
+  repo: enlightn/security-checker
+  description: A PHP dependency vulnerabilities scanner based on the Security Advisories
+    Database.
+- name: jaeles-signatures
+  repo: jaeles-project/jaeles-signatures
+  description: Default signature for Jaeles Scanner
+- name: gopoc
+  repo: jjf012/gopoc
+  description: 用cel-go重现了长亭xray的poc检测功能的轮子
+- name: dorkScanner
+  repo: madhavmehndiratta/dorkScanner
+  description: A typical search engine dork scanner scrapes search engines with dorks
+    that you provide in order to find vulnerable URLs.
+- name: harbor-scanner-trivy
+  repo: aquasecurity/harbor-scanner-trivy
+  description: Use Trivy as a plug-in vulnerability scanner in the Harbor registry
+- name: CVS
+  repo: Safe3/CVS
+  description: CVS is a powerful comprehensive attack surface management platform.  森罗万象-强大的网络空间测绘、资产管理、漏洞扫描等全生命漏洞周期的综合攻击面管理平台，化繁为简，以一御百。
+- name: ASST
+  repo: OWASP/ASST
+  description: OWASP ASST (Automated Software Security Toolkit) | A Novel Open Source
+    Web Security Scanner.
+- name: poc-runner
+  repo: 4ra1n/poc-runner
+  description: Small & Fast Vulnerability Scanner Engine based on XRAY YAML Rule |
+    基于 XRAY YAML 规则的超轻量快速漏洞扫描引擎 | 基于 ANTLR 实现语法分析和完整的 XRAY YAML 规则实现 | 简单的启动参数 | 包含多种反连可用
+    | 可执行文件体积仅 2 MB
+- name: collector
+  repo: thenurhabib/collector
+  description: Collect XSS vulnerable parameters from entire domain.
+- name: erebus
+  repo: ethicalhackingplayground/erebus
+  description: Erebus is a fast tool for parameter-based vulnerability scanning using
+    a Yaml based template engine like nuclei.
+- name: wordfence-cli
+  repo: wordfence/wordfence-cli
+  description: Wordfence malware and vulnerability scanner command line utility.
+- name: htk-lite
+  repo: unkn0wnh4ckr/htk-lite
+  description: htk-lite is a lighter version of hackers-tool-kit but it still has
+    the same hacking ability as hackers-tool-kit
+- name: wacat
+  repo: mikesmallhelp/wacat
+  description: wacat - Challenge Your Web App with Cat Chaos and AI-Driven Testing!
+- name: subdover
+  repo: PushpenderIndia/subdover
+  description: Subdover is a MultiThreaded Subdomain Takeover Vulnerability Scanner
+    Written In Python3
+- name: EnhancedBurpGPT
+  repo: yxdm02/EnhancedBurpGPT
+  description: Enhanced BurpGPT 是一个强大的 Burp Suite 插件。通过分析指定的 HTTP 请求和响应，帮助安全测试人员更快速地发现潜在的安全漏洞。
+- name: phaser
+  repo: skerkour/phaser
+  description: Automated attack surface mapper and vulnerability scanner (Work In
+    Progress 🚧)
+- name: www-project-zap
+  repo: OWASP/www-project-zap
+  description: OWASP Zed Attack Proxy project landing page.
+- name: burp-bounty
+  repo: Sy3Omda/burp-bounty
+  description: Burp Bounty profiles
+- name: z0scan
+  repo: JiuZero/z0scan
+  description: An efficient active/passive scanning tool for vulnerability detection
+    in risk assets.
+- name: FazScan
+  repo: mfazrinizar/FazScan
+  description: '| FazScan is a Perl program to do some vulnerability scanning and
+    pentesting |'
+- name: avain
+  repo: ra1nb0rn/avain
+  description: A Modular Framework for the Automated Vulnerability Analysis in IP-based
+    Networks
+- name: XAttacker
+  repo: R3K1NG/XAttacker
+  description: X Attacker Tool ☣ Website Vulnerability Scanner & Auto Exploiter
+- name: badmoodle
+  repo: cyberaz0r/badmoodle
+  description: Moodle community-based vulnerability scanner
+- name: INtrack
+  repo: K3ysTr0K3R/INtrack
+  description: 'A flexible internet crawler used for scanning technologies, instances
+    and vulnerabilities worldwide across the internet.  '
+- name: xforwardy
+  repo: roottusk/xforwardy
+  description: Host Header Injection Scanner
+- name: scanvus
+  repo: leonov-av/scanvus
+  description: Simple Authenticated Vulnerability Scanner for Linux hosts and Docker
+    images
+- name: vulscanpro
+  repo: thenurhabib/vulscanpro
+  description: Automatic Web Vulnerability Scanner.
+- name: honeyscanner
+  repo: honeynet/honeyscanner
+  description: 'Honeyscanner: A vulnerability analyzer for honeypots'
+- name: safelog4j
+  repo: Contrast-Security-OSS/safelog4j
+  description: Safelog4j is an instrumentation-based security tool to help teams discover,
+    verify, and solve log4shell vulnerabilities without scanning or upgrading
+- name: harbor-scanner-adapter
+  repo: anchore/harbor-scanner-adapter
+  description: Harbor Scanner Adapter for Anchore Engine and Enterprise
+- name: harbor-scanner-aqua
+  repo: aquasecurity/harbor-scanner-aqua
+  description: Aqua Enterprise scanner as a plug-in vulnerability scanner in the Harbor
+    registry
+- name: OrgASM
+  repo: ugomeguerditchian/OrgASM
+  description: A tool for Oragnized ASM (Attack Surface Mapper). Subdomains enumeration,
+    IPs scans, Vulnerability assesment...
+- name: aqua-microscanner-plugin
+  repo: jenkinsci/aqua-microscanner-plugin
+  description: Enables scanning of docker builds in Jenkins for OS package vulnerabilities.
+- name: Vulmap-Windows
+  repo: yavuzatlas/Vulmap-Windows
+  description: Host-based local vulnerability scanner. Finds installed software on
+    the host, asks their vulnerabilities to vulmon.com API and print vulnerabilities
+    with available exploits. All found exploits can be downloaded by Vulmap.
+- name: repo-lookout
+  repo: crissyfield/repo-lookout
+  description: 🔓 A large-scale security scanner, to find source code repositories
+    that have been inadvertently exposed to the public and report them to the domain’s
+    technical contact.
+- name: installer
+  repo: scnr/installer
+  description: Installation script for Ecsypno products.
+- name: ShubhamWebScript-Website-vulnerability-Checker
+  repo: ShubhamTuts/ShubhamWebScript-Website-vulnerability-Checker
+  description: 'Find any website vulnerability and bugs in few second. '
+- name: dotenv
+  repo: motdotla/dotenv
+  description: Loads environment variables from .env for nodejs projects.
+- name: sliver
+  repo: BishopFox/sliver
+  description: Adversary Emulation Framework
+- name: awesome-hacker-search-engines
+  repo: edoardottt/awesome-hacker-search-engines
+  description: A curated list of awesome search engines useful during Penetration
+    testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more
+- name: MyIP
+  repo: jason5ng32/MyIP
+  description: The best IP Toolbox. Easy to check what's your IPs, IP geolocation,
+    check for DNS leaks, examine WebRTC connections, speed test, ping test, MTR test,
+    check website availability, whois search and more! || 🇨🇳 可能是最好用的IP工具箱。轻松检查你的 IP，IP
+    地理位置，检查DNS泄漏，检查 WebRTC 连接，速度测试，ping 测试，MTR测试，检查网站可用性，查询 Whois 信息等等。
+- name: gosec
+  repo: securego/gosec
+  description: Go security checker
+- name: monkey
+  repo: guardicore/monkey
+  description: Infection Monkey - An open-source adversary emulation platform
+- name: linux-exploit-suggester
+  repo: The-Z-Labs/linux-exploit-suggester
+  description: Linux privilege escalation auditing tool
+- name: spicedb
+  repo: authzed/spicedb
+  description: Open Source, Google Zanzibar-inspired database for scalably storing
+    and querying fine-grained authorization data
+- name: scan4all
+  repo: GhostTroops/scan4all
+  description: 'Official repository  vuls Scan: 15000+PoCs; 23 kinds of application
+    password crack; 7000+Web fingerprints; 146 protocols and 90000+ rules Port scanning;
+    Fuzz, HW, awesome BugBounty( ͡° ͜ʖ ͡°)...'
+- name: syzkaller
+  repo: google/syzkaller
+  description: syzkaller is an unsupervised coverage-guided kernel fuzzer
+- name: osmedeus
+  repo: j3ssie/osmedeus
+  description: A Workflow Engine for Offensive Security
+- name: Cheatsheet-God
+  repo: OlivierLaflamme/Cheatsheet-God
+  description: Penetration Testing Reference Bank - OSCP / PTP & PTX  Cheatsheet
+- name: awesome-bugbounty-tools
+  repo: vavkamil/awesome-bugbounty-tools
+  description: A curated list of various bug bounty tools
+- name: ApplicationInspector
+  repo: microsoft/ApplicationInspector
+  description: A source code analyzer built for surfacing features of interest and
+    other characteristics to answer the question 'What's in the code?' quickly using
+    static analysis with a json based rules engine. Ideal for scanning components
+    before use or detecting feature level changes.
+- name: htrace.sh
+  repo: trimstray/htrace.sh
+  description: My simple Swiss Army knife for http/https troubleshooting and profiling.
+- name: dotenvx
+  repo: dotenvx/dotenvx
+  description: a better dotenv–from the creator of `dotenv`
+- name: pocsuite3
+  repo: knownsec/pocsuite3
+  description: pocsuite3 is an open-sourced remote vulnerability testing framework
+    developed by the Knownsec 404 Team.
+- name: vulmap
+  repo: zhzyker/vulmap
+  description: Vulmap 是一款 web 漏洞扫描和验证工具, 可对 webapps 进行漏洞扫描, 并且具备漏洞验证功能
+- name: HyperDbg
+  repo: HyperDbg/HyperDbg
+  description: State-of-the-art native debugging tools
+- name: pentest-tools
+  repo: gwen001/pentest-tools
+  description: A collection of custom security tools for quick needs.
+- name: Cobra
+  repo: FeeiCN/Cobra
+  description: Source Code Security Audit (源代码安全审计)
+- name: NoSQLMap
+  repo: codingo/NoSQLMap
+  description: Automated NoSQL database enumeration and web application exploitation
+    tool.
+- name: Ethical-Hacking-Labs
+  repo: Samsar4/Ethical-Hacking-Labs
+  description: Practical Ethical Hacking Labs 🗡🛡
+- name: chipsec
+  repo: chipsec/chipsec
+  description: Platform Security Assessment Framework
+- name: AttackSurfaceAnalyzer
+  repo: microsoft/AttackSurfaceAnalyzer
+  description: Attack Surface Analyzer can help you analyze your operating system's
+    security configuration for changes during software installation.
+- name: GScan
+  repo: grayddq/GScan
+  description: 本程序旨在为安全应急响应人员对Linux主机排查时提供便利，实现主机侧Checklist的自动全面化检测，根据检测结果自动数据聚合，进行黑客攻击路径溯源。
+- name: bundler-audit
+  repo: rubysec/bundler-audit
+  description: Patch-level verification for Bundler
+- name: zizmor
+  repo: zizmorcore/zizmor
+  description: Static analysis for GitHub Actions
+- name: Pentest-Windows
+  repo: arch3rPro/Pentest-Windows
+  description: 矛·盾 武器库 - Windows11 Penetration Suite Toolkit 一个开箱即用的windows渗透测试环境
+- name: ksubdomain
+  repo: knownsec/ksubdomain
+  description: 无状态子域名爆破工具
+- name: bearer
+  repo: Bearer/bearer
+  description: Code security scanning tool (SAST) to discover, filter and prioritize
+    security and privacy risks.
+- name: gokart
+  repo: praetorian-inc/gokart
+  description: A static analysis tool for securing Go code
+- name: Reconnoitre
+  repo: codingo/Reconnoitre
+  description: A security tool for multithreaded information gathering and service
+    enumeration whilst building directory structures to store results, along with
+    writing out recommendations for further testing.
 security_automation:
-  - name: "semgrep"
-    repo: "semgrep/semgrep"
-    description: "Static analysis tool for finding bugs, security issues, and anti-patterns in 30+ languages"
-    homepage: "https://semgrep.dev/"
-    
-  - name: "falco"
-    repo: "falcosecurity/falco"
-    description: "Cloud native runtime security"
-    homepage: "https://falco.org/"
-    
-  - name: "wazuh"
-    repo: "wazuh/wazuh"
-    description: "Security platform for threat detection, compliance, and incident response"
-    homepage: "https://wazuh.com/"
-    
-  - name: "suricata"
-    repo: "OISF/suricata"
-    description: "Network threat detection engine"
-    homepage: "https://suricata.io/"
-    
-  - name: "zeek"
-    repo: "zeek/zeek"
-    description: "Network security monitoring platform"
-    homepage: "https://zeek.org/"
-
-  # New individual tool
-  - name: "security-manage-framework"
-    repo: "we1h0/SecurityManageFramwork"
-    description: "Security management platform for enterprise intranet with asset and vulnerability management"
-    homepage: "https://my.oschina.net/u/3867729/"
-
+- name: semgrep
+  repo: semgrep/semgrep
+  description: Static analysis tool for finding bugs, security issues, and anti-patterns
+    in 30+ languages
+  homepage: https://semgrep.dev/
+- name: falco
+  repo: falcosecurity/falco
+  description: Cloud native runtime security
+  homepage: https://falco.org/
+- name: wazuh
+  repo: wazuh/wazuh
+  description: Security platform for threat detection, compliance, and incident response
+  homepage: https://wazuh.com/
+- name: suricata
+  repo: OISF/suricata
+  description: Network threat detection engine
+  homepage: https://suricata.io/
+- name: zeek
+  repo: zeek/zeek
+  description: Network security monitoring platform
+  homepage: https://zeek.org/
+- name: security-manage-framework
+  repo: we1h0/SecurityManageFramwork
+  description: Security management platform for enterprise intranet with asset and
+    vulnerability management
+  homepage: https://my.oschina.net/u/3867729/
+- name: gitleaks
+  repo: gitleaks/gitleaks
+  description: Find secrets with Gitleaks 🔑
+- name: fail2ban
+  repo: fail2ban/fail2ban
+  description: Daemon to ban hosts that cause multiple authentication errors
+- name: systeminformer
+  repo: winsiderss/systeminformer
+  description: A free, powerful, multi-purpose tool that helps you monitor system
+    resources, debug software and detect malware. Brought to you by Winsider Seminars
+    & Solutions, Inc. @ http://www.windows-internals.com
+- name: crowdsec
+  repo: crowdsecurity/crowdsec
+  description: CrowdSec - the open-source and participative security solution offering
+    crowdsourced protection against malicious IPs and access to the most advanced
+    real-world CTI.
+- name: sigma
+  repo: SigmaHQ/sigma
+  description: Main Sigma Rule Repository
+- name: httpx
+  repo: projectdiscovery/httpx
+  description: httpx is a fast and multi-purpose HTTP toolkit that allows running
+    multiple probes using the retryablehttp library.
+- name: tracecat
+  repo: TracecatHQ/tracecat
+  description: Open source Tines / Splunk SOAR alternative. All-in-one automation
+    platform (workflows, tables, cases) for security and IT teams.
+- name: content
+  repo: ComplianceAsCode/content
+  description: Security automation content in SCAP, Bash, Ansible, and other formats
+- name: ScubaGear
+  repo: cisagov/ScubaGear
+  description: Automation to assess the state of your M365 tenant against CISA's baselines
+- name: dismap
+  repo: zhzyker/dismap
+  description: Asset discovery and identification tools 快速识别 Web 指纹信息，定位资产类型。辅助红队快速定位目标资产信息，辅助蓝队发现疑似脆弱点
+- name: opencve
+  repo: opencve/opencve
+  description: Open-source CVE monitoring and alerting platform
+- name: Shuffle
+  repo: Shuffle/Shuffle
+  description: 'Shuffle: A general purpose security automation platform. Our focus
+    is on collaboration and resource sharing.'
+- name: matano
+  repo: matanolabs/matano
+  description: Open source security data lake for threat hunting, detection & response,
+    and cybersecurity analytics at petabyte scale on AWS
+- name: Cloakify
+  repo: TryCatchHCF/Cloakify
+  description: CloakifyFactory - Data Exfiltration & Infiltration In Plain Sight;
+    Convert any filetype into list of everyday strings, using Text-Based Steganography;
+    Evade DLP/MLS Devices, Defeat Data Whitelisting Controls, Social Engineering of
+    Analysts, Evade AV Detection
+- name: Hunting-Queries-Detection-Rules
+  repo: Bert-JanP/Hunting-Queries-Detection-Rules
+  description: 'KQL Queries. Defender For Endpoint and Azure Sentinel Hunting and
+    Detection Queries in KQL. Out of the box KQL queries for: Advanced Hunting, Custom
+    Detection, Analytics Rules & Hunting Rules. '
+- name: Vxscan
+  repo: al0ne/Vxscan
+  description: python3写的综合扫描工具，主要用来存活验证，敏感文件探测(目录扫描/js泄露接口/html注释泄露)，WAF/CDN识别，端口扫描，指纹/服务识别，操作系统识别，POC扫描，SQL注入，绕过CDN，查询旁站等功能，主要用来甲方自测或乙方授权测试，请勿用来搞破坏。
+- name: SSTImap
+  repo: vladko312/SSTImap
+  description: Automatic SSTI detection tool with interactive interface
+- name: jok3r
+  repo: koutto/jok3r
+  description: Jok3r v3 BETA 2 - Network and Web Pentest Automation Framework
+- name: sqli-hunter
+  repo: zt2/sqli-hunter
+  description: SQLi-Hunter is a simple HTTP / HTTPS proxy server and a SQLMAP API
+    wrapper that makes digging SQLi easy.
+- name: neural-network-hacking
+  repo: tigthor/neural-network-hacking
+  description: Hacking the Singularity. Deep learning hacking. Weaponizing AI in Offensive
+    security
+- name: Libellux-Up-and-Running
+  repo: libellux/Libellux-Up-and-Running
+  description: Install open-source software from source to focus on Zero Trust Network
+    principles, enhancing security for existing applications, and deploying tools
+    for threat detection and prevention.
+- name: awesome-software-supply-chain-security
+  repo: meta-fun/awesome-software-supply-chain-security
+  description: Sharing software supply chain security open source projects
+- name: NextSploit
+  repo: AnonKryptiQuz/NextSploit
+  description: NextSploit is a command-line tool designed to detect and exploit CVE-2025-29927,
+    a security flaw in Next.js
+- name: zscan
+  repo: zcyberseclab/zscan
+  description: A fast, customizable service detection tool powered by a flexible fingerprint
+    system. It helps you identify services, APIs, and network configurations across
+    your infrastructure.
+- name: securityonion
+  repo: Security-Onion-Solutions/securityonion
+  description: Security Onion is a free and open platform for threat hunting, enterprise
+    security monitoring, and log management. It includes our own interfaces for alerting,
+    dashboards, hunting, PCAP, detections, and case management. It also includes other
+    tools such as osquery, CyberChef, Elasticsearch, Logstash, Kibana, Suricata, and
+    Zeek.
 threat_intelligence:
-  - name: "misp"
-    repo: "MISP/MISP"
-    description: "Threat intelligence platform for sharing, storing and correlating indicators"
-    homepage: "https://www.misp-project.org/"
-    
-  - name: "yeti"
-    repo: "yeti-platform/yeti"
-    description: "Platform for managing observables, indicators of compromise, TTPs, and knowledge"
-    
-  - name: "opencti"
-    repo: "OpenCTI-Platform/opencti"
-    description: "Open cyber threat intelligence platform"
-    homepage: "https://www.opencti.io/"
-    
-  - name: "cortex"
-    repo: "TheHive-Project/Cortex"
-    description: "Observable analysis and active response engine"
-    
+- name: misp
+  repo: MISP/MISP
+  description: Threat intelligence platform for sharing, storing and correlating indicators
+  homepage: https://www.misp-project.org/
+- name: yeti
+  repo: yeti-platform/yeti
+  description: Platform for managing observables, indicators of compromise, TTPs,
+    and knowledge
+- name: opencti
+  repo: OpenCTI-Platform/opencti
+  description: Open cyber threat intelligence platform
+  homepage: https://www.opencti.io/
+- name: cortex
+  repo: TheHive-Project/Cortex
+  description: Observable analysis and active response engine
+- name: web-check
+  repo: Lissy93/web-check
+  description: 🕵️‍♂️ All-in-one OSINT tool for analysing any website
+- name: maigret
+  repo: soxoj/maigret
+  description: 🕵️‍♂️ Collect a dossier on a person by username from thousands of sites
+- name: spiderfoot
+  repo: smicallef/spiderfoot
+  description: SpiderFoot automates OSINT for threat intelligence and mapping your
+    attack surface.
+- name: osint_stuff_tool_collection
+  repo: cipher387/osint_stuff_tool_collection
+  description: A collection of several hundred online tools for OSINT
+- name: IntelOwl
+  repo: intelowlproject/IntelOwl
+  description: 'IntelOwl: manage your Threat Intelligence at scale'
+- name: blackbird
+  repo: p1ngul1n0/blackbird
+  description: An OSINT tool to search for accounts by username and email in social
+    networks.
+- name: malwoverview
+  repo: alexandreborges/malwoverview
+  description: Malwoverview is a first response tool used for threat hunting and offers
+    intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare,
+    Alien Vault, Malpedia, Malware Bazaar, ThreatFox, Triage, InQuest, VxExchange
+    and IPInfo, and it is also able to scan Android devices against VT.
+- name: APT_REPORT
+  repo: blackorbird/APT_REPORT
+  description: Interesting APT Report Collection And Some Special IOCs
+- name: nexfil
+  repo: thewhiteh4t/nexfil
+  description: OSINT tool for finding profiles by username
+- name: Dorks-collections-list
+  repo: cipher387/Dorks-collections-list
+  description: List of Github repositories and articles with list of dorks for different
+    search engines
+- name: awesome-intelligence
+  repo: ARPSyndicate/awesome-intelligence
+  description: A collaboratively curated list of awesome Open-Source Intelligence
+    (OSINT) Resources
+- name: FBI-tools
+  repo: danieldurnea/FBI-tools
+  description: '🕵️ OSINT Tools for gathering information and actions forensics 🕵️ '
+- name: API-s-for-OSINT
+  repo: cipher387/API-s-for-OSINT
+  description: List of API's for gathering information about phone numbers, addresses,
+    domains etc
+- name: Red-Teaming-Toolkit
+  repo: infosecn1nja/Red-Teaming-Toolkit
+  description: This repository contains cutting-edge open-source security tools (OST)
+    for a red teamer and threat hunter.
+- name: snoop
+  repo: snooppr/snoop
+  description: Snoop — инструмент разведки на основе открытых данных (OSINT world)
+- name: awesome-social-engineering
+  repo: giuliacassara/awesome-social-engineering
+  description: A curated list of awesome social engineering resources.
+- name: Awesome-Asset-Discovery
+  repo: redhuntlabs/Awesome-Asset-Discovery
+  description: List of Awesome Asset Discovery Resources
+- name: OSINT_Collection
+  repo: Ph055a/OSINT_Collection
+  description: Maintained collection of OSINT related resources. (All Free & Actionable)
+- name: cariddi
+  repo: edoardottt/cariddi
+  description: Take a list of domains, crawl urls and scan for endpoints, secrets,
+    api keys, file extensions, tokens and more
+- name: metabigor
+  repo: j3ssie/metabigor
+  description: OSINT tools and more but without API key
+- name: buster
+  repo: sham00n/buster
+  description: An advanced tool for email reconnaissance
+- name: Malware-Exhibit
+  repo: alvin-tosh/Malware-Exhibit
+  description: 🚀🚀 This is a 🎇🔥 REAL WORLD🔥 🎇 Malware Collection I have  Compiled &
+    analysed by researchers🔥 to understand more about Malware threats😈, analysis and
+    mitigation🧐.
+- name: conti-pentester-guide-leak
+  repo: ForbiddenProgrammer/conti-pentester-guide-leak
+  description: Leaked pentesting manuals given to Conti ransomware crooks
+- name: social-analyzer
+  repo: qeeqbox/social-analyzer
+  description: API, CLI, and Web App for analyzing and finding a person's profile
+    in 1000 social media \ websites
+- name: mosint
+  repo: alpkeskin/mosint
+  description: An automated e-mail OSINT tool
+- name: HostHunter
+  repo: SpiderLabs/HostHunter
+  description: HostHunter a recon tool for discovering hostnames using OSINT techniques.
+- name: TorBot
+  repo: DedSecInside/TorBot
+  description: Dark Web OSINT Tool
 container_security:
-  - name: "trivy"
-    repo: "aquasecurity/trivy"
-    description: "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repos, clouds and more"
-    homepage: "https://trivy.dev/"
-    
-  - name: "clair"
-    repo: "quay/clair"
-    description: "Vulnerability static analysis for containers"
-    homepage: "https://quay.github.io/clair/"
-    
-  - name: "anchore"
-    repo: "anchore/anchore-engine"
-    description: "Container image vulnerability analysis service"
-    
-  - name: "docker-bench"
-    repo: "docker/docker-bench-security"
-    description: "Script that checks for dozens of common best-practices around deploying Docker"
-    
+- name: trivy
+  repo: aquasecurity/trivy
+  description: Find vulnerabilities, misconfigurations, secrets, SBOM in containers,
+    Kubernetes, code repos, clouds and more
+  homepage: https://trivy.dev/
+- name: clair
+  repo: quay/clair
+  description: Vulnerability static analysis for containers
+  homepage: https://quay.github.io/clair/
+- name: anchore
+  repo: anchore/anchore-engine
+  description: Container image vulnerability analysis service
+- name: docker-bench
+  repo: docker/docker-bench-security
+  description: Script that checks for dozens of common best-practices around deploying
+    Docker
+- name: setup-ipsec-vpn
+  repo: hwdsl2/setup-ipsec-vpn
+  description: Scripts to build your own IPsec VPN server, with IPsec/L2TP, Cisco
+    IPsec and IKEv2
+- name: authelia
+  repo: authelia/authelia
+  description: The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™
+- name: slim
+  repo: slimtoolkit/slim
+  description: 'Slim(toolkit): Don''t change anything in your container image and
+    minify it by up to 30x (and for compiled languages even more) making it secure
+    too! (free and open source)'
+- name: cilium
+  repo: cilium/cilium
+  description: eBPF-based Networking, Security, and Observability
+- name: teleport
+  repo: gravitational/teleport
+  description: The easiest, and most secure way to access and protect all of your
+    infrastructure.
+- name: authentik
+  repo: goauthentik/authentik
+  description: The authentication glue you need.
+- name: labs
+  repo: docker/labs
+  description: This is a collection of tutorials for learning how to use Docker with
+    various tools. Contributions welcome.
+- name: grype
+  repo: anchore/grype
+  description: A vulnerability scanner for container images and filesystems
+- name: bunkerweb
+  repo: bunkerity/bunkerweb
+  description: 🛡️ Open-source and next-generation Web Application Firewall (WAF)
+- name: awesome-cloud-security
+  repo: teamssix/awesome-cloud-security
+  description: awesome cloud security 收集一些国内外不错的云安全资源，该项目主要面向国内的安全人员
+- name: malice
+  repo: maliceio/malice
+  description: VirusTotal Wanna Be - Now with 100% more Hipster
+- name: traitor
+  repo: liamg/traitor
+  description: ':arrow_up: :skull_and_crossbones: :fire: Automatic Linux privesc via
+    exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock'
+- name: jsql-injection
+  repo: ron190/jsql-injection
+  description: jSQL Injection is a Java application for automatic SQL database injection.
+- name: awesome-privilege-escalation
+  repo: m0nad/awesome-privilege-escalation
+  description: A curated list of awesome privilege escalation
+- name: eraser
+  repo: eraser-dev/eraser
+  description: 🧹 Cleaning up images from Kubernetes nodes
+- name: nessus
+  repo: Am0rphous/nessus
+  description: Cracked Nessus in Docker 🐳
+- name: advisor
+  repo: alcideio/advisor
+  description: Alcide Kubernetes Advisor ... Cluster Hygiene & Security Scanner -
+    Pipeline Integration
+- name: SecretScanner
+  repo: deepfence/SecretScanner
+  description: ':unlock: :unlock: Find secrets and passwords in container images and
+    file systems :unlock: :unlock:'
+- name: dockle
+  repo: goodwithtech/dockle
+  description: Container Image Linter for Security, Helping build the Best-Practice
+    Docker Image, Easy to start
+- name: ContainerSSH
+  repo: ContainerSSH/ContainerSSH
+  description: 'ContainerSSH: Launch containers on demand'
 cloud_security:
-  - name: "prowler"
-    repo: "prowler-cloud/prowler"
-    description: "AWS/Azure/GCP security tool to perform assessments, audits, incident response, continuous monitoring, hardening and forensics readiness"
-    homepage: "https://prowler.pro/"
-    
-  - name: "scout2"
-    repo: "nccgroup/Scout2"
-    description: "Security auditing tool for AWS environments"
-    
-  - name: "cloudmapper"
-    repo: "duo-labs/cloudmapper"
-    description: "CloudMapper helps you analyze your Amazon Web Services (AWS) environments"
-    
-  - name: "pacu"
-    repo: "RhinoSecurityLabs/pacu"
-    description: "AWS exploitation framework"
-    
-  - name: "cloudsploit"
-    repo: "aquasecurity/cloudsploit"
-    description: "Cloud security posture management (CSPM)"
-    
+- name: prowler
+  repo: prowler-cloud/prowler
+  description: AWS/Azure/GCP security tool to perform assessments, audits, incident
+    response, continuous monitoring, hardening and forensics readiness
+  homepage: https://prowler.pro/
+- name: scout2
+  repo: nccgroup/Scout2
+  description: Security auditing tool for AWS environments
+- name: cloudmapper
+  repo: duo-labs/cloudmapper
+  description: CloudMapper helps you analyze your Amazon Web Services (AWS) environments
+- name: pacu
+  repo: RhinoSecurityLabs/pacu
+  description: AWS exploitation framework
+- name: cloudsploit
+  repo: aquasecurity/cloudsploit
+  description: Cloud security posture management (CSPM)
+- name: algo
+  repo: trailofbits/algo
+  description: Set up a personal VPN in the cloud
+- name: sops
+  repo: getsops/sops
+  description: Simple and flexible tool for managing secrets
+- name: hydra
+  repo: ory/hydra
+  description: The only web-scale, fully customizable OpenID Certified™ OpenID Connect
+    and OAuth2 Provider in the world. Become an OpenID Connect and OAuth2 Provider
+    over night. Written in Go, cloud native, headless, API-first. Available as a service
+    on Ory Network and for self-hosters. Relied upon by OpenAI and others for web-scale
+    security.
+- name: my-arsenal-of-aws-security-tools
+  repo: toniblyx/my-arsenal-of-aws-security-tools
+  description: 'List of open source tools for AWS security: defensive, offensive,
+    auditing, DFIR, etc.'
+- name: 90DaysOfCyberSecurity
+  repo: farhanashrafdev/90DaysOfCyberSecurity
+  description: This repository contains a 90-day cybersecurity study plan, along with
+    resources and materials for learning various cybersecurity concepts and technologies.
+    The plan is organized into daily tasks, covering topics such as Network+, Security+,
+    Linux, Python, Traffic Analysis, Git, ELK, AWS, Azure, and Hacking. The repository
+    also includes a `LEARN.md
+- name: DevSecOps
+  repo: sottlmarek/DevSecOps
+  description: Ultimate DevSecOps library
+- name: Azure-Sentinel
+  repo: Azure/Azure-Sentinel
+  description: Cloud-native SIEM for intelligent security analytics for your entire
+    enterprise.
+- name: security-study-plan
+  repo: jassics/security-study-plan
+  description: Complete Practical Study Plan to become a successful cybersecurity
+    engineer based on roles like Pentest, AppSec, Cloud Security, DevSecOps and so
+    on...
+- name: awesome-cloud-security
+  repo: 4ndersonLin/awesome-cloud-security
+  description: 🛡️ Awesome Cloud Security Resources ⚔️
+- name: fixinventory
+  repo: someengineering/fixinventory
+  description: Fix Inventory helps you identify and remove the most critical risks
+    in AWS, GCP, Azure and Kubernetes.
+- name: awesome-shodan-queries
+  repo: jakejarvis/awesome-shodan-queries
+  description: 🔍 A collection of interesting, funny, and depressing search queries
+    to plug into shodan.io 👩‍💻
+- name: S3Scanner
+  repo: sa7mon/S3Scanner
+  description: Scan for misconfigured S3 buckets across S3-compatible APIs!
+- name: PowerZure
+  repo: hausec/PowerZure
+  description: PowerShell framework to assess Azure security
+- name: CloudFlair
+  repo: christophetd/CloudFlair
+  description: 🔎 Find origin servers of websites behind CloudFlare by using Internet-wide
+    scan data from Censys.
+- name: cd
+  repo: CloudDefenseAI/cd
+  description: CloudDefense.ai is an automated web application security testing tool
+    that audits your web applications by checking for vulnerabilities like SQL Injection,
+    Cross-site scripting and other exploitable vulnerabilities.
+- name: terrascan
+  repo: tenable/terrascan
+  description: Detect compliance and security violations across Infrastructure as
+    Code to mitigate risk before provisioning cloud native infrastructure.
+- name: consoleme
+  repo: Netflix/consoleme
+  description: A Central Control Plane for AWS Permissions and Access
 devsecops:
-  - name: "bandit"
-    repo: "PyCQA/bandit"
-    description: "Security linter for Python code"
-    homepage: "https://bandit.readthedocs.io/"
-    
-  - name: "safety"
-    repo: "pyupio/safety"
-    description: "Safety checks Python dependencies for known security vulnerabilities"
-    homepage: "https://pyup.io/safety/"
-    
-  - name: "gosec"
-    repo: "securecodewarrior/gosec"
-    description: "Golang security checker"
-    
-  - name: "brakeman"
-    repo: "presidentbeef/brakeman"
-    description: "Static analysis security scanner for Ruby on Rails"
-    homepage: "https://brakemanscanner.org/"
-    
-  - name: "sonarqube"
-    repo: "SonarSource/sonarqube"
-    description: "Continuous code quality and security analysis"
-    homepage: "https://www.sonarqube.org/"
-    
-  - name: "dependency-check"
-    repo: "jeremylong/DependencyCheck"
-    description: "Software composition analysis to identify project dependencies with known vulnerabilities"
-    
+- name: bandit
+  repo: PyCQA/bandit
+  description: Security linter for Python code
+  homepage: https://bandit.readthedocs.io/
+- name: safety
+  repo: pyupio/safety
+  description: Safety checks Python dependencies for known security vulnerabilities
+  homepage: https://pyup.io/safety/
+- name: gosec
+  repo: securecodewarrior/gosec
+  description: Golang security checker
+- name: brakeman
+  repo: presidentbeef/brakeman
+  description: Static analysis security scanner for Ruby on Rails
+  homepage: https://brakemanscanner.org/
+- name: sonarqube
+  repo: SonarSource/sonarqube
+  description: Continuous code quality and security analysis
+  homepage: https://www.sonarqube.org/
+- name: dependency-check
+  repo: jeremylong/DependencyCheck
+  description: Software composition analysis to identify project dependencies with
+    known vulnerabilities
+- name: the-book-of-secret-knowledge
+  repo: trimstray/the-book-of-secret-knowledge
+  description: A collection of inspiring lists, manuals, cheatsheets, blogs, hacks,
+    one-liners, cli/web tools and more.
+- name: cs-video-courses
+  repo: Developer-Y/cs-video-courses
+  description: List of Computer Science courses with video lectures.
+- name: CheatSheetSeries
+  repo: OWASP/CheatSheetSeries
+  description: The OWASP Cheat Sheet Series was created to provide a concise collection
+    of high value information on specific application security topics.
+- name: hosts
+  repo: StevenBlack/hosts
+  description: 🔒 Consolidating and extending hosts files from several well-curated
+    sources. Optionally pick extensions for porn, social media, and other categories.
+- name: nginx
+  repo: nginx/nginx
+  description: The official NGINX Open Source repository.
+- name: bytebase
+  repo: bytebase/bytebase
+  description: World's most advanced database DevSecOps solution for Developer, Security,
+    DBA and Platform Engineering teams. The GitHub/GitLab for database DevSecOps.
+- name: test-your-sysadmin-skills
+  repo: trimstray/test-your-sysadmin-skills
+  description: A collection of Linux Sysadmin Test Questions and Answers. Test your
+    knowledge and skills in different fields with these Q/A.
+- name: the-practical-linux-hardening-guide
+  repo: trimstray/the-practical-linux-hardening-guide
+  description: This guide details creating a secure Linux production system. OpenSCAP
+    (C2S/CIS, STIG).
+- name: ciso-assistant-community
+  repo: intuitem/ciso-assistant-community
+  description: 'CISO Assistant is a one-stop-shop for GRC, covering Risk, AppSec,
+    Compliance/Audit Management, Privacy and supporting +90 frameworks worldwide with
+    auto-mapping: NIST CSF, ISO 27001, SOC2, CIS, PCI DSS, NIS2, CMMC, PSPF, GDPR,
+    HIPAA, Essential Eight, NYDFS-500, DORA, NIST AI RMF, 800-53, CyFun, AirCyber,
+    NCSC, ECC, SCF and so much mor'
+- name: Computer-Science-Resources
+  repo: the-akira/Computer-Science-Resources
+  description: A list of resources in different fields of Computer Science
+- name: cicd-goat
+  repo: cider-security-research/cicd-goat
+  description: A deliberately vulnerable CI/CD environment. Learn CI/CD security through
+    multiple challenges.
+- name: security-txt
+  repo: securitytxt/security-txt
+  description: A proposed standard that allows websites to define security policies.
+- name: nomore403
+  repo: devploit/nomore403
+  description: 🚫 Advanced tool for security researchers to bypass 403/40X restrictions
+    through smart techniques and adaptive request manipulation. Fast. Precise. Effective.
+- name: sdlc_golang
+  repo: Night-Master/sdlc_golang
+  description: sdlc 是一个基于 Go 语言构建的安全漏洞示范平台，旨在促进 DevSecOps 和安全开发生命周期 (SDLC) 实践。它通过模拟常见漏洞来增强开发人员的安全意识，除了可以用于devsecops以外，还可以用于安全行业从事者学习漏洞知识或者渗透知识，代码审计，提供了一个实践和学习的环境。本项目采用了前后端分离的设计模式，其中后端利用了轻量级框架
+    Gin，而前端则使用了 Vue 3。
+- name: laravel-security-checker
+  repo: enlightn/laravel-security-checker
+  description: Scan your Laravel app dependencies for known security vulnerabilities.
+- name: lynis
+  repo: CISOfy/lynis
+  description: Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems.
+    Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening.
+    Agentless, and installation optional.
+- name: ThreatMapper
+  repo: deepfence/ThreatMapper
+  description: Open Source Cloud Native Application Protection Platform (CNAPP)
+- name: usbrubberducky-payloads
+  repo: hak5/usbrubberducky-payloads
+  description: The Official USB Rubber Ducky Payload Repository
+- name: blackhat-arsenal-tools
+  repo: toolswatch/blackhat-arsenal-tools
+  description: Official Black Hat Arsenal Security Tools Repository
+- name: bashbunny-payloads
+  repo: hak5/bashbunny-payloads
+  description: The Official Bash Bunny Payload Repository
+- name: kics
+  repo: Checkmarx/kics
+  description: Find security vulnerabilities, compliance issues, and infrastructure
+    misconfigurations early in the development cycle of your infrastructure-as-code
+    with KICS by Checkmarx.
 incident_response:
-  - name: "volatility"
-    repo: "volatilityfoundation/volatility"
-    description: "Advanced memory forensics framework"
-    homepage: "https://www.volatilityfoundation.org/"
-    
-  - name: "osquery"
-    repo: "osquery/osquery"
-    description: "SQL powered operating system instrumentation and analytics framework"
-    homepage: "https://osquery.io/"
-    
-  - name: "autopsy"
-    repo: "sleuthkit/autopsy"
-    description: "Digital forensics platform"
-    homepage: "https://www.autopsy.com/"
-    
-  - name: "grrr"
-    repo: "google/grr"
-    description: "Rapid response framework for remote live forensics"
-    
+- name: volatility
+  repo: volatilityfoundation/volatility
+  description: Advanced memory forensics framework
+  homepage: https://www.volatilityfoundation.org/
+- name: osquery
+  repo: osquery/osquery
+  description: SQL powered operating system instrumentation and analytics framework
+  homepage: https://osquery.io/
+- name: autopsy
+  repo: sleuthkit/autopsy
+  description: Digital forensics platform
+  homepage: https://www.autopsy.com/
+- name: grrr
+  repo: google/grr
+  description: Rapid response framework for remote live forensics
+- name: radare2
+  repo: radareorg/radare2
+  description: UNIX-like reverse engineering framework and command-line toolset
+- name: mvt
+  repo: mvt-project/mvt
+  description: MVT (Mobile Verification Toolkit) helps with conducting forensics of
+    mobile devices in order to find signs of a potential compromise.
+- name: shadowsocks-rust
+  repo: shadowsocks/shadowsocks-rust
+  description: A Rust port of shadowsocks
+- name: sherlock
+  repo: sherlock-project/sherlock
+  description: Hunt down social media accounts by username across social networks
+- name: ImHex
+  repo: WerWolv/ImHex
+  description: 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value
+    their retinas when working at 3 AM.
+- name: awesome-incident-response
+  repo: meirwah/awesome-incident-response
+  description: A curated list of tools for incident response
+- name: DefaultCreds-cheat-sheet
+  repo: ihebski/DefaultCreds-cheat-sheet
+  description: One place for all the default credentials to assist the Blue/Red teamers
+    identifying devices with default password 🛡️
+- name: hayabusa
+  repo: Yamato-Security/hayabusa
+  description: Hayabusa (隼) is a sigma-based threat hunting and fast forensics timeline
+    generator for Windows event logs.
+- name: digital-forensics-lab
+  repo: frankwxu/digital-forensics-lab
+  description: Free hands-on digital forensics labs for students and faculty
+- name: MemLabs
+  repo: stuxnet999/MemLabs
+  description: Educational, CTF-styled labs for individuals interested in Memory Forensics
+- name: PcapXray
+  repo: Srinivas11789/PcapXray
+  description: ':snowflake: PcapXray - A Network Forensics Tool - To visualize a Packet
+    Capture offline as a Network Diagram including device identification, highlight
+    important communication and file extraction'
+- name: Blue-Team-Notes
+  repo: Purp1eW0lf/Blue-Team-Notes
+  description: 'You didn''t think I''d go and leave the blue team out, right? '
+- name: RecoverPy
+  repo: PabloLec/RecoverPy
+  description: 'Interactively find and recover deleted or :point_right: overwritten
+    :point_left: files from your terminal'
+- name: Infosec_Reference
+  repo: rmusser01/Infosec_Reference
+  description: An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference
+    for non-MS Git hosted version.
+- name: malcom
+  repo: tomchop/malcom
+  description: Malcom - Malware Communications Analyzer
+- name: awesome-hacking
+  repo: jekil/awesome-hacking
+  description: Awesome hacking is an awesome collection of hacking tools.
+- name: sysmon-modular
+  repo: olafhartong/sysmon-modular
+  description: A repository of sysmon configuration modules
 penetration_testing:
-  - name: "metasploit"
-    repo: "rapid7/metasploit-framework"
-    description: "The world's most used penetration testing framework"
-    homepage: "https://www.metasploit.com/"
-    
-  - name: "sqlmap"
-    repo: "sqlmapproject/sqlmap"
-    description: "Automatic SQL injection and database takeover tool"
-    homepage: "https://sqlmap.org/"
-    
-  - name: "gobuster"
-    repo: "OJ/gobuster"
-    description: "Directory/File, DNS and VHost busting tool written in Go"
-    
-  - name: "ffuf"
-    repo: "ffuf/ffuf"
-    description: "Fast web fuzzer written in Go"
-    
-  - name: "hydra"
-    repo: "vanhauser-thc/thc-hydra"
-    description: "Parallelized login cracker"
-    
-  - name: "john"
-    repo: "openwall/john"
-    description: "John the Ripper password cracker"
-    homepage: "https://www.openwall.com/john/"
-
-  # New individual tools
-  - name: "fsociety"
-    repo: "Manisso/fsociety"
-    description: "fsociety Hacking Tools Pack – A Penetration Testing Framework"
-    
-  - name: "tomcat-war-deployer"
-    repo: "mgeeky/tomcatWarDeployer"
-    description: "Apache Tomcat auto WAR deployment & pwning penetration testing tool"
-    
-  - name: "freeway"
-    repo: "FLOCK4H/Freeway"
-    description: "WiFi Penetration Testing & Auditing Tool"
-    
-  - name: "peniot"
-    repo: "yakuza8/peniot"
-    description: "PENIOT: Penetration Testing Tool for IoT"
-    homepage: "https://senior.ceng.metu.edu.tr/2019/peniot/"
-    
-  - name: "webmap"
-    repo: "Anteste/WebMap"
-    description: "Python tool to automate Nmap, Nikto and Dirsearch execution during Web Penetration Testing"
-    homepage: "https://anteste.yo.fr/"
-    
-  - name: "ratel"
-    repo: "FrenchCisco/RATel"
-    description: "Open source penetration test tool for Windows machine control (RAT)"
-    
-  - name: "beef-over-wan"
-    repo: "stormshadow07/BeeF-Over-Wan"
-    description: "Browser Exploitation Framework setup tool for WAN access without port forwarding"
-    
-  - name: "white-dav"
-    repo: "whxitte/white-dav"
-    description: "Website penetration testing tool for testing webdav server vulnerabilities"
-    
-  - name: "g3nius-tools-sploit"
-    repo: "witblack/G3nius-Tools-Sploit"
-    description: "Penetration testing tool with plugins for advanced cybersecurity attacks"
-    homepage: "https://BugZone.ir"
-    
-  - name: "mr-crackbot-ai-nano"
-    repo: "salvadordata/Mr.-CrackBot-AI-Nano"
-    description: "AI-driven penetration testing tool using NVIDIA Jetson Nano for password cracking and Wi-Fi testing"
-    
+- name: metasploit
+  repo: rapid7/metasploit-framework
+  description: The world's most used penetration testing framework
+  homepage: https://www.metasploit.com/
+- name: sqlmap
+  repo: sqlmapproject/sqlmap
+  description: Automatic SQL injection and database takeover tool
+  homepage: https://sqlmap.org/
+- name: gobuster
+  repo: OJ/gobuster
+  description: Directory/File, DNS and VHost busting tool written in Go
+- name: ffuf
+  repo: ffuf/ffuf
+  description: Fast web fuzzer written in Go
+- name: hydra
+  repo: vanhauser-thc/thc-hydra
+  description: Parallelized login cracker
+- name: john
+  repo: openwall/john
+  description: John the Ripper password cracker
+  homepage: https://www.openwall.com/john/
+- name: fsociety
+  repo: Manisso/fsociety
+  description: fsociety Hacking Tools Pack – A Penetration Testing Framework
+- name: tomcat-war-deployer
+  repo: mgeeky/tomcatWarDeployer
+  description: Apache Tomcat auto WAR deployment & pwning penetration testing tool
+- name: freeway
+  repo: FLOCK4H/Freeway
+  description: WiFi Penetration Testing & Auditing Tool
+- name: peniot
+  repo: yakuza8/peniot
+  description: 'PENIOT: Penetration Testing Tool for IoT'
+  homepage: https://senior.ceng.metu.edu.tr/2019/peniot/
+- name: webmap
+  repo: Anteste/WebMap
+  description: Python tool to automate Nmap, Nikto and Dirsearch execution during
+    Web Penetration Testing
+  homepage: https://anteste.yo.fr/
+- name: ratel
+  repo: FrenchCisco/RATel
+  description: Open source penetration test tool for Windows machine control (RAT)
+- name: beef-over-wan
+  repo: stormshadow07/BeeF-Over-Wan
+  description: Browser Exploitation Framework setup tool for WAN access without port
+    forwarding
+- name: white-dav
+  repo: whxitte/white-dav
+  description: Website penetration testing tool for testing webdav server vulnerabilities
+- name: g3nius-tools-sploit
+  repo: witblack/G3nius-Tools-Sploit
+  description: Penetration testing tool with plugins for advanced cybersecurity attacks
+  homepage: https://BugZone.ir
+- name: mr-crackbot-ai-nano
+  repo: salvadordata/Mr.-CrackBot-AI-Nano
+  description: AI-driven penetration testing tool using NVIDIA Jetson Nano for password
+    cracking and Wi-Fi testing
+- name: PayloadsAllTheThings
+  repo: swisskyrepo/PayloadsAllTheThings
+  description: A list of useful payloads and bypass for Web Application Security and
+    Pentest/CTF
+- name: hacker-roadmap
+  repo: sundowndev/hacker-roadmap
+  description: A collection of hacking tools, resources and references to practice
+    ethical hacking.
+- name: nishang
+  repo: samratashok/nishang
+  description: 'Nishang - Offensive PowerShell for red team, penetration testing and
+    offensive security. '
+- name: SWE-agent
+  repo: SWE-agent/SWE-agent
+  description: 'SWE-agent takes a GitHub issue and tries to automatically fix it,
+    using your LM of choice. It can also be employed for offensive cybersecurity or
+    competitive coding challenges. [NeurIPS 2024] '
+- name: PhoneSploit-Pro
+  repo: AzeemIdrisi/PhoneSploit-Pro
+  description: An all-in-one hacking tool to remotely exploit Android devices using
+    ADB and Metasploit-Framework to get a Meterpreter session.
+- name: payloads
+  repo: foospidy/payloads
+  description: Git All the Payloads! A collection of web attack payloads.
+- name: awesome-nodejs-security
+  repo: lirantal/awesome-nodejs-security
+  description: Awesome Node.js Security resources
+- name: SSH-Snake
+  repo: MegaManSec/SSH-Snake
+  description: SSH-Snake is a self-propagating, self-replicating, file-less script
+    that automates the post-exploitation task of SSH private key and host discovery.
+- name: A-Red-Teamer-diaries
+  repo: ihebski/A-Red-Teamer-diaries
+  description: RedTeam/Pentest notes and experiments tested on several infrastructures
+    related to professional engagements.
+- name: fofa_viewer
+  repo: wgpsec/fofa_viewer
+  description: A simple FOFA client written in JavaFX.  Made by WgpSec, Maintained
+    by f1ashine.
+- name: goblin
+  repo: xiecat/goblin
+  description: 一款适用于红蓝对抗中的仿真钓鱼系统
+- name: 1earn
+  repo: ffffffff0x/1earn
+  description: ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup
+- name: awesome-infosec
+  repo: onlurking/awesome-infosec
+  description: ' A curated list of awesome infosec courses and training resources.'
+- name: black-hat-rust
+  repo: skerkour/black-hat-rust
+  description: Applied offensive security with Rust  - https://kerkour.com/black-hat-rust
+- name: Active-Directory-Exploitation-Cheat-Sheet
+  repo: Integration-IT/Active-Directory-Exploitation-Cheat-Sheet
+  description: A cheat sheet that contains common enumeration and attack methods for
+    Windows Active Directory.
+- name: pwndoc
+  repo: pwndoc/pwndoc
+  description: Pentest Report Generator
+- name: 31-days-of-API-Security-Tips
+  repo: inonshk/31-days-of-API-Security-Tips
+  description: This challenge is Inon Shkedy's 31 days API Security Tips.
+- name: moonwalk
+  repo: mufeedvh/moonwalk
+  description: Cover your tracks during Linux Exploitation by leaving zero traces
+    on system logs and filesystem timestamps.
+- name: mongoaudit
+  repo: stampery/mongoaudit
+  description: 🔥 A powerful MongoDB auditing and pentesting tool 🔥
+- name: PlumHound
+  repo: PlumHound/PlumHound
+  description: Bloodhound Reporting for Blue and Purple Teams
+- name: DeimosC2
+  repo: DeimosC2/DeimosC2
+  description: DeimosC2 is a Golang command and control framework for post-exploitation.
+- name: chashell
+  repo: sysdream/chashell
+  description: Chashell is a Go reverse shell that communicates over DNS. It can be
+    used to bypass firewalls or tightly restricted networks.
+- name: AboutSecurity
+  repo: ffffffff0x/AboutSecurity
+  description: Everything for pentest. | 用于渗透测试的 payload 和 bypass 字典.
+- name: Resources-for-Beginner-Bug-Bounty-Hunters
+  repo: nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters
+  description: A list of resources for those interested in getting started in bug
+    bounties
+- name: windows-kernel-exploits
+  repo: SecWiki/windows-kernel-exploits
+  description: windows-kernel-exploits   Windows平台提权漏洞集合
+- name: feroxbuster
+  repo: epi052/feroxbuster
+  description: A fast, simple, recursive content discovery tool written in Rust.
+- name: K8tools
+  repo: k8gege/K8tools
+  description: K8工具合集(内网渗透/提权工具/远程溢出/漏洞利用/扫描工具/密码破解/免杀工具/Exploit/APT/0day/Shellcode/Payload/priviledge/BypassUAC/OverFlow/WebShell/PenTest)
+    Web GetShell Exploit(Struts2/Zimbra/Weblogic/Tomcat/Apache/Jboss/DotNetNuke/zabbix)
+- name: linux-kernel-exploits
+  repo: SecWiki/linux-kernel-exploits
+  description: linux-kernel-exploits Linux平台提权漏洞集合
+- name: evil-winrm
+  repo: Hackplayers/evil-winrm
+  description: The ultimate WinRM shell for hacking/pentesting
+- name: SocialFish
+  repo: UndeadSec/SocialFish
+  description: 'Phishing Tool & Information Collector '
+- name: kscan
+  repo: lcvvvv/kscan
+  description: Kscan是一款纯go开发的全方位扫描器，具备端口扫描、协议检测、指纹识别，暴力破解等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。
+- name: awesome-pentest-cheat-sheets
+  repo: coreb1t/awesome-pentest-cheat-sheets
+  description: Collection of the cheat sheets useful for pentesting
+- name: afrog
+  repo: zan8in/afrog
+  description: A Security Tool for Bug Bounty, Pentest and Red Teaming.
+- name: patator
+  repo: lanjelot/patator
+  description: Patator is a multi-purpose brute-forcer, with a modular design and
+    a flexible usage.
+- name: pentest-wiki
+  repo: nixawk/pentest-wiki
+  description: PENTEST-WIKI is a free online security knowledge library for pentesters
+    / researchers. If you have a good idea, please share it with others.
+- name: SSRFmap
+  repo: swisskyrepo/SSRFmap
+  description: Automatic SSRF fuzzer and exploitation tool
+- name: awesome-oscp
+  repo: 0x4D31/awesome-oscp
+  description: A curated list of awesome OSCP resources
+- name: OSCPRepo
+  repo: rewardone/OSCPRepo
+  description: A list of commands, scripts, resources, and more that I have gathered
+    and attempted to consolidate for use as OSCP (and more) study material. Commands
+    in 'Usefulcommands' Keepnote. Bookmarks and reading material in 'BookmarkList'
+    CherryTree. Reconscan Py2 and Py3. Custom ISO building.
+- name: SSRF-Testing
+  repo: cujanovic/SSRF-Testing
+  description: SSRF (Server Side Request Forgery) testing resources
+- name: macro_pack
+  repo: sevagas/macro_pack
+  description: 'macro_pack is a tool by @EmericNasi used to automatize obfuscation
+    and generation of Office documents, VB scripts, shortcuts, and other formats for
+    pentest, demo, and social engineering assessments. The goal of macro_pack is to
+    simplify exploitation, antimalware bypass, and automatize the process from malicious
+    macro and script generation to final document generation. It also provides a lot
+    of helpful features useful for redteam or security research. '
+- name: xssor2
+  repo: evilcos/xssor2
+  description: XSS'OR - Hack with JavaScript.
+- name: collection-document
+  repo: tom0li/collection-document
+  description: 'Collection of quality safety articles. Awesome articles.  '
+- name: pwn_jenkins
+  repo: gquere/pwn_jenkins
+  description: Notes about attacking Jenkins servers
+- name: TrackRay
+  repo: iSafeBlue/TrackRay
+  description: 溯光 (TrackRay) 3 beta⚡渗透测试框架（资产扫描|指纹识别|暴力破解|网页爬虫|端口扫描|漏洞扫描|代码审计|AWVS|NMAP|Metasploit|SQLMap）
+- name: Diamorphine
+  repo: m0nad/Diamorphine
+  description: LKM rootkit for Linux Kernels 2.6.x/3.x/4.x/5.x/6.x (x86/x86_64 and
+    ARM64)
+- name: medusa
+  repo: Ch0pin/medusa
+  description: Binary instrumentation framework based on FRIDA
+- name: owtf
+  repo: owtf/owtf
+  description: Offensive Web Testing Framework (OWTF), is a framework which tries
+    to unite great tools and make pen testing more efficient http://owtf.org https://twitter.com/owtfp
+- name: pwncat
+  repo: cytopia/pwncat
+  description: pwncat - netcat on steroids with Firewall, IDS/IPS evasion, bind and
+    reverse shell, self-injecting shell and port forwarding magic - and its fully
+    scriptable with Python (PSE)
+- name: Findsploit
+  repo: 1N3/Findsploit
+  description: Find exploits in local and online databases instantly
+- name: odat
+  repo: quentinhardy/odat
+  description: 'ODAT: Oracle Database Attacking Tool'
+- name: GraphQLmap
+  repo: swisskyrepo/GraphQLmap
+  description: GraphQLmap is a scripting engine to interact with a graphql endpoint
+    for pentesting purposes. - Do not use for illegal testing ;)
+- name: InternalAllTheThings
+  repo: swisskyrepo/InternalAllTheThings
+  description: Active Directory and Internal Pentest Cheatsheets
+- name: ShellPop
+  repo: 0x00-0x00/ShellPop
+  description: Pop shells like a master.
+- name: Dr0p1t-Framework
+  repo: D4Vinci/Dr0p1t-Framework
+  description: A framework that create an advanced stealthy dropper that bypass most
+    AVs and have a lot of tricks
+- name: enum4linux-ng
+  repo: cddmp/enum4linux-ng
+  description: A next generation version of enum4linux (a Windows/Samba enumeration
+    tool) with additional features like JSON/YAML export. Aimed for security professionals
+    and CTF players.
+- name: evilgrade
+  repo: infobyte/evilgrade
+  description: Evilgrade is a modular framework that allows the user to take advantage
+    of poor upgrade implementations by injecting fake updates.
+- name: Redcloud
+  repo: khast3x/Redcloud
+  description: Automated Red Team Infrastructure deployement using Docker
+- name: EvilURL
+  repo: UndeadSec/EvilURL
+  description: Generate unicode domains for IDN Homograph Attack and detect them.
+- name: AD-Pentest-Notes
+  repo: chriskaliX/AD-Pentest-Notes
+  description: 用于记录内网渗透(域渗透)学习 :-)
+- name: PwnFox
+  repo: yeswehack/PwnFox
+  description: PwnFox is a Firefox/Burp extension that provide usefull tools for your
+    security audit.
+- name: VcenterKit
+  repo: W01fh4cker/VcenterKit
+  description: Vcenter综合渗透利用工具包 | Vcenter Comprehensive Penetration and Exploitation
+    Toolkit
+- name: filterbypass
+  repo: masatokinugawa/filterbypass
+  description: Browser's XSS Filter Bypass Cheat Sheet
+- name: iox
+  repo: EddieIvan01/iox
+  description: Tool for port forwarding & intranet proxy
+- name: awesome-vulnerable
+  repo: kaiiyer/awesome-vulnerable
+  description: A curated list of VULNERABLE APPS and SYSTEMS which can be used as
+    PENETRATION TESTING PRACTICE LAB.
+- name: BlackMamba
+  repo: loseys/BlackMamba
+  description: C2/post-exploitation framework
+- name: BeeLogger
+  repo: 4w4k3/BeeLogger
+  description: Generate Gmail Emailing Keyloggers to Windows.
+- name: commix
+  repo: commixproject/commix
+  description: Automated All-in-One OS Command Injection Exploitation Tool.
+- name: fuxploider
+  repo: almandin/fuxploider
+  description: File upload vulnerability scanner and exploitation tool.
+- name: POC-bomber
+  repo: tr0uble-mAker/POC-bomber
+  description: 利用大量高威胁poc/exp快速获取目标权限，用于渗透和红队快速打点
+- name: BadMod
+  repo: M4DM0e/BadMod
+  description: CMS auto detect and exploit.
+- name: AutoSploit
+  repo: NullArray/AutoSploit
+  description: Automated Mass Exploiter
+- name: Stowaway
+  repo: ph4ntonn/Stowaway
+  description: 👻Stowaway -- Multi-hop Proxy Tool for pentesters
+- name: SILENTTRINITY
+  repo: byt3bl33d3r/SILENTTRINITY
+  description: An asynchronous, collaborative post-exploitation agent powered by Python
+    and .NET's DLR
 cryptography:
-  - name: "libsodium"
-    repo: "jedisct1/libsodium"
-    description: "Modern, portable, easy to use crypto library"
-    homepage: "https://libsodium.org/"
-    
-  - name: "openssl"
-    repo: "openssl/openssl"
-    description: "TLS/SSL and crypto library"
-    homepage: "https://www.openssl.org/"
-    
-  - name: "cryptography"
-    repo: "pyca/cryptography"
-    description: "Cryptographic library for Python"
-    homepage: "https://cryptography.io/"
-    
-  - name: "boringssl"
-    repo: "google/boringssl"
-    description: "BoringSSL is a fork of OpenSSL"
-    
+- name: libsodium
+  repo: jedisct1/libsodium
+  description: Modern, portable, easy to use crypto library
+  homepage: https://libsodium.org/
+- name: openssl
+  repo: openssl/openssl
+  description: TLS/SSL and crypto library
+  homepage: https://www.openssl.org/
+- name: cryptography
+  repo: pyca/cryptography
+  description: Cryptographic library for Python
+  homepage: https://cryptography.io/
+- name: boringssl
+  repo: google/boringssl
+  description: BoringSSL is a fork of OpenSSL
+- name: caddy
+  repo: caddyserver/caddy
+  description: Fast and extensible multi-platform HTTP/1-2-3 web server with automatic
+    HTTPS
+- name: mitmproxy
+  repo: mitmproxy/mitmproxy
+  description: An interactive TLS-capable intercepting HTTP proxy for penetration
+    testers and software developers.
+- name: tink
+  repo: tink-crypto/tink
+  description: Tink is a multi-language, cross-platform, open source library that
+    provides cryptographic APIs that are secure, easy to use correctly, and hard(er)
+    to misuse.
+- name: cryptomator
+  repo: cryptomator/cryptomator
+  description: 'Cryptomator for Windows, macOS, and Linux: Secure client-side encryption
+    for your cloud storage, ensuring privacy and control over your data.'
+- name: YubiKey-Guide
+  repo: drduh/YubiKey-Guide
+  description: Community guide to using YubiKey for GnuPG and SSH - protect secrets
+    with hardware crypto.
+- name: monero
+  repo: monero-project/monero
+  description: 'Monero: the secure, private, untraceable cryptocurrency'
+- name: opennhp
+  repo: OpenNHP/opennhp
+  description: A lightweight, cryptography-powered, open-source toolkit built to enforce
+    Zero Trust security for infrastructure, applications, and data in the AI-driven
+    world.
+- name: stegcloak
+  repo: KuroLabs/stegcloak
+  description: Hide secrets with invisible characters in plain text securely using
+    passwords 🧙🏻‍♂️⭐
+- name: Name-That-Hash
+  repo: bee-san/Name-That-Hash
+  description: 🔗  Don't know what type of hash it is? Name That Hash will name that
+    hash type! 🤖 Identify MD5, SHA256 and 300+ other hashes ☄ Comes with a neat web
+    app 🔥
+- name: Search-That-Hash
+  repo: bee-san/Search-That-Hash
+  description: 🔎Searches Hash APIs to crack your hash quickly🔎 If hash is not found,
+    automatically pipes into HashCat⚡
+- name: passphrase-wordlist
+  repo: initstring/passphrase-wordlist
+  description: Passphrase wordlist and hashcat rules for offline cracking of long,
+    complex passwords
+- name: certificates
+  repo: smallstep/certificates
+  description: 🛡️ A private certificate authority (X.509 & SSH) & ACME server for
+    secure automated certificate management, so you can use TLS everywhere & SSO for
+    SSH.
+- name: cli
+  repo: smallstep/cli
+  description: 🧰  A zero trust swiss army knife for working with X509, OAuth, JWT,
+    OATH OTP, etc.
+- name: Picocrypt
+  repo: HACKERALERT/Picocrypt
+  description: A very small, very simple, yet very secure encryption tool.
+- name: PasswordPusher
+  repo: pglombardo/PasswordPusher
+  description: 🔐   Securely share sensitive information with automatic expiration
+    & deletion after a set number of views or duration.  Track who, what and when
+    with full audit logs.
 security_learning:
-  - name: "owasp-top10"
-    repo: "OWASP/Top10"
-    description: "Official OWASP Top 10 Document Repository"
-    homepage: "https://owasp.org/www-project-top-ten/"
-    
-  - name: "dvwa"
-    repo: "digininja/DVWA"
-    description: "Damn Vulnerable Web Application (DVWA)"
-    
-  - name: "webgoat"
-    repo: "WebGoat/WebGoat"
-    description: "Deliberately insecure application for learning web app security"
-    homepage: "https://webgoat.github.io/WebGoat/"
-    
-  - name: "vulnhub"
-    repo: "VulnHub/ctf-writeups"
-    description: "Collection of CTF writeups"
-    
-  - name: "picoct"
-    repo: "picoCTF/picoCTF"
-    description: "PicoCTF platform development"
-    homepage: "https://picoctf.org/"
-    
-  - name: "overthewire"
-    repo: "OverTheWireOrg/overthewire.org"
-    description: "OverTheWire wargames website"
-    homepage: "https://overthewire.org/"
-
-# New categories for individual tools
+- name: owasp-top10
+  repo: OWASP/Top10
+  description: Official OWASP Top 10 Document Repository
+  homepage: https://owasp.org/www-project-top-ten/
+- name: dvwa
+  repo: digininja/DVWA
+  description: Damn Vulnerable Web Application (DVWA)
+- name: webgoat
+  repo: WebGoat/WebGoat
+  description: Deliberately insecure application for learning web app security
+  homepage: https://webgoat.github.io/WebGoat/
+- name: vulnhub
+  repo: VulnHub/ctf-writeups
+  description: Collection of CTF writeups
+- name: picoct
+  repo: picoCTF/picoCTF
+  description: PicoCTF platform development
+  homepage: https://picoctf.org/
+- name: overthewire
+  repo: OverTheWireOrg/overthewire.org
+  description: OverTheWire wargames website
+  homepage: https://overthewire.org/
+- name: x64dbg
+  repo: x64dbg/x64dbg
+  description: An open-source user mode debugger for Windows. Optimized for reverse
+    engineering and malware analysis.
+- name: juice-shop
+  repo: juice-shop/juice-shop
+  description: 'OWASP Juice Shop: Probably the most modern and sophisticated insecure
+    web application'
+- name: awesome-ctf
+  repo: apsdehal/awesome-ctf
+  description: A curated list of CTF frameworks, libraries, resources and softwares
+- name: howtheysre
+  repo: upgundecha/howtheysre
+  description: A curated collection of publicly available resources on how technology
+    and tech-savvy organizations around the world practice Site Reliability Engineering
+    (SRE)
+- name: privacy.sexy
+  repo: undergroundwires/privacy.sexy
+  description: Open-source tool to enforce privacy & security best-practices on Windows,
+    macOS and Linux, because privacy is sexy
+- name: awesome-vehicle-security
+  repo: jaredthecoder/awesome-vehicle-security
+  description: 🚗  A curated list of resources for learning about vehicle security
+    and car hacking.
+- name: Awesome-Cybersecurity-Handbooks
+  repo: 0xsyr0/Awesome-Cybersecurity-Handbooks
+  description: A huge chunk of my personal notes since I started playing CTFs and
+    working as a Red Teamer.
+- name: awesome-cyber-security-university
+  repo: brootware/awesome-cyber-security-university
+  description: '🎓 Because Education should be free. Contributions welcome! 🕵️ '
+- name: CTF
+  repo: Crypto-Cat/CTF
+  description: CTF challenge (mostly pwn) files, scripts etc
+- name: Awesome-Cybersecurity-Datasets
+  repo: shramos/Awesome-Cybersecurity-Datasets
+  description: A curated list of amazingly awesome Cybersecurity datasets
+- name: learn365
+  repo: harsh-bothra/learn365
+  description: This repository is about @harshbothra_'s 365 days of Learning Tweets
+    & Mindmaps collection.
 network_security:
-  - name: "xray"
-    repo: "evilsocket/xray"
-    description: "XRay is a tool for recon, mapping and OSINT gathering from public networks"
-    
-  - name: "scilla"
-    repo: "edoardottt/scilla"
-    description: "Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration"
-    homepage: "https://edoardottt.com/"
-    
-  - name: "netventory"
-    repo: "RamboRogers/netventory"
-    description: "Fast single binary network scanning tool with beautiful TUI and WebUI"
-    homepage: "https://matthewrogers.org"
-    
-  - name: "prismx"
-    repo: "yqcs/prismx"
-    description: "Automated Enterprise Network Security Risk Detection and Vulnerability Scanning Tool"
-    homepage: "https://prismx.io/"
-    
-  - name: "turbo-scanner"
-    repo: "mytechnotalent/turbo-scanner"
-    description: "Port scanner and service detection tool using 1000 goroutines for high-speed scanning"
-    
-  - name: "packemon"
-    repo: "ddddddO/packemon"
-    description: "TUI tool for sending packets and monitoring network interfaces on Linux/macOS"
-
+- name: xray
+  repo: evilsocket/xray
+  description: XRay is a tool for recon, mapping and OSINT gathering from public networks
+- name: scilla
+  repo: edoardottt/scilla
+  description: Information Gathering tool - DNS / Subdomains / Ports / Directories
+    enumeration
+  homepage: https://edoardottt.com/
+- name: netventory
+  repo: RamboRogers/netventory
+  description: Fast single binary network scanning tool with beautiful TUI and WebUI
+  homepage: https://matthewrogers.org
+- name: prismx
+  repo: yqcs/prismx
+  description: Automated Enterprise Network Security Risk Detection and Vulnerability
+    Scanning Tool
+  homepage: https://prismx.io/
+- name: turbo-scanner
+  repo: mytechnotalent/turbo-scanner
+  description: Port scanner and service detection tool using 1000 goroutines for high-speed
+    scanning
+- name: packemon
+  repo: ddddddO/packemon
+  description: TUI tool for sending packets and monitoring network interfaces on Linux/macOS
+- name: bettercap
+  repo: bettercap/bettercap
+  description: The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks
+    reconnaissance and MITM attacks.
+- name: SafeLine
+  repo: chaitin/SafeLine
+  description: SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy
+    to protect your web apps from attacks and exploits.
+- name: opensnitch
+  repo: evilsocket/opensnitch
+  description: OpenSnitch is a GNU/Linux interactive application firewall inspired
+    by Little Snitch.
+- name: scapy
+  repo: secdev/scapy
+  description: 'Scapy: the Python-based interactive packet manipulation program &
+    library.'
+- name: netmaker
+  repo: gravitl/netmaker
+  description: Netmaker makes networks with WireGuard. Netmaker automates fast, secure,
+    and distributed virtual networks.
+- name: nDPI
+  repo: ntop/nDPI
+  description: Open Source Deep Packet Inspection Software Toolkit
+- name: Malcolm
+  repo: cisagov/Malcolm
+  description: Malcolm is a powerful, easily deployable network traffic analysis tool
+    suite for full packet capture artifacts (PCAP files), Zeek logs and Suricata alerts.
+- name: ESP32-BlueJammer
+  repo: EmenstaNougat/ESP32-BlueJammer
+  description: 'The ESP32-BlueJammer (Bluetooth jammer, BLE jammer, WiFi jammer, RC
+    jammer) disrupts 2.4GHz communications. Using an ESP32 and nRF24 modules, it generates
+    noise and unnecessary packets, causing interference between the devices communicating,
+    making them unable to work as intended. Ideal for controlled disruption and security
+    testing. '
+- name: hetty
+  repo: dstotijn/hetty
+  description: An HTTP toolkit for security research.
+- name: Awesome-WAF
+  repo: 0xInfection/Awesome-WAF
+  description: 🔥 Web-application firewalls (WAFs) from security standpoint.
+- name: NetExec
+  repo: Pennyw0rth/NetExec
+  description: The Network Execution Tool
+- name: mitmAP
+  repo: xdavidhu/mitmAP
+  description: 📡 A python program to create a fake AP and sniff data.
+- name: metta
+  repo: uber-common/metta
+  description: An information security preparedness tool to do adversarial simulation.
+- name: pyrdp
+  repo: GoSecure/pyrdp
+  description: RDP monster-in-the-middle (mitm) and library for Python with the ability
+    to watch connections live or after the fact
+- name: Modlishka
+  repo: drk1wi/Modlishka
+  description: 'Modlishka. Reverse Proxy.  '
 information_gathering:
-  - name: "argus"
-    repo: "jasonxtn/Argus"
-    description: "The Ultimate Information Gathering Toolkit"
-    
-  - name: "ominis-osint"
-    repo: "AnonCatalyst/Ominis-OSINT"
-    description: "OSINT tool for online information gathering by querying Google for search results"
-    homepage: "https://pypi.org/project/Ominis-OSINT/"
-    
-  - name: "chiasmodon"
-    repo: "chiasmod0n/chiasmodon"
-    description: "OSINT tool for domain-related data gathering including emails, credentials, CIDRs, ASNs, and subdomains"
-    homepage: "http://chiasmodon.online"
-    
-  - name: "gasmask"
-    repo: "twelvesec/gasmask"
-    description: "Information gathering tool - OSINT"
-    homepage: "https://www.twelvesec.com/"
-    
-  - name: "ircp"
-    repo: "internet-relay-chat/IRCP"
-    description: "Robust information gathering tool for large scale reconnaissance on Internet Relay Chat servers"
-    homepage: "https://internetrelaychat.org"
-
+- name: argus
+  repo: jasonxtn/Argus
+  description: The Ultimate Information Gathering Toolkit
+- name: ominis-osint
+  repo: AnonCatalyst/Ominis-OSINT
+  description: OSINT tool for online information gathering by querying Google for
+    search results
+  homepage: https://pypi.org/project/Ominis-OSINT/
+- name: chiasmodon
+  repo: chiasmod0n/chiasmodon
+  description: OSINT tool for domain-related data gathering including emails, credentials,
+    CIDRs, ASNs, and subdomains
+  homepage: http://chiasmodon.online
+- name: gasmask
+  repo: twelvesec/gasmask
+  description: Information gathering tool - OSINT
+  homepage: https://www.twelvesec.com/
+- name: ircp
+  repo: internet-relay-chat/IRCP
+  description: Robust information gathering tool for large scale reconnaissance on
+    Internet Relay Chat servers
+  homepage: https://internetrelaychat.org
 mobile_security:
-  - name: "androbugs-framework"
-    repo: "AndroBugs/AndroBugs_Framework"
-    description: "Efficient Android vulnerability scanner for developers and security researchers"
-
+- name: androbugs-framework
+  repo: AndroBugs/AndroBugs_Framework
+  description: Efficient Android vulnerability scanner for developers and security
+    researchers
+- name: matomo
+  repo: matomo-org/matomo
+  description: 'Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs
+    Matomo is the leading open-source alternative to Google Analytics, giving you
+    complete control and built-in privacy. Easily collect, visualise, and analyse
+    data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! '
+- name: Obtainium
+  repo: ImranR98/Obtainium
+  description: Get Android app updates straight from the source.
+- name: berty
+  repo: berty/berty
+  description: Berty is a secure peer-to-peer messaging app that works with or without
+    internet access, cellular data or trust in the network
+- name: Android-Reports-and-Resources
+  repo: B3nac/Android-Reports-and-Resources
+  description: 'A big list of Android Hackerone disclosed reports and other resources. '
+- name: iOS
+  repo: ansjdnakjdnajkd/iOS
+  description: Most usable tools for iOS penetration testing
+- name: objection
+  repo: sensepost/objection
+  description: 📱 objection - runtime mobile exploration
+- name: FireStorePwn
+  repo: takito1812/FireStorePwn
+  description: fsp - Firestore Database Vulnerability Scanner Using APKs
+- name: Android-PIN-Bruteforce
+  repo: urbanadventurer/Android-PIN-Bruteforce
+  description: Unlock an Android phone (or device) by bruteforcing the lockscreen
+    PIN. Turn your Kali Nethunter phone into a bruteforce PIN cracker for Android
+    devices! (no root, no adb)
+- name: AppInfoScanner
+  repo: kelvinBen/AppInfoScanner
+  description: 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。
+- name: awesome-mobile-security
+  repo: vaib25vicky/awesome-mobile-security
+  description: An effort to build a single place for all useful android and iOS security
+    related stuff. All references and tools belong to their respective owners. I'm
+    just maintaining it.
+- name: EasyProtector
+  repo: lamster2018/EasyProtector
+  description: 一行代码检测XP/调试/多开/模拟器/root
 blockchain_security:
-  - name: "mythril"
-    repo: "ConsenSysDiligence/mythril"
-    description: "Security analysis tool for Ethereum smart contracts using symbolic execution"
-    homepage: "https://mythx.io/"
-    
-  - name: "octopus"
-    repo: "FuzzingLabs/octopus"
-    description: "Security Analysis tool for WebAssembly module (wasm) and Blockchain Smart Contracts (BTC/ETH/NEO/EOS)"
-    homepage: "https://fuzzinglabs.com/"
+- name: mythril
+  repo: ConsenSysDiligence/mythril
+  description: Security analysis tool for Ethereum smart contracts using symbolic
+    execution
+  homepage: https://mythx.io/
+- name: octopus
+  repo: FuzzingLabs/octopus
+  description: Security Analysis tool for WebAssembly module (wasm) and Blockchain
+    Smart Contracts (BTC/ETH/NEO/EOS)
+  homepage: https://fuzzinglabs.com/
+- name: openzeppelin-contracts
+  repo: OpenZeppelin/openzeppelin-contracts
+  description: OpenZeppelin Contracts is a library for secure smart contract development.
+- name: Crypto-OpSec-SelfGuard-RoadMap
+  repo: OffcierCia/Crypto-OpSec-SelfGuard-RoadMap
+  description: Here we collect and discuss the best DeFi, Blockchain and crypto-related
+    OpSec researches and data terminals - contributions are welcome.
