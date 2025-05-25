@@ -1,0 +1,85 @@
+name: Deploy GitHub Pages
+
+on:
+  # Trigger on pushes to main
+  push:
+    branches: [ main ]
+    
+  # Trigger after the data update workflow completes
+  workflow_run:
+    workflows: ["Update Cybersecurity OSS Data"]
+    types: [completed]
+    
+  # Allow manual trigger
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Build site
+        run: |
+          # Create a build directory
+          mkdir -p _site
+          
+          # Copy the index.html
+          cp index.html _site/
+          
+          # If we have scraped data, we could update the HTML with real data
+          if [ -f "data/scraped_data.json" ]; then
+            echo "✅ Found scraped data, could enhance HTML with real metrics"
+            # For now, just copy as-is. Later we can add dynamic content generation
+          fi
+          
+          # Copy any other assets
+          if [ -d "assets" ]; then
+            cp -r assets _site/
+          fi
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        
+      - name: Create deployment summary
+        run: |
+          echo "## 🌐 Website Deployed Successfully!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**🔗 Live URL:** ${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
+          echo "**📊 Status:** Deployed" >> $GITHUB_STEP_SUMMARY
+          echo "**⏰ Timestamp:** $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The website will automatically redeploy when:" >> $GITHUB_STEP_SUMMARY
+          echo "- 📝 Code is pushed to main branch" >> $GITHUB_STEP_SUMMARY
+          echo "- 🤖 Daily data scraper completes" >> $GITHUB_STEP_SUMMARY
+          echo "- 🔄 Manual workflow trigger" >> $GITHUB_STEP_SUMMARY
