@@ -2,10 +2,10 @@ name: Update Cybersecurity OSS Data
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
+    # Run every 24 hours at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
-    # Allow manual triggering
+    # Keep manual triggering option for testing
   push:
     paths:
       - 'data/tools.yaml'
@@ -62,13 +62,13 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action Bot"
         git add .
-        git commit -m "🤖 Auto-update: GitHub metrics and README ($(date +'%Y-%m-%d %H:%M UTC'))"
+        git commit -m "🤖 Daily auto-update: GitHub metrics and README ($(date +'%Y-%m-%d'))"
         git push origin main
         
     - name: Create summary
       if: always()
       run: |
-        echo "## 🔐 Cybersecurity OSS Showcase Update" >> $GITHUB_STEP_SUMMARY
+        echo "## 🔐 Cybersecurity OSS Showcase - Daily Update" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "**Timestamp:** $(date)" >> $GITHUB_STEP_SUMMARY
         echo "**Status:** ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
@@ -83,4 +83,5 @@ jobs:
         fi
         
         echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Next scheduled run:** Tomorrow at midnight UTC" >> $GITHUB_STEP_SUMMARY
         echo "**Repository:** https://github.com/sivolko/cybersec-oss-showcase" >> $GITHUB_STEP_SUMMARY
