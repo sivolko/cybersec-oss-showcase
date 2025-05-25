@@ -228,7 +228,95 @@ class GitHubScraper:
         else:
             years = days // 365
             return f"{years} year{'s' if years > 1 else ''} ago"
-
+    
+    def search_security_repos(self, min_stars: int = 20) -> List[Dict]:
+        """Search for security-related repositories with minimum stars"""
+        search_queries = [
+            'topic:security',
+            'topic:cybersecurity',
+            'topic:infosec',
+            'topic:pentest',
+            'topic:vulnerability-scanner',
+            'topic:security-tools'
+        ]
+        
+        discovered_repos = []
+        
+        for query in search_queries:
+            if self.rate_limit_remaining < 10:
+                print(f"⚠️ Rate limit low ({self.rate_limit_remaining}), sleeping...")
+                time.sleep(60)
+            
+            url = f"{self.base_url}/search/repositories"
+            params = {
+                'q': f'{query} stars:>={min_stars} fork:false',
+                'sort': 'stars',
+                'order': 'desc',
+                'per_page': 100
+            }
+            
+            try:
+                response = self.session.get(url, params=params)
+                self.rate_limit_remaining = int(response.headers.get('X-RateLimit-Remaining', 0))
+                
+                if response.status_code == 200:
+                    results = response.json()
+                    for repo in results['items']:
+                        # Skip if already discovered
+                        if repo['full_name'] not in [r['full_name'] for r in discovered_repos]:
+                            discovered_repos.append({
+                                'name': repo['name'],
+                                'full_name': repo['full_name'],
+                                'description': repo['description'],
+                                'stars': repo['stargazers_count'],
+                                'topics': repo['topics'],
+                                'category': self.determine_category(repo)
+                            })
+                
+                time.sleep(2)  # Respect rate limit
+            except Exception as e:
+                print(f"❌ Error searching repositories: {e}")
+                
+        return discovered_repos
+    
+    def determine_category(self, repo: Dict) -> str:
+        """Determine the most appropriate category for a repository based on its topics and description"""
+        topics = set([t.lower() for t in repo['topics']])
+        desc = repo.get('description', '').lower()
+        
+        category_keywords = {
+            'vulnerability_scanners': {'vulnerability', 'scanner', 'fuzzing', 'fuzzer', 'scanning'},
+            'security_automation': {'automation', 'pipeline', 'cicd', 'monitoring', 'detection'},
+            'threat_intelligence': {'threat', 'intelligence', 'ioc', 'indicators', 'osint'},
+            'container_security': {'container', 'docker', 'kubernetes', 'k8s', 'pod'},
+            'cloud_security': {'cloud', 'aws', 'azure', 'gcp', 'serverless'},
+            'devsecops': {'devsecops', 'devops', 'pipeline', 'ci', 'cd'},
+            'incident_response': {'incident', 'response', 'forensics', 'dfir', 'soc'},
+            'penetration_testing': {'pentest', 'exploitation', 'metasploit', 'redteam', 'offensive'},
+            'cryptography': {'crypto', 'encryption', 'cipher', 'hash', 'tls'},
+            'security_learning': {'ctf', 'learning', 'training', 'education', 'practice'},
+            'network_security': {'network', 'packet', 'sniffer', 'mitm', 'firewall'},
+            'mobile_security': {'android', 'ios', 'mobile', 'apk', 'ipa'},
+            'blockchain_security': {'blockchain', 'smart-contract', 'web3', 'solidity', 'ethereum'}
+        }
+        
+        scores = {category: 0 for category in category_keywords}
+        
+        # Score based on topics
+        for category, keywords in category_keywords.items():
+            score = len(topics.intersection(keywords))
+            if any(kw in desc for kw in keywords):
+                score += 1
+            scores[category] = score
+        
+        # Get category with highest score
+        max_score = max(scores.values())
+        if max_score > 0:
+            return max(scores.items(), key=lambda x: x[1])[0]
+        
+        # Default to vulnerability_scanners if can't determine
+        return 'vulnerability_scanners'
+    
 def load_tools_config() -> Dict[str, List[Dict]]:
     """Load tools configuration from YAML file"""
     config_path = Path(__file__).parent.parent / 'data' / 'tools.yaml'
@@ -470,6 +558,42 @@ def main():
     # Load tools configuration
     print("📋 Loading tools configuration...")
     tools_config = load_tools_config()
+    
+    # Auto-discover new security tools
+    print("\n🔍 Discovering new security tools...")
+    discovered_tools = scraper.search_security_repos(min_stars=20)
+    
+    # Filter out already tracked repositories
+    existing_repos = set()
+    for tools in tools_config.values():
+        for tool in tools:
+            existing_repos.add(tool['repo'])
+    
+    new_tools = [tool for tool in discovered_tools if tool['full_name'] not in existing_repos]
+    
+    if new_tools:
+        print(f"\n🎉 Found {len(new_tools)} new security tools!")
+        
+        # Add new tools to configuration
+        for tool in new_tools:
+            category = tool['category']
+            if category not in tools_config:
+                tools_config[category] = []
+            
+            tools_config[category].append({
+                'name': tool['name'],
+                'repo': tool['full_name'],
+                'description': tool['description'] or f"A security tool with {tool['stars']} stars"
+            })
+        
+        # Save updated configuration
+        config_path = Path(__file__).parent.parent / 'data' / 'tools.yaml'
+        with open(config_path, 'w', encoding='utf-8') as f:
+            yaml.dump(tools_config, f, allow_unicode=True, sort_keys=False)
+        
+        print("✅ Added new tools to configuration")
+    else:
+        print("ℹ️ No new tools discovered")
     
     # Scrape data for all tools
     all_data = {}
