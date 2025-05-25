@@ -97,7 +97,7 @@
 |------|-------------|-------|----------|-------------|--------|
 | [sonarqube](https://github.com/SonarSource/sonarqube) | Continuous Inspection | 9.6k ⭐ | Java | 1 day ago | 🟢 |
 | [brakeman](https://github.com/presidentbeef/brakeman) | A static analysis security vulnerability scanner for Ruby on Rails applications | 7.1k ⭐ | Ruby | 1 week ago | 🟢 |
-| [bandit](https://github.com/PyCQA/bandit) | Bandit is a tool designed to find common security issues in Python code. | 7.0k ⭐ | Python | 5 days ago | 🟢 |
+| [bandit](https://github.com/PyCQA/bandit) | Bandit is a tool designed to find common security issues in Python code. | 7.0k ⭐ | Python | 6 days ago | 🟢 |
 | [safety](https://github.com/pyupio/safety) | Safety checks Python dependencies for known security vulnerabilities and suggest... | 1.8k ⭐ | Python | 1 week ago | 🟡 |
 | [DependencyCheck](https://github.com/jeremylong/DependencyCheck) | The dependency-check repository has moved: | 20 ⭐ | Java | 3 months ago | 🔴 |
 
