@@ -8,26 +8,30 @@
 
 ## 📊 Dashboard Overview
 
-- **Total Tools Tracked**: 48
-- **Categories**: 10
+- **Total Tools Tracked**: 81
+- **Categories**: 14
 - **Auto-Updated**: Daily at midnight UTC
 - **Last Scan**: 2025-05-25
-- **Total Community**: 461.4k+ stars
+- **Total Community**: 500.6k+ stars
 
 ## 🗂️ Categories
 
 | Category | Tools | Top Tool | Stars |
 |----------|-------|----------|-------|
-| [🔍 Vulnerability Scanners](#vulnerability-scanners) | 6 | nuclei | 23.4k ⭐ |
-| [🤖 Security Automation](#security-automation) | 5 | wazuh | 12.5k ⭐ |
+| [🔍 Vulnerability Scanners](#vulnerability-scanners) | 14 | nuclei | 23.4k ⭐ |
+| [🤖 Security Automation](#security-automation) | 6 | wazuh | 12.5k ⭐ |
 | [🕵️ Threat Intelligence](#threat-intelligence) | 4 | opencti | 7.3k ⭐ |
 | [📦 Container Security](#container-security) | 4 | trivy | 26.9k ⭐ |
 | [☁️ Cloud Security Tools](#cloud-security) | 5 | prowler | 11.6k ⭐ |
 | [🔧 DevSecOps](#devsecops) | 5 | sonarqube | 9.6k ⭐ |
 | [🚨 Incident Response](#incident-response) | 4 | osquery | 22.5k ⭐ |
-| [🎯 Penetration Testing](#penetration-testing) | 6 | metasploit-framework | 35.6k ⭐ |
+| [🎯 Penetration Testing](#penetration-testing) | 16 | metasploit-framework | 35.6k ⭐ |
 | [🔒 Cryptography](#cryptography) | 4 | openssl | 27.4k ⭐ |
 | [📚 Security Learning](#security-learning) | 5 | DVWA | 11.2k ⭐ |
+| [Network Security](#network-security) | 6 | xray | 2.3k ⭐ |
+| [Information Gathering](#information-gathering) | 5 | Argus | 2.0k ⭐ |
+| [Mobile Security](#mobile-security) | 1 | AndroBugs_Framework | 1.2k ⭐ |
+| [Blockchain Security](#blockchain-security) | 2 | mythril | 4.0k ⭐ |
 
 
 ---
@@ -40,7 +44,7 @@
 2. **🟢 [opencti](https://github.com/OpenCTI-Platform/opencti)** (7.3k ⭐) - Last updated Today
 3. **🟢 [john](https://github.com/openwall/john)** (11.4k ⭐) - Last updated Today
 4. **🟢 [cryptography](https://github.com/pyca/cryptography)** (7.0k ⭐) - Last updated Today
-5. **🟢 [nuclei](https://github.com/projectdiscovery/nuclei)** (23.4k ⭐) - Last updated 1 day ago
+5. **🟡 [packemon](https://github.com/ddddddO/packemon)** (180 ⭐) - Last updated Today
 
 
 ### ⭐ Most Popular Projects
@@ -64,7 +68,11 @@
 | [nmap](https://github.com/nmap/nmap) | Nmap - the Network Mapper. Github mirror of official SVN repository. | 11.1k ⭐ | C | 1 day ago | 🟡 |
 | [nikto](https://github.com/sullo/nikto) | Nikto web server scanner | 9.3k ⭐ | Perl | 1 week ago | 🟢 |
 | [wpscan](https://github.com/wpscanteam/wpscan) | WPScan WordPress security scanner. Written for security professionals and blog m... | 9.0k ⭐ | Ruby | 6 days ago | 🟢 |
+| [w3af](https://github.com/andresriancho/w3af) | w3af: web application attack and audit framework, the open source web vulnerabil... | 4.7k ⭐ | Python | 2 years ago | 🟢 |
 | [openvas-scanner](https://github.com/greenbone/openvas-scanner) | This repository contains the scanner component for Greenbone Community Edition. | 3.8k ⭐ | Rust | 2 days ago | 🟢 |
+| [Raccoon](https://github.com/evyatarmeged/Raccoon) | A high performance offensive security tool for reconnaissance and vulnerability ... | 3.2k ⭐ | Python | 11 months ago | 🟢 |
+| [agentic_security](https://github.com/msoedov/agentic_security) | Agentic LLM Vulnerability Scanner / AI red teaming kit 🧪 | 1.4k ⭐ | Python | 1 day ago | 🟡 |
+| [a2sv](https://github.com/hahwul/a2sv) | Auto Scanning to SSL Vulnerability | 633 ⭐ | Python | 4 years ago | 🔴 |
 
 ## 🤖 Security Automation
 
@@ -77,6 +85,7 @@
 | [falco](https://github.com/falcosecurity/falco) | Cloud Native Runtime Security | 7.9k ⭐ | C++ | 2 days ago | 🟢 |
 | [zeek](https://github.com/zeek/zeek) | Zeek is a powerful network analysis framework that is much different from the ty... | 6.9k ⭐ | C++ | Today | 🟢 |
 | [suricata](https://github.com/OISF/suricata) | Suricata is a network Intrusion Detection System, Intrusion Prevention System an... | 5.3k ⭐ | C | 2 days ago | 🟢 |
+| [SecurityManageFramwork](https://github.com/we1h0/SecurityManageFramwork) | Security Manage Framwork is a security management platform for enterprise intran... | 429 ⭐ | Python | 3 years ago | 🔴 |
 
 ## 🕵️ Threat Intelligence
 
@@ -142,11 +151,15 @@
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
 | [metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework | 35.6k ⭐ | Ruby | 1 day ago | 🟢 |
-| [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | 34.2k ⭐ | Python | 3 days ago | 🟢 |
+| [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | 34.2k ⭐ | Python | 4 days ago | 🟢 |
 | [ffuf](https://github.com/ffuf/ffuf) | Fast web fuzzer written in Go | 14.0k ⭐ | Go | 1 month ago | 🟡 |
 | [gobuster](https://github.com/OJ/gobuster) | Directory/File, DNS and VHost busting tool written in Go | 11.8k ⭐ | Go | 3 days ago | 🟢 |
 | [john](https://github.com/openwall/john) | John the Ripper jumbo - advanced offline password cracker, which supports hundre... | 11.4k ⭐ | C | Today | 🟢 |
+| [fsociety](https://github.com/Manisso/fsociety) | fsociety Hacking Tools Pack – A Penetration Testing Framework | 11.2k ⭐ | Python | 9 months ago | 🟡 |
 | [thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | hydra | 10.4k ⭐ | C | 1 month ago | 🟢 |
+| [Freeway](https://github.com/FLOCK4H/Freeway) | WiFi Penetration Testing & Auditing Tool | 520 ⭐ | Python | 3 weeks ago | 🟡 |
+| [tomcatWarDeployer](https://github.com/mgeeky/tomcatWarDeployer) | Apache Tomcat auto WAR deployment & pwning penetration testing tool. | 428 ⭐ | Python | 1 year ago | 🔴 |
+| [WebMap](https://github.com/Anteste/WebMap) | A Python tool used to automate the execution of the following tools : Nmap , Nik... | 292 ⭐ | Python | 2 years ago | 🔴 |
 
 ## 🔒 Cryptography
 
@@ -170,6 +183,40 @@
 | [Top10](https://github.com/OWASP/Top10) | Official OWASP Top 10 Document Repository | 4.6k ⭐ | HTML | 6 months ago | 🟢 |
 | [ctf-writeups](https://github.com/VulnHub/ctf-writeups) | CTF write-ups from the VulnHub CTF Team | 701 ⭐ | None | 7 years ago | 🔴 |
 | [picoCTF](https://github.com/picoCTF/picoCTF) | The platform used to run picoCTF 2019. (deprecated) | 298 ⭐ | Python | 1 year ago | 🔴 |
+
+## Network Security
+
+| Tool | Description | Stars | Language | Last Commit | Health |
+|------|-------------|-------|----------|-------------|--------|
+| [xray](https://github.com/evilsocket/xray) | XRay is a tool for recon, mapping and OSINT gathering from public networks. | 2.3k ⭐ | Go | 10 months ago | 🟡 |
+| [scilla](https://github.com/edoardottt/scilla) | Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration | 1.0k ⭐ | Go | 2 weeks ago | 🟡 |
+| [prismx](https://github.com/yqcs/prismx) | :: Prism X · Automated Enterprise Network Security Risk Detection and Vulnerabil... | 736 ⭐ | Go | 3 months ago | 🔴 |
+| [packemon](https://github.com/ddddddO/packemon) | Packet monster (っ‘-’)╮=͟͟͞͞◒  ヽ( '-'ヽ)  TUI tool for sending packets of arbitrar... | 180 ⭐ | Go | Today | 🟡 |
+| [netventory](https://github.com/RamboRogers/netventory) | Netventory is a fast single binary network scanning tool with a beautiful TUI an... | 160 ⭐ | Go | 1 month ago | 🔴 |
+| [turbo-scanner](https://github.com/mytechnotalent/turbo-scanner) | A port scanner and service detection tool that uses 1000 goroutines at once to s... | 156 ⭐ | Go | 2 months ago | 🔴 |
+
+## Information Gathering
+
+| Tool | Description | Stars | Language | Last Commit | Health |
+|------|-------------|-------|----------|-------------|--------|
+| [Argus](https://github.com/jasonxtn/Argus) | The Ultimate Information Gathering Toolkit | 2.0k ⭐ | Python | 7 months ago | 🟡 |
+| [gasmask](https://github.com/twelvesec/gasmask) | Information gathering tool - OSINT | 1.3k ⭐ | Python | 3 years ago | 🔴 |
+| [chiasmodon](https://github.com/chiasmod0n/chiasmodon) | Chiasmodon is an OSINT  tool designed to assist in the process of gathering info... | 591 ⭐ | Python | 2 weeks ago | 🟡 |
+| [Ominis-OSINT](https://github.com/AnonCatalyst/Ominis-OSINT) | This Python application is an OSINT (Open Source Intelligence) tool called "Omin... | 417 ⭐ | Python | 1 month ago | 🔴 |
+| [IRCP](https://github.com/internet-relay-chat/IRCP) | A robust information gathering tool for large scale reconnaissance on Internet R... | 51 ⭐ | Python | 1 year ago | 🔴 |
+
+## Mobile Security
+
+| Tool | Description | Stars | Language | Last Commit | Health |
+|------|-------------|-------|----------|-------------|--------|
+| [AndroBugs_Framework](https://github.com/AndroBugs/AndroBugs_Framework) | AndroBugs Framework is an efficient Android vulnerability scanner that helps dev... | 1.2k ⭐ | Python | 6 years ago | 🔴 |
+
+## Blockchain Security
+
+| Tool | Description | Stars | Language | Last Commit | Health |
+|------|-------------|-------|----------|-------------|--------|
+| [mythril](https://github.com/ConsenSysDiligence/mythril) | Mythril is a symbolic-execution-based securty analysis tool for EVM bytecode. It... | 4.0k ⭐ | Python | 6 days ago | 🟢 |
+| [octopus](https://github.com/FuzzingLabs/octopus) | Security Analysis tool for WebAssembly module (wasm) and Blockchain Smart Contra... | 486 ⭐ | Python | 1 year ago | 🔴 |
 
 ## 🤖 Automation
 
