@@ -1,0 +1,245 @@
+# Cybersecurity OSS Tools Database
+# This file contains the curated list of tools that the scraper monitors
+# Format: category -> list of tools with repo info
+
+vulnerability_scanners:
+  - name: "nuclei"
+    repo: "projectdiscovery/nuclei"
+    description: "Fast vulnerability scanner using YAML templates for web apps, networks, and cloud infrastructure"
+    homepage: "https://nuclei.projectdiscovery.io/"
+    
+  - name: "nmap"
+    repo: "nmap/nmap"
+    description: "Network discovery and security auditing tool"
+    homepage: "https://nmap.org/"
+    
+  - name: "openvas"
+    repo: "greenbone/openvas-scanner"
+    description: "Full-featured vulnerability scanner"
+    homepage: "https://www.openvas.org/"
+    
+  - name: "nikto"
+    repo: "sullo/nikto"
+    description: "Web server vulnerability scanner"
+    
+  - name: "zap"
+    repo: "zaproxy/zaproxy"
+    description: "OWASP web application security scanner"
+    homepage: "https://www.zaproxy.org/"
+    
+  - name: "wpscan"
+    repo: "wpscanteam/wpscan"
+    description: "WordPress vulnerability scanner"
+    homepage: "https://wpscan.com/"
+
+security_automation:
+  - name: "semgrep"
+    repo: "semgrep/semgrep"
+    description: "Static analysis tool for finding bugs, security issues, and anti-patterns in 30+ languages"
+    homepage: "https://semgrep.dev/"
+    
+  - name: "falco"
+    repo: "falcosecurity/falco"
+    description: "Cloud native runtime security"
+    homepage: "https://falco.org/"
+    
+  - name: "wazuh"
+    repo: "wazuh/wazuh"
+    description: "Security platform for threat detection, compliance, and incident response"
+    homepage: "https://wazuh.com/"
+    
+  - name: "suricata"
+    repo: "OISF/suricata"
+    description: "Network threat detection engine"
+    homepage: "https://suricata.io/"
+    
+  - name: "zeek"
+    repo: "zeek/zeek"
+    description: "Network security monitoring platform"
+    homepage: "https://zeek.org/"
+
+threat_intelligence:
+  - name: "misp"
+    repo: "MISP/MISP"
+    description: "Threat intelligence platform for sharing, storing and correlating indicators"
+    homepage: "https://www.misp-project.org/"
+    
+  - name: "yeti"
+    repo: "yeti-platform/yeti"
+    description: "Platform for managing observables, indicators of compromise, TTPs, and knowledge"
+    
+  - name: "opencti"
+    repo: "OpenCTI-Platform/opencti"
+    description: "Open cyber threat intelligence platform"
+    homepage: "https://www.opencti.io/"
+    
+  - name: "cortex"
+    repo: "TheHive-Project/Cortex"
+    description: "Observable analysis and active response engine"
+    
+container_security:
+  - name: "trivy"
+    repo: "aquasecurity/trivy"
+    description: "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repos, clouds and more"
+    homepage: "https://trivy.dev/"
+    
+  - name: "clair"
+    repo: "quay/clair"
+    description: "Vulnerability static analysis for containers"
+    homepage: "https://quay.github.io/clair/"
+    
+  - name: "anchore"
+    repo: "anchore/anchore-engine"
+    description: "Container image vulnerability analysis service"
+    
+  - name: "docker-bench"
+    repo: "docker/docker-bench-security"
+    description: "Script that checks for dozens of common best-practices around deploying Docker"
+    
+cloud_security:
+  - name: "prowler"
+    repo: "prowler-cloud/prowler"
+    description: "AWS/Azure/GCP security tool to perform assessments, audits, incident response, continuous monitoring, hardening and forensics readiness"
+    homepage: "https://prowler.pro/"
+    
+  - name: "scout2"
+    repo: "nccgroup/Scout2"
+    description: "Security auditing tool for AWS environments"
+    
+  - name: "cloudmapper"
+    repo: "duo-labs/cloudmapper"
+    description: "CloudMapper helps you analyze your Amazon Web Services (AWS) environments"
+    
+  - name: "pacu"
+    repo: "RhinoSecurityLabs/pacu"
+    description: "AWS exploitation framework"
+    
+  - name: "cloudsploit"
+    repo: "aquasecurity/cloudsploit"
+    description: "Cloud security posture management (CSPM)"
+    
+devsecops:
+  - name: "bandit"
+    repo: "PyCQA/bandit"
+    description: "Security linter for Python code"
+    homepage: "https://bandit.readthedocs.io/"
+    
+  - name: "safety"
+    repo: "pyupio/safety"
+    description: "Safety checks Python dependencies for known security vulnerabilities"
+    homepage: "https://pyup.io/safety/"
+    
+  - name: "gosec"
+    repo: "securecodewarrior/gosec"
+    description: "Golang security checker"
+    
+  - name: "brakeman"
+    repo: "presidentbeef/brakeman"
+    description: "Static analysis security scanner for Ruby on Rails"
+    homepage: "https://brakemanscanner.org/"
+    
+  - name: "sonarqube"
+    repo: "SonarSource/sonarqube"
+    description: "Continuous code quality and security analysis"
+    homepage: "https://www.sonarqube.org/"
+    
+  - name: "dependency-check"
+    repo: "jeremylong/DependencyCheck"
+    description: "Software composition analysis to identify project dependencies with known vulnerabilities"
+    
+incident_response:
+  - name: "volatility"
+    repo: "volatilityfoundation/volatility"
+    description: "Advanced memory forensics framework"
+    homepage: "https://www.volatilityfoundation.org/"
+    
+  - name: "osquery"
+    repo: "osquery/osquery"
+    description: "SQL powered operating system instrumentation and analytics framework"
+    homepage: "https://osquery.io/"
+    
+  - name: "autopsy"
+    repo: "sleuthkit/autopsy"
+    description: "Digital forensics platform"
+    homepage: "https://www.autopsy.com/"
+    
+  - name: "grrr"
+    repo: "google/grr"
+    description: "Rapid response framework for remote live forensics"
+    
+penetration_testing:
+  - name: "metasploit"
+    repo: "rapid7/metasploit-framework"
+    description: "The world's most used penetration testing framework"
+    homepage: "https://www.metasploit.com/"
+    
+  - name: "sqlmap"
+    repo: "sqlmapproject/sqlmap"
+    description: "Automatic SQL injection and database takeover tool"
+    homepage: "https://sqlmap.org/"
+    
+  - name: "gobuster"
+    repo: "OJ/gobuster"
+    description: "Directory/File, DNS and VHost busting tool written in Go"
+    
+  - name: "ffuf"
+    repo: "ffuf/ffuf"
+    description: "Fast web fuzzer written in Go"
+    
+  - name: "hydra"
+    repo: "vanhauser-thc/thc-hydra"
+    description: "Parallelized login cracker"
+    
+  - name: "john"
+    repo: "openwall/john"
+    description: "John the Ripper password cracker"
+    homepage: "https://www.openwall.com/john/"
+    
+cryptography:
+  - name: "libsodium"
+    repo: "jedisct1/libsodium"
+    description: "Modern, portable, easy to use crypto library"
+    homepage: "https://libsodium.org/"
+    
+  - name: "openssl"
+    repo: "openssl/openssl"
+    description: "TLS/SSL and crypto library"
+    homepage: "https://www.openssl.org/"
+    
+  - name: "cryptography"
+    repo: "pyca/cryptography"
+    description: "Cryptographic library for Python"
+    homepage: "https://cryptography.io/"
+    
+  - name: "boringssl"
+    repo: "google/boringssl"
+    description: "BoringSSL is a fork of OpenSSL"
+    
+security_learning:
+  - name: "owasp-top10"
+    repo: "OWASP/Top10"
+    description: "Official OWASP Top 10 Document Repository"
+    homepage: "https://owasp.org/www-project-top-ten/"
+    
+  - name: "dvwa"
+    repo: "digininja/DVWA"
+    description: "Damn Vulnerable Web Application (DVWA)"
+    
+  - name: "webgoat"
+    repo: "WebGoat/WebGoat"
+    description: "Deliberately insecure application for learning web app security"
+    homepage: "https://webgoat.github.io/WebGoat/"
+    
+  - name: "vulnhub"
+    repo: "VulnHub/ctf-writeups"
+    description: "Collection of CTF writeups"
+    
+  - name: "picoctf"
+    repo: "picoCTF/picoCTF"
+    description: "PicoCTF platform development"
+    homepage: "https://picoctf.org/"
+    
+  - name: "overthewire"
+    repo: "OverTheWireOrg/overthewire.org"
+    description: "OverTheWire wargames website"
+    homepage: "https://overthewire.org/"
