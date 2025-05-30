@@ -2032,6 +2032,9 @@ mobile_security:
 - name: EasyProtector
   repo: lamster2018/EasyProtector
   description: 一行代码检测XP/调试/多开/模拟器/root
+- name: GhostTrack
+  repo: HunxByts/GhostTrack
+  description: Useful tool to track location or mobile number
 blockchain_security:
 - name: mythril
   repo: ConsenSysDiligence/mythril
