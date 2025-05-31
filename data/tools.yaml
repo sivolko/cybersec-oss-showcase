@@ -1159,6 +1159,10 @@ container_security:
 - name: ContainerSSH
   repo: ContainerSSH/ContainerSSH
   description: 'ContainerSSH: Launch containers on demand'
+- name: FastCVE
+  repo: binareio/FastCVE
+  description: 'FastCVE: A Dockerized CVE search tool with API and CLI support for
+    security vulnerability queries.'
 cloud_security:
 - name: prowler
   repo: prowler-cloud/prowler
