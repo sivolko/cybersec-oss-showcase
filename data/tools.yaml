@@ -837,6 +837,9 @@ vulnerability_scanners:
   description: A security tool for multithreaded information gathering and service
     enumeration whilst building directory structures to store results, along with
     writing out recommendations for further testing.
+- name: CyberSources
+  repo: bst04/CyberSources
+  description: A curated list of cybersecurity tools and resources.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
