@@ -1081,6 +1081,9 @@ threat_intelligence:
 - name: TorBot
   repo: DedSecInside/TorBot
   description: Dark Web OSINT Tool
+- name: cai
+  repo: aliasrobotics/cai
+  description: Cybersecurity AI (CAI), an open Bug Bounty-ready Artificial Intelligence
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
