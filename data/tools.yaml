@@ -974,6 +974,10 @@ security_automation:
     dashboards, hunting, PCAP, detections, and case management. It also includes other
     tools such as osquery, CyberChef, Elasticsearch, Logstash, Kibana, Suricata, and
     Zeek.
+- name: BeeXSS
+  repo: AnonKryptiQuz/BeeXSS
+  description: BeeXSS is a specialized automated tool designed to detect Blind XSS
+    (Cross-Site Scripting) vulnerabilities in web applications.
 threat_intelligence:
 - name: misp
   repo: MISP/MISP
