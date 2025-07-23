@@ -848,6 +848,11 @@ vulnerability_scanners:
 - name: anubis
   repo: TecharoHQ/anubis
   description: Weighs the soul of incoming HTTP requests to stop AI crawlers
+- name: rag-security-scanner
+  repo: olegnazarov/rag-security-scanner
+  description: RAG/LLM Security Scanner identifies critical vulnerabilities in AI-powered
+    applications, including chatbots, virtual assistants, and knowledge retrieval
+    systems.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
