@@ -1096,6 +1096,11 @@ threat_intelligence:
 - name: cai
   repo: aliasrobotics/cai
   description: Cybersecurity AI (CAI), an open Bug Bounty-ready Artificial Intelligence
+- name: gitGraber
+  repo: hisxo/gitGraber
+  description: 'gitGraber: monitor GitHub to search and find sensitive data in real
+    time for different online services such as: Google, Amazon, Paypal, Github, Mailgun,
+    Facebook, Twitter, Heroku, Stripe...'
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
