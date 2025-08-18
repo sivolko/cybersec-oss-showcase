@@ -853,6 +853,10 @@ vulnerability_scanners:
   description: RAG/LLM Security Scanner identifies critical vulnerabilities in AI-powered
     applications, including chatbots, virtual assistants, and knowledge retrieval
     systems.
+- name: Zero
+  repo: Mail-0/Zero
+  description: 'Experience email the way you want with Mail0 – the first open source
+    email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord'
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
