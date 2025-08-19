@@ -1105,6 +1105,11 @@ threat_intelligence:
   description: 'gitGraber: monitor GitHub to search and find sensitive data in real
     time for different online services such as: Google, Amazon, Paypal, Github, Mailgun,
     Facebook, Twitter, Heroku, Stripe...'
+- name: omnisci3nt
+  repo: spyboy-productions/omnisci3nt
+  description: Omnisci3nt – See What They’ve Tried to Hide Extract deep intelligence
+    from any domain. From subdomains to SSL certs, archived secrets to exposed ports
+    — Omnisci3nt gives you the full picture in seconds.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
