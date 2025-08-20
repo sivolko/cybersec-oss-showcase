@@ -857,6 +857,10 @@ vulnerability_scanners:
   repo: Mail-0/Zero
   description: 'Experience email the way you want with Mail0 – the first open source
     email app that puts your privacy and safety first. Join the discord: https://mail0.link/discord'
+- name: Crascan
+  repo: aryanrtm/Crascan
+  description: Crascan is a simple LFI, RFI, RCE, and Joomla Components vulnerability
+    scanner.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
