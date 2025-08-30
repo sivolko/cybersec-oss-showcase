@@ -861,6 +861,13 @@ vulnerability_scanners:
   repo: aryanrtm/Crascan
   description: Crascan is a simple LFI, RFI, RCE, and Joomla Components vulnerability
     scanner.
+- name: Secrover
+  repo: Secrover/Secrover
+  description: Open-source security reports — no paywalls, just actionable insights.
+- name: nessusbeat
+  repo: darvid/nessusbeat
+  description: A Beat that monitors a local Nessus reports directory and outputs scan
+    results to Elasticsearch or Logstash.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
