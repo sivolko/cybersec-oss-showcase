@@ -1874,6 +1874,10 @@ cryptography:
   description: 🔐   Securely share sensitive information with automatic expiration
     & deletion after a set number of views or duration.  Track who, what and when
     with full audit logs.
+- name: simplex-chat
+  repo: simplex-chat/simplex-chat
+  description: SimpleX - the first messaging network operating without user identifiers
+    of any kind - 100% private by design! iOS, Android and desktop apps 📱!
 security_learning:
 - name: owasp-top10
   repo: OWASP/Top10
