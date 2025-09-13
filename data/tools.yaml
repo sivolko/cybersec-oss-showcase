@@ -868,6 +868,58 @@ vulnerability_scanners:
   repo: darvid/nessusbeat
   description: A Beat that monitors a local Nessus reports directory and outputs scan
     results to Elasticsearch or Logstash.
+- name: RedTiger-Tools
+  repo: loxy0dev/RedTiger-Tools
+  description: RedTiger-Tools is a free multi-tool with many features in the areas
+    of Cybersecurity, Pentesting, OSINT, Network Scanning, Discord and Ethical Hacking.
+    (For educational purposes only)
+- name: lunasec
+  repo: lunasec-io/lunasec
+  description: 'LunaSec - Dependency Security Scanner that automatically notifies
+    you about vulnerabilities like Log4Shell or node-ipc in your Pull Requests and
+    Builds. Protect yourself in 30 seconds with the LunaTrace GitHub App: https://github.com/marketplace/lunatrace-by-lunasec/ '
+- name: can-i-take-over-dns
+  repo: indianajson/can-i-take-over-dns
+  description: '"Can I take over DNS?" — a list of DNS providers and how to claim
+    vulnerable domains.'
+- name: WebMap
+  repo: SabyasachiRana/WebMap
+  description: WebMap-Nmap Web Dashboard and Reporting
+- name: magicRecon
+  repo: robotshell/magicRecon
+  description: MagicRecon is a powerful shell script to maximize the recon and data
+    collection process of an objective and finding common vulnerabilities, all this
+    saving the results obtained in an organized way in directories and with various
+    formats.
+- name: RustHound
+  repo: NH-RED-TEAM/RustHound
+  description: Active Directory data ingestor for BloodHound Legacy written in Rust.
+    🦀
+- name: vuln-scanner-flask
+  repo: krishpranav/vuln-scanner-flask
+  description: A flask web app made for scanning vulnerabilites on a website, network
+    exploitation, reconnaissance
+- name: RevOK
+  repo: AvalZ/RevOK
+  description: An HTTP Response fuzzer to find Vulnerabilities in Security Scanners
+- name: LMAP
+  repo: TrustAI-laboratory/LMAP
+  description: LMAP (large language model mapper) is like NMAP for LLM, is an LLM
+    Vulnerability Scanner and Zero-day Vulnerability Fuzzer.
+- name: bsqli
+  repo: KKonaNN/bsqli
+  description: Fast and customizable Blind SQL vulnerability scanner based on simple
+    xor payloads.
+- name: MyBBscan
+  repo: 0xB9/MyBBscan
+  description: Scans plugins directory for possible vulnerable plugins.
+- name: xray-automation
+  repo: securi3ytalent/xray-automation
+  description: A complete security assessment tool that supports common web security
+    issues scanning and custom POC | Be sure to read the document before using.
+- name: GSIL
+  repo: FeeiCN/GSIL
+  description: GitHub Sensitive Information Leakage（GitHub敏感信息泄露监控）
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -998,6 +1050,17 @@ security_automation:
   repo: AnonKryptiQuz/BeeXSS
   description: BeeXSS is a specialized automated tool designed to detect Blind XSS
     (Cross-Site Scripting) vulnerabilities in web applications.
+- name: security_content
+  repo: splunk/security_content
+  description: Splunk Security Content
+- name: DumpsterFire
+  repo: TryCatchHCF/DumpsterFire
+  description: '"Security Incidents In A Box!"   A modular, menu-driven, cross-platform
+    tool for building customized, time-delayed, distributed security events. Easily
+    create custom event chains for Blue- & Red Team drills and sensor / alert mapping.
+    Red Teams can create decoy incidents, distractions, and lures to support and scale
+    their operations. Build event sequences ("narratives") to simulate realistic scenarios
+    and generate corresponding network and filesystem artifacts.'
 threat_intelligence:
 - name: misp
   repo: MISP/MISP
@@ -1121,6 +1184,17 @@ threat_intelligence:
   description: Omnisci3nt – See What They’ve Tried to Hide Extract deep intelligence
     from any domain. From subdomains to SSL certs, archived secrets to exposed ports
     — Omnisci3nt gives you the full picture in seconds.
+- name: tookie-osint
+  repo: Alfredredbird/tookie-osint
+  description: Tookie is a advanced OSINT information gathering tool that finds social
+    media accounts based on inputs.
+- name: Offensive-OSINT-Tools
+  repo: wddadk/Offensive-OSINT-Tools
+  description: OffSec OSINT Pentest/RedTeam Tools
+- name: Open-Source-Security-Guide
+  repo: mikeroyal/Open-Source-Security-Guide
+  description: 'Open Source Security Guide. Learn all about Security Standards (FIPS,
+    CIS, FedRAMP, FISMA, etc.), Frameworks, Threat Models, Encryption, and Benchmarks. '
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
@@ -1215,6 +1289,14 @@ container_security:
   repo: docker-archive-public/docker.labs
   description: This is a collection of tutorials for learning how to use Docker with
     various tools. Contributions welcome.
+- name: pipeline
+  repo: alcideio/pipeline
+  description: Alcide Kubernetes Advisor ... Cluster Hygiene & Security Scanner -
+    Pipeline Integration
+- name: beescan
+  repo: beesyst/beescan
+  description: Modular platform for security auditing of networks, web, DNS & APIs.
+    Plugin-based, Docker-isolated, and report-driven.
 cloud_security:
 - name: prowler
   repo: prowler-cloud/prowler
@@ -1302,6 +1384,9 @@ cloud_security:
 - name: consoleme
   repo: Netflix/consoleme
   description: A Central Control Plane for AWS Permissions and Access
+- name: CloudBrute
+  repo: 0xsha/CloudBrute
+  description: 'Awesome cloud enumerator '
 devsecops:
 - name: bandit
   repo: PyCQA/bandit
@@ -1406,6 +1491,14 @@ devsecops:
   description: Find security vulnerabilities, compliance issues, and infrastructure
     misconfigurations early in the development cycle of your infrastructure-as-code
     with KICS by Checkmarx.
+- name: Incident-Playbook
+  repo: austinsonger/Incident-Playbook
+  description: 'GOAL: Incident Response Playbooks Mapped to MITRE Attack Tactics and
+    Techniques. [Contributors Friendly]'
+- name: wiretap
+  repo: sandialabs/wiretap
+  description: Wiretap is a transparent, VPN-like proxy server that tunnels traffic
+    via WireGuard and requires no special privileges to run.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
@@ -1481,6 +1574,9 @@ incident_response:
 - name: sysmon-modular
   repo: olafhartong/sysmon-modular
   description: A repository of sysmon configuration modules
+- name: Sooty
+  repo: TheresAFewConors/Sooty
+  description: The SOC Analysts all-in-one CLI tool to automate and speed up workflow.
 penetration_testing:
 - name: metasploit
   repo: rapid7/metasploit-framework
@@ -1795,6 +1891,29 @@ penetration_testing:
   repo: byt3bl33d3r/SILENTTRINITY
   description: An asynchronous, collaborative post-exploitation agent powered by Python
     and .NET's DLR
+- name: Lockdoor-Framework
+  repo: SofianeHamlaoui/Lockdoor-Framework
+  description: '🔐 Lockdoor Framework : A Penetration Testing framework with Cyber
+    Security Resources'
+- name: APTRS
+  repo: APTRS/APTRS
+  description: Automated pentest reporting with custom templates, project tracking,
+    customer dashboard and client management tools. Streamline your security workflows
+    effortlessly!
+- name: PowerShell-Obfuscation-Bible
+  repo: t3l3machus/PowerShell-Obfuscation-Bible
+  description: A collection of techniques, examples and a little bit of theory for
+    manually obfuscating PowerShell scripts to achieve AV evasion, compiled for educational
+    purposes. The contents of this repository are the result of personal research,
+    including reading materials online and conducting trial-and-error attempts in
+    labs and pentests.
+- name: pywerview
+  repo: the-useless-one/pywerview
+  description: A (partial) Python rewriting of PowerSploit's PowerView
+- name: vulnscan-parser
+  repo: happyc0ding/vulnscan-parser
+  description: Parse scan results into python objects, i.e. Nessus, Nmap, testssl,
+    metasploit, ...
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
@@ -2023,6 +2142,9 @@ network_security:
 - name: Modlishka
   repo: drk1wi/Modlishka
   description: 'Modlishka. Reverse Proxy.  '
+- name: ja4
+  repo: FoxIO-LLC/ja4
+  description: JA4+ is a suite of network fingerprinting standards
 information_gathering:
 - name: argus
   repo: jasonxtn/Argus
@@ -2095,6 +2217,10 @@ mobile_security:
 - name: GhostTrack
   repo: HunxByts/GhostTrack
   description: Useful tool to track location or mobile number
+- name: frida-ios-hook
+  repo: noobpk/frida-ios-hook
+  description: A tool that helps you easy trace classes, functions, and modify the
+    return values of methods on iOS platform
 blockchain_security:
 - name: mythril
   repo: ConsenSysDiligence/mythril
