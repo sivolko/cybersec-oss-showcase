@@ -920,6 +920,9 @@ vulnerability_scanners:
 - name: GSIL
   repo: FeeiCN/GSIL
   description: GitHub Sensitive Information Leakage（GitHub敏感信息泄露监控）
+- name: strix
+  repo: usestrix/strix
+  description: Open-source AI hackers to find and fix your app’s vulnerabilities
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
