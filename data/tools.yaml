@@ -923,6 +923,9 @@ vulnerability_scanners:
 - name: strix
   repo: usestrix/strix
   description: Open-source AI hackers to find and fix your app’s vulnerabilities
+- name: osv.dev
+  repo: google/osv.dev
+  description: Open source vulnerability DB and triage service.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
