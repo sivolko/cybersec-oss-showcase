@@ -926,6 +926,12 @@ vulnerability_scanners:
 - name: osv.dev
   repo: google/osv.dev
   description: Open source vulnerability DB and triage service.
+- name: XCodeReviewer
+  repo: lintsinghua/XCodeReviewer
+  description: '基于大语言模型（LLM）和可解释 AI（XAI）的下一代代码质量与安全分析工具。支持对整个代码仓库和单个代码片段进行自动化静态分析（SAST），旨在发现隐藏的
+    Bug、安全漏洞（如 SQL 注入、XSS）、性能问题、代码异味和技术债。为您的 Pull Request 和日常开发提供智能、可解释的审查反馈。A next-gen
+    code quality and security analysis tool, powered by Large Language Models (LLM)
+    and enhanced with Explainable AI (XAI). '
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
