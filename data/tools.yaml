@@ -932,6 +932,10 @@ vulnerability_scanners:
     Bug、安全漏洞（如 SQL 注入、XSS）、性能问题、代码异味和技术债。为您的 Pull Request 和日常开发提供智能、可解释的审查反馈。A next-gen
     code quality and security analysis tool, powered by Large Language Models (LLM)
     and enhanced with Explainable AI (XAI). '
+- name: AI-Infra-Guard
+  repo: Tencent/AI-Infra-Guard
+  description: A.I.G (AI-Infra-Guard) is a comprehensive, intelligent, and easy-to-use
+    AI Red Teaming platform developed by Tencent Zhuque Lab.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -1511,6 +1515,10 @@ devsecops:
   repo: sandialabs/wiretap
   description: Wiretap is a transparent, VPN-like proxy server that tunnels traffic
     via WireGuard and requires no special privileges to run.
+- name: CS7038-Malware-Analysis
+  repo: ckane/CS7038-Malware-Analysis
+  description: Course Repository for University of Cincinnati Malware Analysis Class
+    (CS[567]038)
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
