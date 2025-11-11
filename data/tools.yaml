@@ -1934,6 +1934,10 @@ penetration_testing:
   repo: happyc0ding/vulnscan-parser
   description: Parse scan results into python objects, i.e. Nessus, Nmap, testssl,
     metasploit, ...
+- name: blackarch
+  repo: BlackArch/blackarch
+  description: An ArchLinux based distribution for penetration testers and security
+    researchers.
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
