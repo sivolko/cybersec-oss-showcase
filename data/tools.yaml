@@ -936,6 +936,13 @@ vulnerability_scanners:
   repo: Tencent/AI-Infra-Guard
   description: A.I.G (AI-Infra-Guard) is a comprehensive, intelligent, and easy-to-use
     AI Red Teaming platform developed by Tencent Zhuque Lab.
+- name: beelzebub
+  repo: mariocandela/beelzebub
+  description: A secure low code honeypot framework, leveraging AI for System Virtualization.
+- name: react2shell-ultimate
+  repo: hackersatyamrastogi/react2shell-ultimate
+  description: React2Shell Ultimate - The most comprehensive CVE-2025-66478 Scanner
+    for Next.js RSC RCE vulnerability. Multi-mode detection, WAF bypass, local scanning.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -1211,6 +1218,14 @@ threat_intelligence:
   repo: mikeroyal/Open-Source-Security-Guide
   description: 'Open Source Security Guide. Learn all about Security Standards (FIPS,
     CIS, FedRAMP, FISMA, etc.), Frameworks, Threat Models, Encryption, and Benchmarks. '
+- name: god-eye
+  repo: Vyntral/god-eye
+  description: AI-powered subdomain enumeration tool with local LLM analysis via Ollama
+    - 100% private, zero API costs
+- name: god-eye
+  repo: ommengman-prog/god-eye
+  description: 🛡️ Detect and respond to security threats in real-time with God-Eye,
+    an AI-driven tool designed for privacy and local deployment on multiple platforms.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
@@ -1519,6 +1534,16 @@ devsecops:
   repo: ckane/CS7038-Malware-Analysis
   description: Course Repository for University of Cincinnati Malware Analysis Class
     (CS[567]038)
+- name: DeepAudit
+  repo: lintsinghua/DeepAudit
+  description: DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计
+    + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。​让安全不再昂贵，让审计不再复杂。
+- name: Shai-Hulud-2.0-Detector
+  repo: gensecaihq/Shai-Hulud-2.0-Detector
+  description: Detect npm packages compromised in the Shai-Hulud 2.0 supply chain
+    attack (Nov 2025). Scans for 790+ malicious packages, suspicious scripts, TruffleHog
+    activity, SHA1HULUD runners, and secrets exfiltration. GitHub Action with SARIF
+    support.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
@@ -2021,6 +2046,10 @@ cryptography:
   repo: simplex-chat/simplex-chat
   description: SimpleX - the first messaging network operating without user identifiers
     of any kind - 100% private by design! iOS, Android and desktop apps 📱!
+- name: Search-That-Hash
+  repo: Jayy001/Search-That-Hash
+  description: 🔎Searches Hash APIs to crack your hash quickly🔎 If hash is not found,
+    automatically pipes into HashCat⚡
 security_learning:
 - name: owasp-top10
   repo: OWASP/Top10
