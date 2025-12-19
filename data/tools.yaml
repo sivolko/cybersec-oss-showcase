@@ -943,6 +943,11 @@ vulnerability_scanners:
   repo: hackersatyamrastogi/react2shell-ultimate
   description: React2Shell Ultimate - The most comprehensive CVE-2025-66478 Scanner
     for Next.js RSC RCE vulnerability. Multi-mode detection, WAF bypass, local scanning.
+- name: shannon
+  repo: KeygraphHQ/shannon
+  description: Fully autonomous AI hacker to find actual exploits in your web apps.
+    Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW
+    Benchmark.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
