@@ -948,6 +948,9 @@ vulnerability_scanners:
   description: Fully autonomous AI hacker to find actual exploits in your web apps.
     Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW
     Benchmark.
+- name: xingrin
+  repo: yyhuni/xingrin
+  description: 企业资产漏洞扫描与资产管理平台，子域名爆破，端口扫描，站点发现，目录扫描，爬虫，漏洞扫描
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
