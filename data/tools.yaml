@@ -2122,6 +2122,11 @@ security_learning:
   repo: harsh-bothra/learn365
   description: This repository is about @harshbothra_'s 365 days of Learning Tweets
     & Mindmaps collection.
+- name: CTFCrackTools
+  repo: 0Chencc/CTFCrackTools
+  description: The next-generation CTF Swiss Army Knife powered by Rust & Tauri. Features
+    a visual node-based workflow and local AI intelligence for extreme performance
+    and automation.China's first CTFTools framework.
 network_security:
 - name: xray
   repo: evilsocket/xray
