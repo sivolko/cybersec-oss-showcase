@@ -1552,6 +1552,11 @@ devsecops:
     attack (Nov 2025). Scans for 790+ malicious packages, suspicious scripts, TruffleHog
     activity, SHA1HULUD runners, and secrets exfiltration. GitHub Action with SARIF
     support.
+- name: nodepass
+  repo: yosebyte/nodepass
+  description: A secure, efficient TCP/UDP tunneling solution that delivers fast,
+    reliable access across network restrictions using pre-established TCP/QUIC/WebSocket
+    or HTTP/2 connections.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
