@@ -951,6 +951,12 @@ vulnerability_scanners:
 - name: xingrin
   repo: yyhuni/xingrin
   description: 企业资产漏洞扫描与资产管理平台，子域名爆破，端口扫描，站点发现，目录扫描，爬虫，漏洞扫描
+- name: BurpAPISecuritySuite
+  repo: Teycir/BurpAPISecuritySuite
+  description: Burp Suite extension for API security testing with 15 attack types,
+    108+ payloads, intelligent fuzzing, BOLA/IDOR detection, AI integration, and automated
+    reconnaissance. Supports REST/GraphQL/SOAP APIs with Nuclei, Turbo Intruder, and
+    external tool integration. OWASP API Top 10 coverage.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
