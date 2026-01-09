@@ -957,6 +957,12 @@ vulnerability_scanners:
     108+ payloads, intelligent fuzzing, BOLA/IDOR detection, AI integration, and automated
     reconnaissance. Supports REST/GraphQL/SOAP APIs with Nuclei, Turbo Intruder, and
     external tool integration. OWASP API Top 10 coverage.
+- name: BCHackTool
+  repo: ByCh4n/BCHackTool
+  description: 🔥 Professional Penetration Testing Framework v4.0 - Automated subdomain
+    enumeration, vulnerability scanning with Nuclei, port scanning, and comprehensive
+    HTML reports. Features parallel scanning, resume capability, and real-time progress
+    tracking.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
