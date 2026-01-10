@@ -963,6 +963,12 @@ vulnerability_scanners:
     enumeration, vulnerability scanning with Nuclei, port scanning, and comprehensive
     HTML reports. Features parallel scanning, resume capability, and real-time progress
     tracking.
+- name: brs-xss
+  repo: EPTLLC/brs-xss
+  description: MIT license BRS-XSS is a modular Python CLI scanner for XSS vulnerabilities.
+    Features context-aware payloads, WAF evasion, DOM analysis via Playwright, ML-based
+    risk scoring, and export in HTML/JSON/SARIF. Designed for integration with Brabus
+    Recon Suite (BRS).
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -1988,6 +1994,11 @@ penetration_testing:
   repo: BlackArch/blackarch
   description: An ArchLinux based distribution for penetration testers and security
     researchers.
+- name: FofaMap
+  repo: asaotomo/FofaMap
+  description: FofaMap v2.0 是一款基于 Python3 开发的全网首个 AI 驱动红队资产测绘智能体。在延续原有 FOFA 数据采集、存活检测、统计聚合、图标
+    Hash 及批量查询等核心功能的基础上，2.0 版本原生支持 MCP 协议，可无缝接入 Cursor、Claude 等 AI 平台。其核心内置了 AI 自我反思机制，能根据查询结果自动调优语法，并智能联动
+    Nuclei 推荐精准扫描策略，实现从“被动采集”到“主动智能决策”的红队作业进化。
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
