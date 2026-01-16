@@ -1575,6 +1575,11 @@ devsecops:
   description: A secure, efficient TCP/UDP tunneling solution that delivers fast,
     reliable access across network restrictions using pre-established TCP/QUIC/WebSocket
     or HTTP/2 connections.
+- name: nodepass
+  repo: NodePassProject/nodepass
+  description: A secure, efficient TCP/UDP tunneling solution that delivers fast,
+    reliable access across network restrictions using pre-established TCP/QUIC/WebSocket
+    or HTTP/2 connections.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
