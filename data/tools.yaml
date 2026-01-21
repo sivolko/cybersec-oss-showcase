@@ -969,6 +969,9 @@ vulnerability_scanners:
     Features context-aware payloads, WAF evasion, DOM analysis via Playwright, ML-based
     risk scoring, and export in HTML/JSON/SARIF. Designed for integration with Brabus
     Recon Suite (BRS).
+- name: llm-guard
+  repo: protectai/llm-guard
+  description: The Security Toolkit for LLM Interactions
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
