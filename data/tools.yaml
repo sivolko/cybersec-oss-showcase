@@ -1260,6 +1260,10 @@ threat_intelligence:
   repo: ommengman-prog/god-eye
   description: 🛡️ Detect and respond to security threats in real-time with God-Eye,
     an AI-driven tool designed for privacy and local deployment on multiple platforms.
+- name: mcp-security-hub
+  repo: FuzzingLabs/mcp-security-hub
+  description: A growing collection of MCP servers bringing offensive security tools
+    to AI assistants. Nmap, Ghidra, Nuclei, SQLMap, Hashcat and more.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
