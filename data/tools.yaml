@@ -977,6 +977,11 @@ vulnerability_scanners:
   description: AI-first security scanner with 74+ analyzers, 180+ AI agent security
     rules, intelligent false positive reduction. Supports all languages. CVE detection
     for React2Shell, mcp-remote RCE.
+- name: artifact-keeper
+  repo: artifact-keeper/artifact-keeper
+  description: Open-source universal artifact registry. Drop-in Artifactory/Nexus
+    alternative with 40+ package formats, security scanning, WASM plugins, and edge
+    replication.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
