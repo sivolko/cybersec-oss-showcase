@@ -982,6 +982,12 @@ vulnerability_scanners:
   description: Open-source universal artifact registry. Drop-in Artifactory/Nexus
     alternative with 40+ package formats, security scanning, WASM plugins, and edge
     replication.
+- name: brs-xss
+  repo: easypro-tech/brs-xss
+  description: MIT license BRS-XSS is a modular Python CLI scanner for XSS vulnerabilities.
+    Features context-aware payloads, WAF evasion, DOM analysis via Playwright, ML-based
+    risk scoring, and export in HTML/JSON/SARIF. Designed for integration with Brabus
+    Recon Suite (BRS).
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
