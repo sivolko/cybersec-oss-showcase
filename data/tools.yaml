@@ -988,6 +988,14 @@ vulnerability_scanners:
     Features context-aware payloads, WAF evasion, DOM analysis via Playwright, ML-based
     risk scoring, and export in HTML/JSON/SARIF. Designed for integration with Brabus
     Recon Suite (BRS).
+- name: Cybersecurity-Mastery-Roadmap
+  repo: Hamed233/Cybersecurity-Mastery-Roadmap
+  description: A comprehensive, step-by-step guide to mastering cybersecurity from
+    beginner to expert level with curated resources, tools, and career guidance
+- name: Zen-Ai-Pentest
+  repo: SHAdd0WTAka/Zen-Ai-Pentest
+  description: 🛡⚔️AI-Powered Penetration Testing Framework with automated vulnerability
+    scanning, multi-agent system, and compliance reporting🛡⚔️
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
