@@ -996,6 +996,10 @@ vulnerability_scanners:
   repo: SHAdd0WTAka/Zen-Ai-Pentest
   description: 🛡⚔️AI-Powered Penetration Testing Framework with automated vulnerability
     scanning, multi-agent system, and compliance reporting🛡⚔️
+- name: ESP32-DIV
+  repo: cifertech/ESP32-DIV
+  description: ESP32DIV is a multi-purpose wireless testing toolkit powered by an
+    ESP32
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
