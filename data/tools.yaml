@@ -1693,6 +1693,10 @@ incident_response:
 - name: Sooty
   repo: TheresAFewConors/Sooty
   description: The SOC Analysts all-in-one CLI tool to automate and speed up workflow.
+- name: ProxyBridge
+  repo: InterceptSuite/ProxyBridge
+  description: Proxifier Alternative to redirect any Windows/MacOS TCP and UDP traffic
+    to HTTP/Socks5 proxy
 penetration_testing:
 - name: metasploit
   repo: rapid7/metasploit-framework
