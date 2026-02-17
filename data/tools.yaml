@@ -1000,6 +1000,9 @@ vulnerability_scanners:
   repo: cifertech/ESP32-DIV
   description: ESP32DIV is a multi-purpose wireless testing toolkit powered by an
     ESP32
+- name: RemoveWindowsAI
+  repo: zoicware/RemoveWindowsAI
+  description: Force Remove Copilot, Recall and More in Windows 11
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
