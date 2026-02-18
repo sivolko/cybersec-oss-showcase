@@ -1003,6 +1003,10 @@ vulnerability_scanners:
 - name: RemoveWindowsAI
   repo: zoicware/RemoveWindowsAI
   description: Force Remove Copilot, Recall and More in Windows 11
+- name: SILENTCHAIN
+  repo: silentchainai/SILENTCHAIN
+  description: AI-powered vulnerability scanner extension for Burp Suite with multi-provider
+    support (Ollama, OpenAI, Claude, Gemini)
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
