@@ -1007,6 +1007,15 @@ vulnerability_scanners:
   repo: silentchainai/SILENTCHAIN
   description: AI-powered vulnerability scanner extension for Burp Suite with multi-provider
     support (Ollama, OpenAI, Claude, Gemini)
+- name: ward
+  repo: Eljakani/ward
+  description: Security scanner built for Laravel, detects misconfigurations, vulnerabilities,
+    and exposed secrets with a beautiful TUI.
+- name: agent-security-scanner-mcp
+  repo: sinewaveai/agent-security-scanner-mcp
+  description: Security scanner MCP server for AI coding agents. Prompt injection
+    firewall, package hallucination detection (4.3M+ packages), 1000+ vulnerability
+    rules with AST & taint analysis, auto-fix.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
