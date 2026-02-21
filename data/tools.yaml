@@ -1016,6 +1016,13 @@ vulnerability_scanners:
   description: Security scanner MCP server for AI coding agents. Prompt injection
     firewall, package hallucination detection (4.3M+ packages), 1000+ vulnerability
     rules with AST & taint analysis, auto-fix.
+- name: grummage
+  repo: popey/grummage
+  description: Grummage is an interactive terminal frontend to Grype
+- name: pentagi
+  repo: vxcontrol/pentagi
+  description: ✨ Fully autonomous AI Agents system capable of performing complex penetration
+    testing tasks
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
