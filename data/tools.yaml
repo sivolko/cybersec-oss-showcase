@@ -1023,6 +1023,11 @@ vulnerability_scanners:
   repo: vxcontrol/pentagi
   description: ✨ Fully autonomous AI Agents system capable of performing complex penetration
     testing tasks
+- name: agent-audit
+  repo: HeadyZhang/agent-audit
+  description: Static security scanner for LLM agents — prompt injection, MCP config
+    auditing, taint analysis. 49 rules mapped to OWASP Agentic Top 10 (2026). Works
+    with LangChain, CrewAI, AutoGen.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
