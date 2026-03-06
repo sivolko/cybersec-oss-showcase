@@ -1028,6 +1028,11 @@ vulnerability_scanners:
   description: Static security scanner for LLM agents — prompt injection, MCP config
     auditing, taint analysis. 49 rules mapped to OWASP Agentic Top 10 (2026). Works
     with LangChain, CrewAI, AutoGen.
+- name: brutespray
+  repo: x90skysn3k/brutespray
+  description: Fast, multi-protocol credential brute-forcer. Parses Nmap, Nessus,
+    and Nexpose output to automatically test default and custom credentials across
+    28 protocols.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -2237,6 +2242,10 @@ security_learning:
   description: The next-generation CTF Swiss Army Knife powered by Rust & Tauri. Features
     a visual node-based workflow and local AI intelligence for extreme performance
     and automation.China's first CTFTools framework.
+- name: GenP
+  repo: Cur10s1tyByt3/GenP
+  description: This repository preserves source materials and related documentation
+    about GenP tool. For archival and research purposes only.
 network_security:
 - name: xray
   repo: evilsocket/xray
