@@ -1320,6 +1320,10 @@ threat_intelligence:
   repo: FuzzingLabs/mcp-security-hub
   description: A growing collection of MCP servers bringing offensive security tools
     to AI assistants. Nmap, Ghidra, Nuclei, SQLMap, Hashcat and more.
+- name: Phantom
+  repo: Usta0x001/Phantom
+  description: ' Autonomous Offensive Security Intelligence  AI-powered multi-agent
+    penetration testing'
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
