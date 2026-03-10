@@ -1426,6 +1426,11 @@ container_security:
   repo: beesyst/beescan
   description: Modular platform for security auditing of networks, web, DNS & APIs.
     Plugin-based, Docker-isolated, and report-driven.
+- name: cstrike
+  repo: culpur/cstrike
+  description: CStrike v2.6 — Offensive Security Platform. 35+ tools, 9-container
+    Docker stack, self-update system, parallel port scanning, VPN kill-switch. Dual-arch
+    (amd64/aarch64) VM distribution.
 cloud_security:
 - name: prowler
   repo: prowler-cloud/prowler
@@ -1656,6 +1661,11 @@ devsecops:
   repo: naieum/Snitch
   description: A security audit plugin for Claude Code, Gemini CLI, Codex CLI, OpenCode,
     Antigravity, and Cursor. 40 categories. Zero false positives.
+- name: perseus
+  repo: kaivyy/perseus
+  description: AI-powered security assessment SKILLS for your codebase. Multi-language
+    (JS, Go, Python, Rust, Java, PHP, Ruby, C#). Works with Claude Code, Codex, OpenCode,
+    etc.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
