@@ -1033,6 +1033,11 @@ vulnerability_scanners:
   description: Fast, multi-protocol credential brute-forcer. Parses Nmap, Nessus,
     and Nexpose output to automatically test default and custom credentials across
     28 protocols.
+- name: agentseal
+  repo: AgentSeal/agentseal
+  description: Security toolkit for AI agents. Scan your machine for dangerous skills
+    and MCP configs, monitor for supply chain attacks, test prompt injection resistance,
+    and audit live MCP servers for tool poisoning.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
