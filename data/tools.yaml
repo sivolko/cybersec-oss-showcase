@@ -1038,6 +1038,11 @@ vulnerability_scanners:
   description: Security toolkit for AI agents. Scan your machine for dangerous skills
     and MCP configs, monitor for supply chain attacks, test prompt injection resistance,
     and audit live MCP servers for tool poisoning.
+- name: Fray
+  repo: dalisecurity/Fray
+  description: Open-source WAF bypass toolkit — 4,300+ payloads, 35+ recon checks,
+    98 WAF/CDN vendors, AI-assisted bypass, security hardening. For pentesters, bug
+    bounty hunters, and DevSecOps.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
