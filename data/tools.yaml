@@ -1043,6 +1043,10 @@ vulnerability_scanners:
   description: Open-source WAF bypass toolkit — 4,300+ payloads, 35+ recon checks,
     98 WAF/CDN vendors, AI-assisted bypass, security hardening. For pentesters, bug
     bounty hunters, and DevSecOps.
+- name: claude-bug-bounty
+  repo: shuvonsec/claude-bug-bounty
+  description: Claude Code skill for AI-assisted bug bounty hunting — recon, IDOR,
+    XSS, SSRF, OAuth, GraphQL, LLM injection, and report generation
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
