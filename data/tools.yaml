@@ -1047,6 +1047,19 @@ vulnerability_scanners:
   repo: shuvonsec/claude-bug-bounty
   description: Claude Code skill for AI-assisted bug bounty hunting — recon, IDOR,
     XSS, SSRF, OAuth, GraphQL, LLM injection, and report generation
+- name: repomind
+  repo: 403errors/repomind
+  description: An open-source, AI-powered application using Agentic CAG to chat with
+    any public GitHub repository or developer profile, offering deep code analysis,
+    visual architecture maps and security audits
+- name: bitdefender-total-security-ultimate-protection
+  repo: stalkrmaxwell6/bitdefender-total-security-ultimate-protection
+  description: 'Get Bitdefender Total Security Ultimate on GitHub: a complete, high-performance
+    toolkit for seamless malware defense and professional protection. #Antivirus'
+- name: public-skills-builder
+  repo: shuvonsec/public-skills-builder
+  description: Generate Claude Code bug bounty skills from public HackerOne reports
+    and GitHub writeups — 18 vuln classes, no private reports needed
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -1338,6 +1351,10 @@ threat_intelligence:
   repo: Usta0x001/Phantom
   description: ' Autonomous Offensive Security Intelligence  AI-powered multi-agent
     penetration testing'
+- name: malwarebytes-premium-security-suite
+  repo: jdynvirtuoz11/malwarebytes-premium-security-suite
+  description: 'Get Malwarebytes Premium Security Suite on GitHub: a complete, high-performance
+    toolkit for seamless threat removal and professional protection. #Safety'
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
