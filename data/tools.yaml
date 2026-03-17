@@ -1060,6 +1060,10 @@ vulnerability_scanners:
   repo: shuvonsec/public-skills-builder
   description: Generate Claude Code bug bounty skills from public HackerOne reports
     and GitHub writeups — 18 vuln classes, no private reports needed
+- name: fscan
+  repo: shadow1ng/fscan
+  description: 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(An intranet comprehensive scanning tool,
+    enabling one-click automated, all-round vulnerability scanning)
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
