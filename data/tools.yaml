@@ -1064,6 +1064,10 @@ vulnerability_scanners:
   repo: shadow1ng/fscan
   description: 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(An intranet comprehensive scanning tool,
     enabling one-click automated, all-round vulnerability scanning)
+- name: Anthropic-Cybersecurity-Skills
+  repo: mukul975/Anthropic-Cybersecurity-Skills
+  description: Open-source database of 700+ cybersecurity skills for AI agents and
+    security practitioners
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
