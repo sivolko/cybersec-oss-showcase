@@ -1071,6 +1071,11 @@ vulnerability_scanners:
 - name: beelzebub
   repo: beelzebub-labs/beelzebub
   description: A secure low code honeypot framework, leveraging AI for System Virtualization.
+- name: Worm-GPT-LLM-2026
+  repo: dubermandeer/Worm-GPT-LLM-2026
+  description: High-performance C++ execution engine for LLM red-teaming and prompt
+    engineering. Deploy dynamic jailbreak payloads, bypass alignment guardrails, and
+    utilize free autonomous uncensored conversational logic locally.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
