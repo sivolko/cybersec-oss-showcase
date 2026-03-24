@@ -1076,6 +1076,10 @@ vulnerability_scanners:
   description: High-performance C++ execution engine for LLM red-teaming and prompt
     engineering. Deploy dynamic jailbreak payloads, bypass alignment guardrails, and
     utilize free autonomous uncensored conversational logic locally.
+- name: bitdefender-total-security-ultimate-protection
+  repo: MeshContractorSay/bitdefender-total-security-ultimate-protection
+  description: 'Get Bitdefender Total Security Ultimate on GitHub: a complete, high-performance
+    toolkit for seamless malware defense and professional protection. #Antivirus'
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
