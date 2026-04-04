@@ -1080,6 +1080,11 @@ vulnerability_scanners:
   repo: MeshContractorSay/bitdefender-total-security-ultimate-protection
   description: 'Get Bitdefender Total Security Ultimate on GitHub: a complete, high-performance
     toolkit for seamless malware defense and professional protection. #Antivirus'
+- name: cscan
+  repo: tangxiaofeng7/cscan
+  description: '🚀 Enterprise-grade Distributed Asset & Vulnerability Scanner. Features:
+    Port Scanning, Subdomain Brute-force, Fingerprinting, and PoC Detection. Built
+    on Go-Zero & Vue3. 高性能分布式网络资产扫描平台 (端口/子域名/指纹/漏扫)---------------------------------点击下面URL获取高级POC'
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
