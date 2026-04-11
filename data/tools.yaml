@@ -1085,6 +1085,10 @@ vulnerability_scanners:
   description: '🚀 Enterprise-grade Distributed Asset & Vulnerability Scanner. Features:
     Port Scanning, Subdomain Brute-force, Fingerprinting, and PoC Detection. Built
     on Go-Zero & Vue3. 高性能分布式网络资产扫描平台 (端口/子域名/指纹/漏扫)---------------------------------点击下面URL获取高级POC'
+- name: foxguard
+  repo: PwnKit-Labs/foxguard
+  description: Linter-fast security scanning and policy checks for catching regressions
+    before deploy.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -2160,6 +2164,12 @@ penetration_testing:
 - name: wifi-pineapple-cloner
   repo: xchwarze/wifi-pineapple-cloner
   description: Port WiFi Pineapple NANO/TETRA in generic hardware
+- name: leaky-paths
+  repo: ayoubfathi/leaky-paths
+  description: A collection of special paths linked to common sensitive APIs, devops
+    internals, frameworks conf, known misconfigurations, juicy APIs ..etc. It could
+    be used as a part of web content discovery, to scan passively for high-quality
+    endpoints and quick-wins.
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
