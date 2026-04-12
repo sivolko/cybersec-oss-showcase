@@ -1730,6 +1730,10 @@ devsecops:
   description: AI-powered security assessment SKILLS for your codebase. Multi-language
     (JS, Go, Python, Rust, Java, PHP, Ruby, C#). Works with Claude Code, Codex, OpenCode,
     etc.
+- name: numasec
+  repo: FrancescoStabile/numasec
+  description: AI agent for penetration testing. Like Claude Code, but for security.
+    Open source, MCP-native, works with any LLM.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
