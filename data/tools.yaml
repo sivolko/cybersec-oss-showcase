@@ -2174,6 +2174,9 @@ penetration_testing:
     internals, frameworks conf, known misconfigurations, juicy APIs ..etc. It could
     be used as a part of web content discovery, to scan passively for high-quality
     endpoints and quick-wins.
+- name: Decepticon
+  repo: PurpleAILAB/Decepticon
+  description: Autonomous Hacking Agent for Red Team Testing
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
