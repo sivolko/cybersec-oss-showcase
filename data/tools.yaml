@@ -1089,6 +1089,11 @@ vulnerability_scanners:
   repo: PwnKit-Labs/foxguard
   description: Linter-fast security scanning and policy checks for catching regressions
     before deploy.
+- name: secure-code-game
+  repo: skills/secure-code-game
+  description: Learn to code securely while having fun through our popular open source
+    in-editor experience, designed for developers, students, and anyone curious about
+    security. Get started for free in under 2 minutes, playing right from your browser.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
