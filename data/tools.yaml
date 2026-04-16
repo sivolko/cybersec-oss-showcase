@@ -1094,6 +1094,11 @@ vulnerability_scanners:
   description: Learn to code securely while having fun through our popular open source
     in-editor experience, designed for developers, students, and anyone curious about
     security. Get started for free in under 2 minutes, playing right from your browser.
+- name: cache-commander
+  repo: juliensimon/cache-commander
+  description: Cache Commander — a TUI and MCP server to explore, audit, and clean
+    developer cache directories. Scan for CVEs, find outdated packages, reclaim disk
+    space. Supports pip, npm, Cargo, HuggingFace, Homebrew, and more.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
