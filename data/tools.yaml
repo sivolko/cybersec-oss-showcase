@@ -1744,6 +1744,12 @@ devsecops:
   repo: FrancescoStabile/numasec
   description: AI agent for penetration testing. Like Claude Code, but for security.
     Open source, MCP-native, works with any LLM.
+- name: cyber-neo
+  repo: Hainrixz/cyber-neo
+  description: Open-source cybersecurity analysis agent for Claude Code. Scans projects
+    for vulnerabilities across all OWASP 2025 Top 10 and CWE Top 25 categories. 11
+    security domains, 60+ secret patterns, parallel subagent analysis, professional
+    report generation. Built by tododeia.com
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
