@@ -1099,6 +1099,11 @@ vulnerability_scanners:
   description: Cache Commander — a TUI and MCP server to explore, audit, and clean
     developer cache directories. Scan for CVEs, find outdated packages, reclaim disk
     space. Supports pip, npm, Cargo, HuggingFace, Homebrew, and more.
+- name: agentseal
+  repo: getagentseal/agentseal
+  description: Security toolkit for AI agents. Scan your machine for dangerous skills
+    and MCP configs, monitor for supply chain attacks, test prompt injection resistance,
+    and audit live MCP servers for tool poisoning.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -1750,6 +1755,10 @@ devsecops:
     for vulnerabilities across all OWASP 2025 Top 10 and CWE Top 25 categories. 11
     security domains, 60+ secret patterns, parallel subagent analysis, professional
     report generation. Built by tododeia.com
+- name: claude-cybersecurity
+  repo: AgriciDaniel/claude-cybersecurity
+  description: AI-powered cybersecurity code review skill for Claude Code. 8 specialist
+    agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
