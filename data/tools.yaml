@@ -2202,6 +2202,9 @@ penetration_testing:
 - name: Decepticon
   repo: PurpleAILAB/Decepticon
   description: Autonomous Hacking Agent for Red Team Testing
+- name: AboutSecurity
+  repo: wgpsec/AboutSecurity
+  description: Everything for pentest. | 用于渗透测试的 payload 和 bypass 字典.
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
