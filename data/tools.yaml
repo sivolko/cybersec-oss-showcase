@@ -1403,6 +1403,10 @@ threat_intelligence:
   repo: Astrosp/Awesome-OSINT-For-Everything
   description: OSINT tools for Information gathering, Cybersecurity, Reverse searching,
     bugbounty, trust and safety, red team oprations and more.
+- name: pentest-ai
+  repo: 0xSteph/pentest-ai
+  description: The most autonomous pentesting AI on the market. MCP server + Python
+    agents with 150+ security tools, exploit chaining, and PoC validation.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
