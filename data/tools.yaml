@@ -1763,6 +1763,11 @@ devsecops:
   repo: AgriciDaniel/claude-cybersecurity
   description: AI-powered cybersecurity code review skill for Claude Code. 8 specialist
     agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.
+- name: drogonsec
+  repo: filipi86/drogonsec
+  description: High-performance open-source security scanner combining SAST, SCA,
+    Secret Detection, and IaC analysis, built for developers and CI/CD pipelines,
+    using AI for recommendation!
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
