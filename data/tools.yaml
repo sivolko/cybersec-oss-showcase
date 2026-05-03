@@ -1604,6 +1604,10 @@ cloud_security:
 - name: CloudBrute
   repo: 0xsha/CloudBrute
   description: 'Awesome cloud enumerator '
+- name: cloud-audit
+  repo: gebalamariusz/cloud-audit
+  description: Fast, opinionated AWS security scanner. Curated checks. Zero noise.
+    Copy-paste fixes.
 devsecops:
 - name: bandit
   repo: PyCQA/bandit
