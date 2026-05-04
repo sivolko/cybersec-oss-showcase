@@ -1407,6 +1407,13 @@ threat_intelligence:
   repo: 0xSteph/pentest-ai
   description: The most autonomous pentesting AI on the market. MCP server + Python
     agents with 150+ security tools, exploit chaining, and PoC validation.
+- name: RedTiger-Tools
+  repo: loxy0devlp/RedTiger-Tools
+  description: RedTiger-Tools is a multifunction automation tool dedicated to pentesting
+    and OSINT. The project is open source and designed to be fully configurable according
+    to user needs. It also includes a plugin system that allows users to extend or
+    create new features, in order to centralize multiple tools into a single unified
+    platform.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
