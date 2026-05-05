@@ -1104,6 +1104,11 @@ vulnerability_scanners:
   description: Security toolkit for AI agents. Scan your machine for dangerous skills
     and MCP configs, monitor for supply chain attacks, test prompt injection resistance,
     and audit live MCP servers for tool poisoning.
+- name: bountyhunter
+  repo: deonmenezes/bountyhunter
+  description: Autonomous bug bounty hunting framework for Claude Code — 7-phase FSM,
+    parallel hunter agents, 3-round adversarial verification, MCP control plane. Speed-tunable
+    harness modes (fast/ultra/loop/plan).
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
