@@ -2390,6 +2390,10 @@ security_learning:
   repo: Cur10s1tyByt3/GenP
   description: This repository preserves source materials and related documentation
     about GenP tool. For archival and research purposes only.
+- name: athena
+  repo: Athena-OS/athena
+  description: Athena OS is a Arch/Nix-based distro focused on Cybersecurity. Learn,
+    practice and enjoy with any hacking tool!
 network_security:
 - name: xray
   repo: evilsocket/xray
