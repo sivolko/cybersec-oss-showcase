@@ -1109,6 +1109,10 @@ vulnerability_scanners:
   description: Autonomous bug bounty hunting framework for Claude Code — 7-phase FSM,
     parallel hunter agents, 3-round adversarial verification, MCP control plane. Speed-tunable
     harness modes (fast/ultra/loop/plan).
+- name: personal-security-checklist
+  repo: lissy93/personal-security-checklist
+  description: 🔒 A compiled checklist of 300+ tips for protecting digital security
+    and privacy in 2026
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -1419,6 +1423,9 @@ threat_intelligence:
     to user needs. It also includes a plugin system that allows users to extend or
     create new features, in order to centralize multiple tools into a single unified
     platform.
+- name: web-check
+  repo: lissy93/web-check
+  description: 🕵️‍♂️ All-in-one OSINT tool for analysing any website
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
@@ -1784,6 +1791,10 @@ devsecops:
   description: High-performance open-source security scanner combining SAST, SCA,
     Secret Detection, and IaC analysis, built for developers and CI/CD pipelines,
     using AI for recommendation!
+- name: pwned-deps
+  repo: mkbhardwas12/pwned-deps
+  description: Lockfile-first scanner for compromised npm/PyPI/Maven/Cargo/Go/RubyGems
+    packages — OSV + curated extras feed, SLSA L3, locked-container CI
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
@@ -2230,6 +2241,11 @@ penetration_testing:
 - name: AboutSecurity
   repo: wgpsec/AboutSecurity
   description: Everything for pentest. | 用于渗透测试的 payload 和 bypass 字典.
+- name: pentest-ai-agents
+  repo: 0xSteph/pentest-ai-agents
+  description: Turn Claude Code into your offensive security research assistant. Specialized
+    AI subagents for authorized penetration testing plan engagements, analyze recon,
+    research exploits, build detections, audit STIGs, and write reports.
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
@@ -2394,6 +2410,11 @@ security_learning:
   repo: Athena-OS/athena
   description: Athena OS is a Arch/Nix-based distro focused on Cybersecurity. Learn,
     practice and enjoy with any hacking tool!
+- name: Cybersecurity-Projects
+  repo: CarterPerez-dev/Cybersecurity-Projects
+  description: Building 70 Projects ranging from beginner to advanced so anyone can
+    — learn from, build upon, use as a reference, or even copy directly. Gamified
+    Cybersecurity learning 👇
 network_security:
 - name: xray
   repo: evilsocket/xray
