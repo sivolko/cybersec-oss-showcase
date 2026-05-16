@@ -1113,6 +1113,11 @@ vulnerability_scanners:
   repo: lissy93/personal-security-checklist
   description: 🔒 A compiled checklist of 300+ tips for protecting digital security
     and privacy in 2026
+- name: foxguard
+  repo: 0sec-labs/foxguard
+  description: A security scanner as fast as a linter, written in Rust. Batteries
+    included, TUI for triage, secrets, post-quantum audits, diff-aware scans and more
+    𓃥
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
