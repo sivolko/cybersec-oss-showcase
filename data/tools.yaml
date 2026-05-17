@@ -1118,6 +1118,10 @@ vulnerability_scanners:
   description: A security scanner as fast as a linter, written in Rust. Batteries
     included, TUI for triage, secrets, post-quantum audits, diff-aware scans and more
     𓃥
+- name: palisade-security-nexus
+  repo: tonylinden54/palisade-security-nexus
+  description: 🛡️ Bitdefender Total Security 2026 Ultimate Protection Suite – Advanced
+    Antivirus & VPN
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
