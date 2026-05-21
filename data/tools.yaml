@@ -1122,6 +1122,9 @@ vulnerability_scanners:
   repo: tonylinden54/palisade-security-nexus
   description: 🛡️ Bitdefender Total Security 2026 Ultimate Protection Suite – Advanced
     Antivirus & VPN
+- name: caldera
+  repo: apache/caldera
+  description: Automated Adversary Emulation Platform
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -1804,6 +1807,10 @@ devsecops:
   repo: mkbhardwas12/pwned-deps
   description: Lockfile-first scanner for compromised npm/PyPI/Maven/Cargo/Go/RubyGems
     packages — OSV + curated extras feed, SLSA L3, locked-container CI
+- name: sec-af
+  repo: Agent-Field/sec-af
+  description: AI-native security auditor on AgentField that proves exploitability
+    with verdicts, traces, and actionable evidence.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
