@@ -1125,6 +1125,10 @@ vulnerability_scanners:
 - name: caldera
   repo: apache/caldera
   description: Automated Adversary Emulation Platform
+- name: DockSec
+  repo: OWASP/DockSec
+  description: AI-powered Docker security scanner that explains vulnerabilities in
+    plain English. An OWASP Incubator Project.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
