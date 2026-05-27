@@ -1446,6 +1446,10 @@ threat_intelligence:
 - name: web-check
   repo: lissy93/web-check
   description: 🕵️‍♂️ All-in-one OSINT tool for analysing any website
+- name: Awesome-OSINT-List
+  repo: Astrosp/Awesome-OSINT-List
+  description: OSINT tools for Information gathering, Cybersecurity, Reverse searching,
+    bugbounty, trust and safety, red team oprations and more.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
@@ -1819,6 +1823,11 @@ devsecops:
   repo: Agent-Field/sec-af
   description: AI-native security auditor on AgentField that proves exploitability
     with verdicts, traces, and actionable evidence.
+- name: keyleak-detector
+  repo: Amal-David/keyleak-detector
+  description: Runtime leak detector for modern web apps — finds exposed API keys,
+    validates BaaS misconfigurations (Supabase/Firebase RLS), and catches secrets
+    in JS bundles. Chrome extension + CLI.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
