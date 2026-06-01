@@ -1450,6 +1450,11 @@ threat_intelligence:
   repo: Astrosp/Awesome-OSINT-List
   description: OSINT tools for Information gathering, Cybersecurity, Reverse searching,
     bugbounty, trust and safety, red team oprations and more.
+- name: user-scanner
+  repo: kaifcodec/user-scanner
+  description: 🕵️‍♂️ (2-in-1) Email & Username OSINT suite. Analyzes 205+ scan vectors
+    (100+ email / 105+ username) for security research, investigations, and digital
+    footprinting.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
