@@ -1133,6 +1133,9 @@ vulnerability_scanners:
   repo: vigolium/vigolium
   description: Vigolium - High-fidelity vulnerability scanner fusing agentic AI with
     native speed, modularity, and precision
+- name: Conferences
+  repo: onhexgroup/Conferences
+  description: Conference presentation slides
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
