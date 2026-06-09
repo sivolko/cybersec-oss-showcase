@@ -1136,6 +1136,13 @@ vulnerability_scanners:
 - name: Conferences
   repo: onhexgroup/Conferences
   description: Conference presentation slides
+- name: Bjorn
+  repo: infinition/Bjorn
+  description: Bjorn is a powerful network scanning and offensive security tool for
+    the Raspberry Pi with a 2.13-inch e-Paper HAT. It discovers network targets, identifies
+    open ports, exposed services, and potential vulnerabilities. Bjorn can perform
+    brute force attacks, file stealing, host zombification, and supports custom attack
+    scripts.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
