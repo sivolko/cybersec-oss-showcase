@@ -2294,6 +2294,10 @@ penetration_testing:
   description: Turn Claude Code into your offensive security research assistant. Specialized
     AI subagents for authorized penetration testing plan engagements, analyze recon,
     research exploits, build detections, audit STIGs, and write reports.
+- name: HaleHound-CYD
+  repo: JesseCHale/HaleHound-CYD
+  description: ESP32-DIV HaleHound Edition for Cheap Yellow Display - Multi-protocol
+    offensive security toolkit
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
