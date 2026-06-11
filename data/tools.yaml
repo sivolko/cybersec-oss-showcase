@@ -1143,6 +1143,10 @@ vulnerability_scanners:
     open ports, exposed services, and potential vulnerabilities. Bjorn can perform
     brute force attacks, file stealing, host zombification, and supports custom attack
     scripts.
+- name: vulnhawk
+  repo: momenbasel/vulnhawk
+  description: AI-powered SAST scanner that finds auth bypass, IDOR, and logic bugs
+    Semgrep/CodeQL miss. Free GitHub Action. Supports Python, JS/TS, Go, PHP, Ruby.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -1465,6 +1469,10 @@ threat_intelligence:
   description: 🕵️‍♂️ (2-in-1) Email & Username OSINT suite. Analyzes 205+ scan vectors
     (100+ email / 105+ username) for security research, investigations, and digital
     footprinting.
+- name: WhatsMyName
+  repo: WebBreacher/WhatsMyName
+  description: Community-maintained dataset of 700+ websites for finding accounts
+    by username — powers OSINT and digital footprint tools.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
