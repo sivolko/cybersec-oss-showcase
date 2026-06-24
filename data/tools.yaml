@@ -1851,6 +1851,9 @@ devsecops:
   description: Runtime leak detector for modern web apps — finds exposed API keys,
     validates BaaS misconfigurations (Supabase/Firebase RLS), and catches secrets
     in JS bundles. Chrome extension + CLI.
+- name: dianxing
+  repo: tianchong-zerotemp/dianxing
+  description: DianXing - AI-Driven End-to-End Code Security Auditing
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
