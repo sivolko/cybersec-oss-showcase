@@ -1147,6 +1147,11 @@ vulnerability_scanners:
   repo: momenbasel/vulnhawk
   description: AI-powered SAST scanner that finds auth bypass, IDOR, and logic bugs
     Semgrep/CodeQL miss. Free GitHub Action. Supports Python, JS/TS, Go, PHP, Ruby.
+- name: Claude-BugHunter
+  repo: elementalsouls/Claude-BugHunter
+  description: A Claude Code skill bundle for bug hunting and external red-team work
+    — 71 skills, 15 slash commands, 681 disclosed-report patterns curated across 24
+    core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
