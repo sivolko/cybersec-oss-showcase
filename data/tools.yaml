@@ -1152,6 +1152,10 @@ vulnerability_scanners:
   description: A Claude Code skill bundle for bug hunting and external red-team work
     — 71 skills, 15 slash commands, 681 disclosed-report patterns curated across 24
     core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
+- name: symfony-security-auditor
+  repo: vinceAmstoutz/symfony-security-auditor
+  description: AI-powered multi-agent security auditor for Symfony applications —
+    provider-agnostic via symfony/ai.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
