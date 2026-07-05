@@ -1156,6 +1156,10 @@ vulnerability_scanners:
   repo: vinceAmstoutz/symfony-security-auditor
   description: AI-powered multi-agent security auditor for Symfony applications —
     provider-agnostic via symfony/ai.
+- name: Nox
+  repo: kernelstub/Nox
+  description: Modular Go framework for attack surface management, reconnaissance,
+    and vulnerability scanning.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -2318,6 +2322,11 @@ penetration_testing:
   repo: JesseCHale/HaleHound-CYD
   description: ESP32-DIV HaleHound Edition for Cheap Yellow Display - Multi-protocol
     offensive security toolkit
+- name: redamon
+  repo: samugit83/redamon
+  description: An AI-powered agentic red team framework that automates offensive security
+    operations, from reconnaissance to exploitation to post-exploitation, with zero
+    human intervention.
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
