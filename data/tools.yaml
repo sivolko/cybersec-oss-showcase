@@ -1593,6 +1593,9 @@ container_security:
   description: CStrike v2.6 — Offensive Security Platform. 35+ tools, 9-container
     Docker stack, self-update system, parallel port scanning, VPN kill-switch. Dual-arch
     (amd64/aarch64) VM distribution.
+- name: ntopng
+  repo: ntop/ntopng
+  description: Web-based Traffic and Cybersecurity Network Traffic Monitoring
 cloud_security:
 - name: prowler
   repo: prowler-cloud/prowler
