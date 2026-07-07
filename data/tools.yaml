@@ -1301,6 +1301,11 @@ security_automation:
     Red Teams can create decoy incidents, distractions, and lures to support and scale
     their operations. Build event sequences ("narratives") to simulate realistic scenarios
     and generate corresponding network and filesystem artifacts.'
+- name: L0p4Map
+  repo: HaxL0p4/L0p4Map
+  description: Professional network monitoring & visualization tool. L0P4Map combines
+    high-speed ARP discovery with full nmap integration and a real-time interactive
+    network topology engine. Works on both local networks and custom IPs/websites.
 threat_intelligence:
 - name: misp
   repo: MISP/MISP
