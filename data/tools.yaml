@@ -1306,6 +1306,10 @@ security_automation:
   description: Professional network monitoring & visualization tool. L0P4Map combines
     high-speed ARP discovery with full nmap integration and a real-time interactive
     network topology engine. Works on both local networks and custom IPs/websites.
+- name: xalgorix
+  repo: xalgord/xalgorix
+  description: Autonomous AI pentesting agents — real-time reconnaissance, vulnerability
+    detection, and exploitation orchestration. Go + TypeScript.
 threat_intelligence:
 - name: misp
   repo: MISP/MISP
@@ -1601,6 +1605,10 @@ container_security:
 - name: ntopng
   repo: ntop/ntopng
   description: Web-based Traffic and Cybersecurity Network Traffic Monitoring
+- name: ARL-Next
+  repo: owl234/ARL-Next
+  description: 🚀 自动化资产侦察与漏洞监控平台 (ARL-Next)。重构自 ARL 经典版，升级为 Puppeteer + Nuclei 引擎，打通“天眼查/ICP
+    ➔ 资产发现 ➔ 漏洞扫描”全链路。Vue3 + Flask + Celery 架构，Docker   │ 极简部署，AI 二开友好。
 cloud_security:
 - name: prowler
   repo: prowler-cloud/prowler
