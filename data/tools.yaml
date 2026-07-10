@@ -1495,6 +1495,10 @@ threat_intelligence:
   repo: WebBreacher/WhatsMyName
   description: Community-maintained dataset of 700+ websites for finding accounts
     by username — powers OSINT and digital footprint tools.
+- name: awesome-osint-arsenal
+  repo: rawfilejson/awesome-osint-arsenal
+  description: 🔍 Curated OSINT & recon toolkit for Kali Linux — 100+ tools, one-command
+    installer, covering SOCMINT, GEOINT, network recon, dark web, forensics & more.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
