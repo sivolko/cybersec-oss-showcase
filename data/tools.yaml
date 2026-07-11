@@ -1160,6 +1160,9 @@ vulnerability_scanners:
   repo: kernelstub/Nox
   description: Modular Go framework for attack surface management, reconnaissance,
     and vulnerability scanning.
+- name: Sighthound
+  repo: Corgea/Sighthound
+  description: Corgea's rule-based SAST scanner
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
