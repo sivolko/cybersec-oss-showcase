@@ -1890,6 +1890,12 @@ devsecops:
 - name: dianxing
   repo: tianchong-zerotemp/dianxing
   description: DianXing - AI-Driven End-to-End Code Security Auditing
+- name: CyberStrike
+  repo: CyberStrikeus/CyberStrike
+  description: AI-powered offensive security agent with 7,300+ actionable security
+    skills. Autonomous pentesting powered by MITRE ATT&CK (2,000+ Atomic tests), CIS
+    Benchmarks (1,500+ controls), OWASP, NIST. Lazy-loading, zero context pollution.
+    Your AI red team.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
