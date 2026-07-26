@@ -1163,6 +1163,16 @@ vulnerability_scanners:
 - name: Sighthound
   repo: Corgea/Sighthound
   description: Corgea's rule-based SAST scanner
+- name: api
+  repo: vulnersCom/api
+  description: Official Python SDK for the Vulners vulnerability-intelligence API
+    — search CVEs, exploits and advisories (CVSS/EPSS/KEV), audit software, Linux/Windows
+    hosts and SBOMs, and stream the whole graph. Typed sync + async clients, 100%
+    v3-compatible, with a built-in MCP server for AI agents.
+- name: onecli
+  repo: onecli/onecli
+  description: Open-source credential gateway with a built-in vault. give your AI
+    agents access to services without exposing keys.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
