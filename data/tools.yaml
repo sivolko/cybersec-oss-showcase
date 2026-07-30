@@ -1906,6 +1906,10 @@ devsecops:
     skills. Autonomous pentesting powered by MITRE ATT&CK (2,000+ Atomic tests), CIS
     Benchmarks (1,500+ controls), OWASP, NIST. Lazy-loading, zero context pollution.
     Your AI red team.
+- name: codex-security
+  repo: openai/codex-security
+  description: 'OpenAI''s Codex Security CLI and TypeScript SDK for finding, validating,
+    and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security'
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
