@@ -1173,6 +1173,11 @@ vulnerability_scanners:
   repo: onecli/onecli
   description: Open-source credential gateway with a built-in vault. give your AI
     agents access to services without exposing keys.
+- name: cve-lite-cli
+  repo: OWASP/cve-lite-cli
+  description: Fast, developer-friendly JS/TS dependency vulnerability scanner with
+    local lockfile scanning, OSV matching, direct vs transitive visibility, --fix,
+    JSON output, and practical remediation guidance.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -1321,6 +1326,10 @@ security_automation:
     network topology engine. Works on both local networks and custom IPs/websites.
 - name: xalgorix
   repo: xalgord/xalgorix
+  description: Autonomous AI pentesting agents — real-time reconnaissance, vulnerability
+    detection, and exploitation orchestration. Go + TypeScript.
+- name: xalgorix
+  repo: xalgorix/xalgorix
   description: Autonomous AI pentesting agents — real-time reconnaissance, vulnerability
     detection, and exploitation orchestration. Go + TypeScript.
 threat_intelligence:
