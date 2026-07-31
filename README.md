@@ -68,6 +68,7 @@
 | [strix](https://github.com/usestrix/strix) | Open-source AI penetration testing tool to find and fix your app’s vulnerabiliti... | 45.9k ⭐ | Python | Today | 🟢 |
 | [sniffnet](https://github.com/GyulyVGC/sniffnet) | Comfortably monitor your Internet traffic 🕵️‍♂️ | 40.2k ⭐ | Rust | 5 days ago | 🟢 |
 | [quivr](https://github.com/QuivrHQ/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rathe... | 39.4k ⭐ | Python | 1 year ago | 🟡 |
+| [Darkmoon](https://github.com/ASCIT31/Dark-Moon) | Open source autonomous AI pentester covering web, API, Active Directory and Kubernetes | new | Python | 2026 | 🟢 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global secur... | 30.1k ⭐ | Go | Today | 🟢 |
 | [How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | An evolving how-to guide for securing a Linux server. | 30.0k ⭐ | None | 2 weeks ago | 🟢 |
 | [ProxmoxVE](https://github.com/community-scripts/ProxmoxVE) | Proxmox VE Helper-Scripts (Community Edition)  | 29.1k ⭐ | Shell | Today | 🟢 |
