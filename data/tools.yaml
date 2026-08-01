@@ -2548,6 +2548,10 @@ security_learning:
   description: Building 70 Projects ranging from beginner to advanced so anyone can
     — learn from, build upon, use as a reference, or even copy directly. Gamified
     Cybersecurity learning 👇
+- name: VulnClaw
+  repo: Unclecheng-li/VulnClaw
+  description: 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 →
+    漏洞发现 → 漏洞利用 → 报告生成」全流程。
 network_security:
 - name: xray
   repo: evilsocket/xray
