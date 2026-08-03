@@ -2379,6 +2379,12 @@ penetration_testing:
   description: An AI-powered agentic red team framework that automates offensive security
     operations, from reconnaissance to exploitation to post-exploitation, with zero
     human intervention.
+- name: LuaN1aoAgent
+  repo: SanMuzZzZz/LuaN1aoAgent
+  description: LuaN1aoAgent is a fully autonomous AI penetration testing agent driven
+    by graph-based cognitive reasoning, developed by postgraduate researchers from
+    Prof. Lu Hui's Intelligent Offensive and Defensive Security Team at the Institute
+    of Cyberspace Security, Guangzhou University.
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
