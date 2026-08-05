@@ -1184,6 +1184,11 @@ vulnerability_scanners:
     code for hallucinated packages, missing safeguards & AI pattern errors in real
     time. Spear automates authorized penetration testing with 40+ skill packs, from
     recon to PoC. '
+- name: SkillSpector
+  repo: NVIDIA/SkillSpector
+  description: Security scanner for AI agent skills. Detect vulnerabilities, malicious
+    patterns, security risks, prompt injection, data exfiltration, and supply-chain
+    risks in Claude Code, Codex, and MCP skills before you install them.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
