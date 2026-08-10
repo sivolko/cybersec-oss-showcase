@@ -1189,6 +1189,15 @@ vulnerability_scanners:
   description: Security scanner for AI agent skills. Detect vulnerabilities, malicious
     patterns, security risks, prompt injection, data exfiltration, and supply-chain
     risks in Claude Code, Codex, and MCP skills before you install them.
+- name: open-kritt
+  repo: Kritt-ai/open-kritt
+  description: Open-source, self-hosted AI vulnerability research tool that orchestrates
+    agents to find and validate security issues in code.
+- name: HydraSoft-DLL-Hijack-Scanner-ByPass-UAC
+  repo: HydraSoft/HydraSoft-DLL-Hijack-Scanner-ByPass-UAC
+  description: 'HydraSoft: dependency-free Windows DLL hijack scanner with centralized
+    remote management — HydraAgent, PHP API, and a web console for endpoint security
+    checks across your fleet.'
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -2567,6 +2576,10 @@ security_learning:
     Cybersecurity learning 👇
 - name: VulnClaw
   repo: Unclecheng-li/VulnClaw
+  description: 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 →
+    漏洞发现 → 漏洞利用 → 报告生成」全流程。
+- name: VulnClaw
+  repo: Netw0rkNoob/VulnClaw
   description: 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 →
     漏洞发现 → 漏洞利用 → 报告生成」全流程。
 network_security:
