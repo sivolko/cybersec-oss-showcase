@@ -1198,6 +1198,10 @@ vulnerability_scanners:
   description: 'HydraSoft: dependency-free Windows DLL hijack scanner with centralized
     remote management — HydraAgent, PHP API, and a web console for endpoint security
     checks across your fleet.'
+- name: agentgg
+  repo: agentgg-dev/agentgg
+  description: Open source agentic SAST. The engine behind hundreds of disclosed zero-days.
+    100+ AI security agents, any repo or PR diff, bring your own model.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
