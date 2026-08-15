@@ -2025,6 +2025,10 @@ incident_response:
   repo: InterceptSuite/ProxyBridge
   description: Proxifier Alternative to redirect any Windows/MacOS TCP and UDP traffic
     to HTTP/Socks5 proxy
+- name: AiSOC
+  repo: beenuar/AiSOC
+  description: Open-source AI-powered Security Operations Center — alert fusion, purple-team
+    drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.
 penetration_testing:
 - name: metasploit
   repo: rapid7/metasploit-framework
