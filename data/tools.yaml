@@ -1202,6 +1202,10 @@ vulnerability_scanners:
   repo: agentgg-dev/agentgg
   description: Open source agentic SAST. The engine behind hundreds of disclosed zero-days.
     100+ AI security agents, any repo or PR diff, bring your own model.
+- name: getsploit
+  repo: vulnersCom/getsploit
+  description: Search and download public exploits from the Vulners database — online,
+    or fully offline from a local SQLite FTS5 index.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
