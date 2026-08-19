@@ -2033,6 +2033,11 @@ incident_response:
   repo: beenuar/AiSOC
   description: Open-source AI-powered Security Operations Center — alert fusion, purple-team
     drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.
+- name: nmap-vulners
+  repo: vulnersCom/nmap-vulners
+  description: Nmap NSE scripts that turn a service scan into CVEs, CVSS scores and
+    known exploits — fingerprints software from HTTP responses and checks every detected
+    CPE against the Vulners database.
 penetration_testing:
 - name: metasploit
   repo: rapid7/metasploit-framework
