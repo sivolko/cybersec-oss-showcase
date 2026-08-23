@@ -1549,6 +1549,11 @@ threat_intelligence:
   repo: rawfilejson/awesome-osint-arsenal
   description: 🔍 Curated OSINT & recon toolkit for Kali Linux — 100+ tools, one-command
     installer, covering SOCMINT, GEOINT, network recon, dark web, forensics & more.
+- name: SearchPhone
+  repo: HackUnderway/SearchPhone
+  description: Phone number OSINT toolkit with multi-API search (Google, GitHub, Numverify,
+    Reddit, DuckDuckGo), Hudson Rock infostealer intelligence, and automatic report
+    generation.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
@@ -1947,6 +1952,10 @@ devsecops:
   repo: openai/codex-security
   description: 'OpenAI''s Codex Security CLI and TypeScript SDK for finding, validating,
     and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security'
+- name: Cybermes
+  repo: Zyrexnn/Cybermes
+  description: Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework
+    powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
