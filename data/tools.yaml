@@ -1206,6 +1206,9 @@ vulnerability_scanners:
   repo: vulnersCom/getsploit
   description: Search and download public exploits from the Vulners database — online,
     or fully offline from a local SQLite FTS5 index.
+- name: Agentic-Bug-Hunter
+  repo: Awarexone/Agentic-Bug-Hunter
+  description: AI-powered bug bounty hunting toolkit that works with or without subscription.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
