@@ -1209,6 +1209,10 @@ vulnerability_scanners:
 - name: Agentic-Bug-Hunter
   repo: Awarexone/Agentic-Bug-Hunter
   description: AI-powered bug bounty hunting toolkit that works with or without subscription.
+- name: public-skills-builder
+  repo: Awarexone/public-skills-builder
+  description: Generate Claude Code bug bounty skills from public HackerOne reports
+    and GitHub writeups — 18 vuln classes, no private reports needed
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
