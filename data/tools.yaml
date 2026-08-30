@@ -2438,6 +2438,9 @@ penetration_testing:
     by graph-based cognitive reasoning, developed by postgraduate researchers from
     Prof. Lu Hui's Intelligent Offensive and Defensive Security Team at the Institute
     of Cyberspace Security, Guangzhou University.
+- name: Scan-Spring-GO
+  repo: sspsec/Scan-Spring-GO
+  description: Spring 全家桶漏洞扫描工具 | 17 个漏洞模块 + MCP 服务端（AI 自动化渗透）| Go 实现
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
