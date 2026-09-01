@@ -1367,6 +1367,12 @@ security_automation:
   repo: xalgorix/xalgorix
   description: Autonomous AI pentesting agents — real-time reconnaissance, vulnerability
     detection, and exploitation orchestration. Go + TypeScript.
+- name: Pentest-Swarm-AI
+  repo: Armur-Ai/Pentest-Swarm-AI
+  description: Autonomous penetration testing using a swarm of AI agents. Orchestrates
+    recon, classification, exploitation, and reporting specialists with ReAct reasoning
+    — supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude
+    API, and 7+ native security tools.
 threat_intelligence:
 - name: misp
   repo: MISP/MISP
@@ -1675,6 +1681,12 @@ container_security:
   repo: owl234/ARL-Next
   description: 🚀 自动化资产侦察与漏洞监控平台 (ARL-Next)。重构自 ARL 经典版，升级为 Puppeteer + Nuclei 引擎，打通“天眼查/ICP
     ➔ 资产发现 ➔ 漏洞扫描”全链路。Vue3 + Flask + Celery 架构，Docker   │ 极简部署，AI 二开友好。
+- name: Quivr
+  repo: The-Vibe-Company/Quivr
+  description: 'Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your
+    product rather than the RAG. Easy integration in existing products with customisation!  Any
+    LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you
+    want.'
 cloud_security:
 - name: prowler
   repo: prowler-cloud/prowler
