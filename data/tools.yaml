@@ -1373,6 +1373,10 @@ security_automation:
     recon, classification, exploitation, and reporting specialists with ReAct reasoning
     — supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude
     API, and 7+ native security tools.
+- name: Reconner
+  repo: rootdr-backup/Reconner
+  description: Self-hosted bug-bounty watchtower — web + network recon, DAST, continuous
+    monitoring. Your data stays on your machine.
 threat_intelligence:
 - name: misp
   repo: MISP/MISP
@@ -1683,6 +1687,12 @@ container_security:
     ➔ 资产发现 ➔ 漏洞扫描”全链路。Vue3 + Flask + Celery 架构，Docker   │ 极简部署，AI 二开友好。
 - name: Quivr
   repo: The-Vibe-Company/Quivr
+  description: 'Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your
+    product rather than the RAG. Easy integration in existing products with customisation!  Any
+    LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you
+    want.'
+- name: quivr
+  repo: The-Vibe-Company/quivr
   description: 'Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your
     product rather than the RAG. Easy integration in existing products with customisation!  Any
     LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you
@@ -2453,6 +2463,10 @@ penetration_testing:
 - name: Scan-Spring-GO
   repo: sspsec/Scan-Spring-GO
   description: Spring 全家桶漏洞扫描工具 | 17 个漏洞模块 + MCP 服务端（AI 自动化渗透）| Go 实现
+- name: pocindex
+  repo: 0xMarcio/pocindex
+  description: Search 82,000+ public CVE proof-of-concept exploits from GitHub, Nuclei,
+    ExploitDB, Metasploit and Vulhub. Updated hourly. Plain JSON, no key.
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
