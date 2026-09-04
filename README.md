@@ -3,7 +3,7 @@
 > A curated collection of the best open source cybersecurity tools, automatically updated with real-time GitHub metrics.
 
 [![Auto Update](https://github.com/sivolko/cybersec-oss-showcase/actions/workflows/update-data.yml/badge.svg)](https://github.com/sivolko/cybersec-oss-showcase/actions/workflows/update-data.yml)
-[![Last Updated](https://img.shields.io/badge/last%20updated-2026--09--03-brightgreen.svg)](https://github.com/sivolko/cybersec-oss-showcase)
+[![Last Updated](https://img.shields.io/badge/last%20updated-2026--09--04-brightgreen.svg)](https://github.com/sivolko/cybersec-oss-showcase)
 [![GitHub Pages](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-blue.svg)](https://sivolko.github.io/cybersec-oss-showcase)
 
 ## 📊 Dashboard Overview
@@ -11,7 +11,7 @@
 - **Total Tools Tracked**: 719
 - **Categories**: 14
 - **Auto-Updated**: Daily at midnight UTC
-- **Last Scan**: 2026-09-03
+- **Last Scan**: 2026-09-04
 - **Total Community**: 5.1M+ stars
 
 ## 🗂️ Categories
@@ -23,10 +23,10 @@
 | [🕵️ Threat Intelligence](#threat-intelligence) | 48 | maigret | 37.3k ⭐ |
 | [📦 Container Security](#container-security) | 32 | quivr | 39.5k ⭐ |
 | [☁️ Cloud Security Tools](#cloud-security) | 24 | algo | 30.4k ⭐ |
-| [🔧 DevSecOps](#devsecops) | 44 | the-book-of-secret-knowledge | 241.7k ⭐ |
+| [🔧 DevSecOps](#devsecops) | 44 | the-book-of-secret-knowledge | 241.9k ⭐ |
 | [🚨 Incident Response](#incident-response) | 25 | sherlock | 90.9k ⭐ |
 | [🎯 Penetration Testing](#penetration-testing) | 106 | PayloadsAllTheThings | 80.6k ⭐ |
-| [🔒 Cryptography](#cryptography) | 21 | caddy | 75.4k ⭐ |
+| [🔒 Cryptography](#cryptography) | 21 | caddy | 75.5k ⭐ |
 | [📚 Security Learning](#security-learning) | 22 | x64dbg | 49.4k ⭐ |
 | [Network Security](#network-security) | 22 | SafeLine | 22.5k ⭐ |
 | [Information Gathering](#information-gathering) | 5 | Argus | 4.1k ⭐ |
@@ -41,15 +41,15 @@
 <!-- AUTO-GENERATED: This section is updated by GitHub Actions -->
 
 1. **🟢 [nuclei](https://github.com/projectdiscovery/nuclei)** (31.0k ⭐) - Last updated Today
-2. **🟡 [nmap](https://github.com/nmap/nmap)** (13.5k ⭐) - Last updated Today
+2. **🟢 [zaproxy](https://github.com/zaproxy/zaproxy)** (15.7k ⭐) - Last updated Today
 3. **🟢 [sniffnet](https://github.com/GyulyVGC/sniffnet)** (41.0k ⭐) - Last updated Today
-4. **🟢 [trufflehog](https://github.com/trufflesecurity/trufflehog)** (27.7k ⭐) - Last updated Today
-5. **🟢 [personal-security-checklist](https://github.com/lissy93/personal-security-checklist)** (22.2k ⭐) - Last updated Today
+4. **🟢 [keepassxc](https://github.com/keepassxreboot/keepassxc)** (28.7k ⭐) - Last updated Today
+5. **🟢 [trufflehog](https://github.com/trufflesecurity/trufflehog)** (27.7k ⭐) - Last updated Today
 
 
 ### ⭐ Most Popular Projects
 
-1. **[the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** (241.7k ⭐) - None
+1. **[the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** (241.9k ⭐) - None
 2. **[Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking)** (119.6k ⭐) - None
 3. **[sherlock](https://github.com/sherlock-project/sherlock)** (90.9k ⭐) - Python
 4. **[cs-video-courses](https://github.com/Developer-Y/cs-video-courses)** (83.4k ⭐) - None
@@ -64,15 +64,15 @@
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
 | [Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | A collection of various awesome lists for hackers, pentesters and security resea... | 119.6k ⭐ | None | 1 month ago | 🟡 |
-| [strix](https://github.com/usestrix/strix) | Open-source AI penetration testing tool to find and fix your app’s vulnerabiliti... | 60.2k ⭐ | Python | Today | 🟢 |
-| [shannon](https://github.com/KeygraphHQ/shannon) | Shannon is an AI pentester for web applications and APIs. It analyzes your sourc... | 47.6k ⭐ | TypeScript | Today | 🟢 |
+| [strix](https://github.com/usestrix/strix) | Open-source AI penetration testing tool to find and fix your app’s vulnerabiliti... | 60.4k ⭐ | Python | Today | 🟢 |
+| [shannon](https://github.com/KeygraphHQ/shannon) | Shannon is an AI pentester for web applications and APIs. It analyzes your sourc... | 47.7k ⭐ | TypeScript | Today | 🟢 |
 | [sniffnet](https://github.com/GyulyVGC/sniffnet) | Comfortably monitor your network traffic 🕵️‍♂️ | 41.0k ⭐ | Rust | Today | 🟢 |
-| [quivr](https://github.com/The-Vibe-Company/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rathe... | 39.5k ⭐ | Python | 2 days ago | 🟢 |
-| [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITR... | 32.0k ⭐ | Python | 2 days ago | 🟢 |
-| [How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | An evolving how-to guide for securing a Linux server. | 31.1k ⭐ | None | 1 month ago | 🟡 |
+| [quivr](https://github.com/The-Vibe-Company/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rathe... | 39.5k ⭐ | Python | 3 days ago | 🟢 |
+| [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITR... | 32.1k ⭐ | Python | 3 days ago | 🟢 |
+| [How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | An evolving how-to guide for securing a Linux server. | 31.2k ⭐ | None | Today | 🟢 |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | Nuclei is a fast, customizable vulnerability scanner powered by the global secur... | 31.0k ⭐ | Go | Today | 🟢 |
 | [ProxmoxVE](https://github.com/community-scripts/ProxmoxVE) | Proxmox VE Helper-Scripts (Community Edition)  | 29.5k ⭐ | Shell | Today | 🟢 |
-| [h4cker](https://github.com/The-Art-of-Hacking/h4cker) | This repository is maintained by Omar Santos (@santosomar) and includes thousand... | 29.2k ⭐ | Jupyter Notebook | 2 days ago | 🟢 |
+| [h4cker](https://github.com/The-Art-of-Hacking/h4cker) | This repository is maintained by Omar Santos (@santosomar) and includes thousand... | 29.3k ⭐ | Jupyter Notebook | Today | 🟢 |
 
 ## 🤖 Security Automation
 
@@ -83,11 +83,11 @@
 | [gitleaks](https://github.com/gitleaks/gitleaks) | Find secrets with Gitleaks 🔑 | 29.1k ⭐ | Go | 1 week ago | 🟢 |
 | [fail2ban](https://github.com/fail2ban/fail2ban) | Daemon to ban hosts that cause multiple authentication errors | 18.5k ⭐ | Python | 1 week ago | 🟢 |
 | [wazuh](https://github.com/wazuh/wazuh) | Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for e... | 16.8k ⭐ | C++ | Today | 🟢 |
-| [semgrep](https://github.com/semgrep/semgrep) | Lightweight static analysis for many languages. Find bug variants with patterns ... | 16.5k ⭐ | OCaml | 1 day ago | 🟢 |
+| [semgrep](https://github.com/semgrep/semgrep) | Lightweight static analysis for many languages. Find bug variants with patterns ... | 16.5k ⭐ | OCaml | Today | 🟢 |
 | [systeminformer](https://github.com/winsiderss/systeminformer) | A free, powerful, multi-purpose tool that helps you monitor system resources, de... | 15.8k ⭐ | C | Today | 🟢 |
 | [crowdsec](https://github.com/crowdsecurity/crowdsec) | CrowdSec - the open-source and participative security solution offering crowdsou... | 14.7k ⭐ | Go | Today | 🟢 |
-| [sigma](https://github.com/SigmaHQ/sigma) | Main Sigma Rule Repository | 11.0k ⭐ | Python | 1 day ago | 🟢 |
-| [httpx](https://github.com/projectdiscovery/httpx) | httpx is a fast and multi-purpose HTTP toolkit that allows running multiple prob... | 10.3k ⭐ | Go | Today | 🟢 |
+| [sigma](https://github.com/SigmaHQ/sigma) | Main Sigma Rule Repository | 11.0k ⭐ | Python | Today | 🟢 |
+| [httpx](https://github.com/projectdiscovery/httpx) | httpx is a fast and multi-purpose HTTP toolkit that allows running multiple prob... | 10.4k ⭐ | Go | 1 day ago | 🟢 |
 | [falco](https://github.com/falcosecurity/falco) | Cloud Native Runtime Security | 9.3k ⭐ | C++ | Today | 🟢 |
 | [zeek](https://github.com/zeek/zeek) | Zeek is a powerful network analysis framework that is much different from the ty... | 7.9k ⭐ | C++ | Today | 🟢 |
 
@@ -98,8 +98,8 @@
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
 | [maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites | 37.3k ⭐ | Python | Today | 🟢 |
-| [web-check](https://github.com/lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | 34.7k ⭐ | TypeScript | 6 days ago | 🟢 |
-| [web-check](https://github.com/lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | 34.7k ⭐ | TypeScript | 6 days ago | 🟢 |
+| [web-check](https://github.com/lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | 34.7k ⭐ | TypeScript | 1 week ago | 🟢 |
+| [web-check](https://github.com/lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any website | 34.7k ⭐ | TypeScript | 1 week ago | 🟢 |
 | [social-analyzer](https://github.com/qeeqbox/social-analyzer) | API, CLI, and Web App for analyzing and finding a person's profile in 1000 socia... | 23.9k ⭐ | JavaScript | 7 months ago | 🟡 |
 | [spiderfoot](https://github.com/smicallef/spiderfoot) | SpiderFoot automates OSINT for threat intelligence and mapping your attack surfa... | 21.7k ⭐ | Python | 4 months ago | 🟡 |
 | [Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit) | This repository contains cutting-edge open-source security tools (OST) for a red... | 10.7k ⭐ | None | 3 months ago | 🟡 |
@@ -114,16 +114,16 @@
 
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
-| [quivr](https://github.com/The-Vibe-Company/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rathe... | 39.5k ⭐ | Python | 2 days ago | 🟢 |
-| [quivr](https://github.com/The-Vibe-Company/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rathe... | 39.5k ⭐ | Python | 2 days ago | 🟢 |
+| [quivr](https://github.com/The-Vibe-Company/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rathe... | 39.5k ⭐ | Python | 3 days ago | 🟢 |
+| [quivr](https://github.com/The-Vibe-Company/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rathe... | 39.5k ⭐ | Python | 3 days ago | 🟢 |
 | [trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes... | 37.8k ⭐ | Go | Today | 🟢 |
 | [authelia](https://github.com/authelia/authelia) | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ | 28.8k ⭐ | Go | Today | 🟢 |
-| [setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) | Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco I... | 28.4k ⭐ | Shell | 4 days ago | 🟢 |
+| [setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) | Set up your own IPsec VPN server in just a few minutes, with IPsec/L2TP, Cisco I... | 28.4k ⭐ | Shell | 5 days ago | 🟢 |
 | [authentik](https://github.com/goauthentik/authentik) | The authentication glue you need. | 25.3k ⭐ | Python | Today | 🟢 |
-| [cilium](https://github.com/cilium/cilium) | eBPF-based Networking, Security, and Observability | 25.0k ⭐ | Go | Today | 🟢 |
+| [cilium](https://github.com/cilium/cilium) | eBPF-based Networking, Security, and Observability | 25.1k ⭐ | Go | Today | 🟢 |
 | [slim](https://github.com/slimtoolkit/slim) | Slim(toolkit): Don't change anything in your container image and minify it by up... | 23.4k ⭐ | Go | 1 month ago | 🟡 |
 | [teleport](https://github.com/gravitational/teleport) | The easiest, and most secure way to access and protect all of your infrastructur... | 20.9k ⭐ | Go | Today | 🟢 |
-| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 12.8k ⭐ | Go | Today | 🟢 |
+| [grype](https://github.com/anchore/grype) | A vulnerability scanner for container images and filesystems | 12.8k ⭐ | Go | 1 day ago | 🟢 |
 
 ## ☁️ Cloud Security Tools
 
@@ -131,11 +131,11 @@
 
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
-| [algo](https://github.com/trailofbits/algo) | Set up a personal VPN in the cloud | 30.4k ⭐ | Python | Today | 🟢 |
-| [sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | 23.0k ⭐ | Go | Today | 🟢 |
-| [90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) | This repository contains a 90-day cybersecurity study plan, along with resources... | 18.9k ⭐ | None | 5 months ago | 🟡 |
+| [algo](https://github.com/trailofbits/algo) | Set up a personal VPN in the cloud | 30.4k ⭐ | Python | 1 day ago | 🟢 |
+| [sops](https://github.com/getsops/sops) | Simple and flexible tool for managing secrets | 23.0k ⭐ | Go | 1 day ago | 🟢 |
+| [90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) | This repository contains a 90-day cybersecurity study plan, along with resources... | 19.0k ⭐ | None | 5 months ago | 🟡 |
 | [hydra](https://github.com/ory/hydra) | Internet-scale OpenID Certified™ OpenID Connect and OAuth2.1 provider that integ... | 17.5k ⭐ | Go | 1 month ago | 🟡 |
-| [prowler](https://github.com/prowler-cloud/prowler) | Prowler is the world’s most widely used open-source cloud security platform that... | 14.7k ⭐ | Python | Today | 🟢 |
+| [prowler](https://github.com/prowler-cloud/prowler) | Prowler is the world’s most widely used open-source cloud security platform that... | 14.8k ⭐ | Python | Today | 🟢 |
 | [my-arsenal-of-aws-security-tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) | List of open source tools for AWS security: defensive, offensive, auditing, DFIR... | 9.5k ⭐ | Shell | 1 month ago | 🟢 |
 | [awesome-shodan-queries](https://github.com/jakejarvis/awesome-shodan-queries) | 🔍 A collection of interesting, funny, and depressing search queries to plug into... | 7.7k ⭐ | None | 2 years ago | 🟢 |
 | [DevSecOps](https://github.com/sottlmarek/DevSecOps) | Ultimate DevSecOps library | 6.9k ⭐ | None | 3 weeks ago | 🟢 |
@@ -148,15 +148,15 @@
 
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
-| [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners,... | 241.7k ⭐ | None | 1 year ago | 🟡 |
-| [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | List of Computer Science courses with video lectures. | 83.4k ⭐ | None | 3 days ago | 🟢 |
-| [CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) | The OWASP Cheat Sheet Series was created to provide a concise collection of high... | 33.1k ⭐ | Python | Today | 🟢 |
-| [nginx](https://github.com/nginx/nginx) | The official NGINX Open Source repository. | 31.6k ⭐ | C | Today | 🟢 |
-| [hosts](https://github.com/StevenBlack/hosts) | 🔒 Consolidating and extending hosts files from several well-curated sources. Opt... | 31.0k ⭐ | Python | 2 days ago | 🟢 |
+| [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners,... | 241.9k ⭐ | None | 1 year ago | 🟡 |
+| [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | List of Computer Science courses with video lectures. | 83.4k ⭐ | None | 4 days ago | 🟢 |
+| [CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) | The OWASP Cheat Sheet Series was created to provide a concise collection of high... | 33.1k ⭐ | Python | 1 day ago | 🟢 |
+| [nginx](https://github.com/nginx/nginx) | The official NGINX Open Source repository. | 31.6k ⭐ | C | 1 day ago | 🟢 |
+| [hosts](https://github.com/StevenBlack/hosts) | 🔒 Consolidating and extending hosts files from several well-curated sources. Opt... | 31.0k ⭐ | Python | Today | 🟢 |
 | [lynis](https://github.com/CISOfy/lynis) | Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists... | 16.3k ⭐ | Shell | 4 weeks ago | 🟢 |
 | [bytebase](https://github.com/bytebase/bytebase) | Database governance built for humans and agents — controlling changes and access... | 14.5k ⭐ | Go | Today | 🟢 |
 | [test-your-sysadmin-skills](https://github.com/trimstray/test-your-sysadmin-skills) | A collection of Linux Sysadmin Test Questions and Answers. Test your knowledge a... | 11.8k ⭐ | None | 1 year ago | 🟡 |
-| [sonarqube](https://github.com/SonarSource/sonarqube) | Continuous Inspection | 10.9k ⭐ | Java | Today | 🟢 |
+| [sonarqube](https://github.com/SonarSource/sonarqube) | Continuous Inspection | 11.0k ⭐ | Java | Today | 🟢 |
 | [the-practical-linux-hardening-guide](https://github.com/trimstray/the-practical-linux-hardening-guide) | This guide details creating a secure Linux production system. OpenSCAP (C2S/CIS,... | 10.8k ⭐ | None | 1 year ago | 🟡 |
 
 ## 🚨 Incident Response
@@ -166,15 +166,15 @@
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
 | [sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | 90.9k ⭐ | Python | Today | 🟢 |
-| [ImHex](https://github.com/WerWolv/ImHex) | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their ret... | 54.6k ⭐ | C++ | 1 day ago | 🟢 |
+| [ImHex](https://github.com/WerWolv/ImHex) | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their ret... | 54.7k ⭐ | C++ | Today | 🟢 |
 | [radare2](https://github.com/radareorg/radare2) | UNIX-like reverse engineering framework and command-line toolset | 24.7k ⭐ | C | Today | 🟢 |
 | [osquery](https://github.com/osquery/osquery) | SQL powered operating system instrumentation, monitoring, and analytics. | 23.5k ⭐ | C++ | 1 week ago | 🟡 |
-| [mvt](https://github.com/mvt-project/mvt) | MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devi... | 13.0k ⭐ | Python | Today | 🟢 |
+| [mvt](https://github.com/mvt-project/mvt) | MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devi... | 13.0k ⭐ | Python | 1 day ago | 🟢 |
 | [shadowsocks-rust](https://github.com/shadowsocks/shadowsocks-rust) | A Rust port of shadowsocks | 10.8k ⭐ | Rust | Today | 🟢 |
 | [awesome-incident-response](https://github.com/meirwah/awesome-incident-response) | A curated list of tools for incident response | 9.4k ⭐ | None | 1 month ago | 🟢 |
 | [volatility](https://github.com/volatilityfoundation/volatility) | An advanced memory forensics framework | 8.1k ⭐ | Python | 1 year ago | 🟢 |
 | [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet) | One place for all the default credentials to assist the Blue/Red teamers identif... | 6.7k ⭐ | Python | 1 month ago | 🟢 |
-| [ProxyBridge](https://github.com/InterceptSuite/ProxyBridge) | Proxifier Alternative to redirect any Windows/MacOS/Linux TCP and UDP traffic to... | 6.2k ⭐ | C | 2 weeks ago | 🟢 |
+| [ProxyBridge](https://github.com/InterceptSuite/ProxyBridge) | Proxifier Alternative to redirect any Windows/MacOS/Linux TCP and UDP traffic to... | 6.2k ⭐ | C | 3 weeks ago | 🟢 |
 
 ## 🎯 Penetration Testing
 
@@ -182,13 +182,13 @@
 
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
-| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CT... | 80.6k ⭐ | Python | 6 days ago | 🟢 |
+| [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Application Security and Pentest/CT... | 80.6k ⭐ | Python | 1 week ago | 🟢 |
 | [metasploit-framework](https://github.com/rapid7/metasploit-framework) | Metasploit Framework | 38.9k ⭐ | Ruby | Today | 🟢 |
-| [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | 38.3k ⭐ | Python | Today | 🟢 |
-| [SWE-agent](https://github.com/SWE-agent/SWE-agent) | SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM ... | 20.2k ⭐ | Python | 2 days ago | 🟢 |
-| [ffuf](https://github.com/ffuf/ffuf) | Fast web fuzzer written in Go | 16.6k ⭐ | Go | 1 week ago | 🟡 |
+| [sqlmap](https://github.com/sqlmapproject/sqlmap) | Automatic SQL injection and database takeover tool | 38.4k ⭐ | Python | 1 day ago | 🟢 |
+| [SWE-agent](https://github.com/SWE-agent/SWE-agent) | SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM ... | 20.2k ⭐ | Python | 3 days ago | 🟢 |
+| [ffuf](https://github.com/ffuf/ffuf) | Fast web fuzzer written in Go | 16.6k ⭐ | Go | 2 weeks ago | 🟡 |
 | [hacker-roadmap](https://github.com/sundowndev/hacker-roadmap) | A collection of hacking tools, resources and references to practice ethical hack... | 15.6k ⭐ | None | 2 years ago | 🟡 |
-| [gobuster](https://github.com/OJ/gobuster) | Directory/File, DNS and VHost busting tool written in Go | 14.1k ⭐ | Go | 3 days ago | 🟢 |
+| [gobuster](https://github.com/OJ/gobuster) | Directory/File, DNS and VHost busting tool written in Go | 14.1k ⭐ | Go | Today | 🟢 |
 | [john](https://github.com/openwall/john) | John the Ripper jumbo - advanced offline password cracker, which supports hundre... | 13.6k ⭐ | C | 1 month ago | 🟡 |
 | [fsociety](https://github.com/Manisso/fsociety) | fsociety Hacking Tools Pack – A Penetration Testing Framework | 12.3k ⭐ | Python | 1 month ago | 🟡 |
 | [thc-hydra](https://github.com/vanhauser-thc/thc-hydra) | hydra | 12.2k ⭐ | C | 1 month ago | 🟢 |
@@ -199,12 +199,12 @@
 
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
-| [caddy](https://github.com/caddyserver/caddy) | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS | 75.4k ⭐ | Go | Today | 🟢 |
-| [mitmproxy](https://github.com/mitmproxy/mitmproxy) | An interactive TLS-capable intercepting HTTP proxy for penetration testers and s... | 44.9k ⭐ | Python | 1 day ago | 🟢 |
+| [caddy](https://github.com/caddyserver/caddy) | Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS | 75.5k ⭐ | Go | 1 day ago | 🟢 |
+| [mitmproxy](https://github.com/mitmproxy/mitmproxy) | An interactive TLS-capable intercepting HTTP proxy for penetration testers and s... | 44.9k ⭐ | Python | 2 days ago | 🟢 |
 | [openssl](https://github.com/openssl/openssl) | General purpose TLS and crypto library | 30.7k ⭐ | C | Today | 🟢 |
 | [simplex-chat](https://github.com/simplex-chat/simplex-chat) | SimpleX - the first messaging network operating without user identifiers of any ... | 19.4k ⭐ | Haskell | Today | 🟢 |
-| [cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, macOS, and Linux: Secure client-side encryption for you... | 16.1k ⭐ | Java | 1 day ago | 🟡 |
-| [libsodium](https://github.com/jedisct1/libsodium) | A modern, portable, easy to use crypto library. | 13.9k ⭐ | C | 2 days ago | 🟢 |
+| [cryptomator](https://github.com/cryptomator/cryptomator) | Cryptomator for Windows, macOS, and Linux: Secure client-side encryption for you... | 16.1k ⭐ | Java | 2 days ago | 🟡 |
+| [libsodium](https://github.com/jedisct1/libsodium) | A modern, portable, easy to use crypto library. | 13.9k ⭐ | C | 3 days ago | 🟢 |
 | [opennhp](https://github.com/OpenNHP/opennhp) | A lightweight, cryptography-powered, open-source toolkit built to enforce Zero T... | 13.9k ⭐ | Go | Today | 🟢 |
 | [tink](https://github.com/tink-crypto/tink) | Tink is a multi-language, cross-platform, open source library that provides cryp... | 13.5k ⭐ | Java | 2 years ago | 🟢 |
 | [YubiKey-Guide](https://github.com/drduh/YubiKey-Guide) | Community guide to using YubiKey for GnuPG and SSH - protect secrets with hardwa... | 12.5k ⭐ | HTML | 1 week ago | 🟢 |
@@ -216,13 +216,13 @@
 
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
-| [x64dbg](https://github.com/x64dbg/x64dbg) | An open-source user mode debugger for Windows. Optimized for reverse engineering... | 49.4k ⭐ | C++ | 3 days ago | 🟢 |
+| [x64dbg](https://github.com/x64dbg/x64dbg) | An open-source user mode debugger for Windows. Optimized for reverse engineering... | 49.4k ⭐ | C++ | 4 days ago | 🟢 |
 | [juice-shop](https://github.com/juice-shop/juice-shop) | OWASP Juice Shop: Probably the most modern and sophisticated insecure web applic... | 13.8k ⭐ | TypeScript | Today | 🟢 |
 | [DVWA](https://github.com/digininja/DVWA) | Damn Vulnerable Web Application (DVWA) | 13.6k ⭐ | PHP | 2 weeks ago | 🟢 |
 | [awesome-ctf](https://github.com/apsdehal/awesome-ctf) | A curated list of CTF frameworks, libraries, resources and softwares | 11.8k ⭐ | JavaScript | 2 years ago | 🟡 |
 | [howtheysre](https://github.com/upgundecha/howtheysre) | A curated collection of publicly available resources on how technology and tech-... | 9.8k ⭐ | JavaScript | 9 months ago | 🟢 |
-| [WebGoat](https://github.com/WebGoat/WebGoat) | WebGoat is a deliberately insecure application | 9.3k ⭐ | JavaScript | 2 days ago | 🟢 |
-| [Cybersecurity-Projects](https://github.com/CarterPerez-dev/Cybersecurity-Projects) | Building 70 Projects ranging from beginner to advanced so anyone can — learn fro... | 6.6k ⭐ | Go | Today | 🟢 |
+| [WebGoat](https://github.com/WebGoat/WebGoat) | WebGoat is a deliberately insecure application | 9.3k ⭐ | JavaScript | 3 days ago | 🟢 |
+| [Cybersecurity-Projects](https://github.com/CarterPerez-dev/Cybersecurity-Projects) | Building 70 Projects ranging from beginner to advanced so anyone can — learn fro... | 6.7k ⭐ | Go | 1 day ago | 🟢 |
 | [Top10](https://github.com/OWASP/Top10) | Official OWASP Top 10 Document Repository | 6.0k ⭐ | HTML | 4 weeks ago | 🟢 |
 | [privacy.sexy](https://github.com/undergroundwires/privacy.sexy) | Open-source tool to enforce privacy & security best-practices on Windows, macOS ... | 6.0k ⭐ | TypeScript | 6 months ago | 🟢 |
 | [awesome-vehicle-security](https://github.com/jaredthecoder/awesome-vehicle-security) | 🚗  A curated list of resources for learning about vehicle security and car hacki... | 4.5k ⭐ | None | 3 months ago | 🟢 |
@@ -231,8 +231,8 @@
 
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
-| [SafeLine](https://github.com/chaitin/SafeLine) | SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to prote... | 22.5k ⭐ | Go | 1 week ago | 🟢 |
-| [bettercap](https://github.com/bettercap/bettercap) | The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks recon... | 19.9k ⭐ | Go | 2 weeks ago | 🟢 |
+| [SafeLine](https://github.com/chaitin/SafeLine) | SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to prote... | 22.5k ⭐ | Go | Today | 🟢 |
+| [bettercap](https://github.com/bettercap/bettercap) | The Swiss Army knife for 802.11, BLE, HID, CAN-bus, IPv4 and IPv6 networks recon... | 19.9k ⭐ | Go | 3 weeks ago | 🟢 |
 | [opensnitch](https://github.com/evilsocket/opensnitch) | OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Sn... | 14.0k ⭐ | Python | 1 month ago | 🟢 |
 | [scapy](https://github.com/secdev/scapy) | Scapy: the Python-based interactive packet manipulation program & library. | 12.5k ⭐ | Python | Today | 🟢 |
 | [hetty](https://github.com/dstotijn/hetty) | An HTTP toolkit for security research. | 12.0k ⭐ | Go | 1 month ago | 🟡 |
@@ -248,8 +248,8 @@
 |------|-------------|-------|----------|-------------|--------|
 | [Argus](https://github.com/jasonxtn/Argus) | The Ultimate Information Gathering Toolkit | 4.1k ⭐ | Python | 8 months ago | 🟢 |
 | [gasmask](https://github.com/twelvesec/gasmask) | Information gathering tool - OSINT | 1.5k ⭐ | Python | 5 years ago | 🔴 |
-| [chiasmodon](https://github.com/chiasmod0n/chiasmodon) | Chiasmodon is an OSINT  tool designed to assist in the process of gathering info... | 697 ⭐ | Python | 1 year ago | 🔴 |
-| [Ominis-OSINT](https://github.com/AnonCatalyst/Ominis-OSINT) | This Python application is an OSINT (Open Source Intelligence) tool called "Omin... | 615 ⭐ | Python | 1 week ago | 🟡 |
+| [chiasmodon](https://github.com/chiasmod0n/chiasmodon) | Chiasmodon is an OSINT  tool designed to assist in the process of gathering info... | 698 ⭐ | Python | 1 year ago | 🔴 |
+| [Ominis-OSINT](https://github.com/AnonCatalyst/Ominis-OSINT) | This Python application is an OSINT (Open Source Intelligence) tool called "Omin... | 614 ⭐ | Python | 1 week ago | 🟡 |
 | [IRCP](https://github.com/internet-relay-chat/IRCP) | A robust information gathering tool for large scale reconnaissance on Internet R... | 55 ⭐ | Python | 2 years ago | 🔴 |
 
 ## Mobile Security
@@ -257,7 +257,7 @@
 | Tool | Description | Stars | Language | Last Commit | Health |
 |------|-------------|-------|----------|-------------|--------|
 | [matomo](https://github.com/matomo-org/matomo) | Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/j... | 21.8k ⭐ | PHP | Today | 🟢 |
-| [Obtainium](https://github.com/ImranR98/Obtainium) | Get Android app updates straight from the source. | 19.4k ⭐ | Dart | 4 days ago | 🟢 |
+| [Obtainium](https://github.com/ImranR98/Obtainium) | Get Android app updates straight from the source. | 19.4k ⭐ | Dart | 5 days ago | 🟢 |
 | [GhostTrack](https://github.com/HunxByts/GhostTrack) | Useful tool to track location or mobile number | 15.0k ⭐ | Python | 2 years ago | 🔴 |
 | [objection](https://github.com/sensepost/objection) | 📱 objection - runtime mobile exploration | 9.4k ⭐ | Python | 1 month ago | 🟢 |
 | [berty](https://github.com/berty/berty) | Berty is a secure peer-to-peer messaging app that works with or without internet... | 9.3k ⭐ | TypeScript | Today | 🟢 |
@@ -274,7 +274,7 @@
 | [openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) | OpenZeppelin Contracts is a library for secure smart contract development. | 27.2k ⭐ | Solidity | Today | 🟢 |
 | [mythril](https://github.com/ConsenSysDiligence/mythril) | Mythril is a symbolic-execution-based securty analysis tool for EVM bytecode. It... | 4.3k ⭐ | Python | 4 months ago | 🟢 |
 | [Crypto-OpSec-SelfGuard-RoadMap](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap) | Here we collect and discuss the best DeFi, Blockchain and crypto-related OpSec r... | 1.9k ⭐ | None | 2 weeks ago | 🟡 |
-| [octopus](https://github.com/FuzzingLabs/octopus) | Security Analysis tool for WebAssembly module (wasm) and Blockchain Smart Contra... | 494 ⭐ | Python | 2 years ago | 🔴 |
+| [octopus](https://github.com/FuzzingLabs/octopus) | Security Analysis tool for WebAssembly module (wasm) and Blockchain Smart Contra... | 493 ⭐ | Python | 2 years ago | 🔴 |
 
 ## 🤖 Automation
 
