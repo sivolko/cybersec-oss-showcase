@@ -2479,6 +2479,11 @@ penetration_testing:
   repo: arthurspk/guiadecybersecurity
   description: 'Guia de Cyber Security: trilhas, cursos, livros, canais, ferramentas
     e comunidades para você entrar e evoluir na área.'
+- name: pentestkit
+  repo: lordx64/pentestkit
+  description: Autonomous multi-agent pentest framework — plans, exploits, verifies
+    (proof-required), CVSS-scores and writes client-ready reports. 104/104 (100%)
+    on the XBOW validation benchmarks, powered by Kimi K3.
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
