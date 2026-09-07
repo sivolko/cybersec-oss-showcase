@@ -1575,6 +1575,10 @@ threat_intelligence:
   description: Phone number OSINT toolkit with multi-API search (Google, GitHub, Numverify,
     Reddit, DuckDuckGo), Hudson Rock infostealer intelligence, and automatic report
     generation.
+- name: blackbird
+  repo: antoniaci/blackbird
+  description: An OSINT tool to search for accounts by username and email in social
+    networks.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
