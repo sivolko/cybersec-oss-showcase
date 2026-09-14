@@ -1213,6 +1213,15 @@ vulnerability_scanners:
   repo: Awarexone/public-skills-builder
   description: Generate Claude Code bug bounty skills from public HackerOne reports
     and GitHub writeups — 18 vuln classes, no private reports needed
+- name: CVE-2026-42978-PoC-Research
+  repo: SyntaxMethod/CVE-2026-42978-PoC-Research
+  description: CVE-2026-42978 Windows Push Notifications (WpnService) Use-After-Free
+    & Race Condition PoC research, diagnostic scanner, and security audit module for
+    AI Security Tool.
+- name: CVE-2026-41089-Netlogon-RCE-PoC
+  repo: SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC
+  description: CVE-2026-41089 Netlogon RCE PoC — security research, vulnerability
+    validation & defensive testing.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
