@@ -2834,6 +2834,11 @@ mobile_security:
   repo: noobpk/frida-ios-hook
   description: A tool that helps you easy trace classes, functions, and modify the
     return values of methods on iOS platform
+- name: ipatool
+  repo: majd/ipatool
+  description: Command-line tool that allows you to search for iOS, iPadOS, tvOS,
+    visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app
+    packages.
 blockchain_security:
 - name: mythril
   repo: ConsenSysDiligence/mythril
