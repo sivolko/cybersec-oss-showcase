@@ -1222,6 +1222,18 @@ vulnerability_scanners:
   repo: SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC
   description: CVE-2026-41089 Netlogon RCE PoC — security research, vulnerability
     validation & defensive testing.
+- name: Agentic-Bug-Hunter
+  repo: awarexone/Agentic-Bug-Hunter
+  description: AI-powered bug bounty hunting toolkit that works with or without subscription.
+- name: public-skills-builder
+  repo: awarexone/public-skills-builder
+  description: Generate Claude Code bug bounty skills from public HackerOne reports
+    and GitHub writeups — 18 vuln classes, no private reports needed
+- name: BugScanner
+  repo: eldarshiraliyev/BugScanner
+  description: '⚡ Automated web security reconnaissance & vulnerability assessment
+    tool for bug bounty hunters. Discover attack surfaces, fingerprint technologies,
+    detect common web vulnerabilities, and generate actionable security reports. '
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -2497,6 +2509,9 @@ penetration_testing:
   description: Autonomous multi-agent pentest framework — plans, exploits, verifies
     (proof-required), CVSS-scores and writes client-ready reports. 104/104 (100%)
     on the XBOW validation benchmarks, powered by Kimi K3.
+- name: Decepticon
+  repo: BitterSecurity/Decepticon
+  description: Autonomous Hacking Agent for Red Team
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
