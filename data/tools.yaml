@@ -1600,6 +1600,10 @@ threat_intelligence:
   repo: antoniaci/blackbird
   description: An OSINT tool to search for accounts by username and email in social
     networks.
+- name: MailAccess
+  repo: KatrielMoses/MailAccess
+  description: Free email OSINT tool, 2500+ platforms, identity clustering, breach
+    detection. No API keys required. pip install mailaccess
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
