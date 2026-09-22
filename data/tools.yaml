@@ -1730,6 +1730,13 @@ container_security:
     product rather than the RAG. Easy integration in existing products with customisation!  Any
     LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you
     want.'
+- name: Dark-Moon
+  repo: ASCIT31/Dark-Moon
+  description: Open source autonomous AI penetration testing platform. 50+ specialist
+    agents for AI security testing across web, API, cloud, Active Directory, Kubernetes,
+    IoT firmware, CI/CD and AI/LLM endpoints (OWASP LLM Top 10). Real exploits with
+    proof, on a local LLM. Privacy Gateway keeps real IPs, hosts and credentials on
+    your perimeter.
 cloud_security:
 - name: prowler
   repo: prowler-cloud/prowler
