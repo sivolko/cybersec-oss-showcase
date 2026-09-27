@@ -1234,6 +1234,9 @@ vulnerability_scanners:
   description: '⚡ Automated web security reconnaissance & vulnerability assessment
     tool for bug bounty hunters. Discover attack surfaces, fingerprint technologies,
     detect common web vulnerabilities, and generate actionable security reports. '
+- name: akca
+  repo: akha-security/akca
+  description: AKCA Advanced Web Security Scanner
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -2700,6 +2703,10 @@ security_learning:
   repo: Netw0rkNoob/VulnClaw
   description: 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 →
     漏洞发现 → 漏洞利用 → 报告生成」全流程。
+- name: Cairn
+  repo: oritera/Cairn
+  description: A AI general-purpose state-space search engine, validated first on
+    autonomous penetration testing.
 network_security:
 - name: xray
   repo: evilsocket/xray
