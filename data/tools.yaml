@@ -1237,6 +1237,11 @@ vulnerability_scanners:
 - name: akca
   repo: akha-security/akca
   description: AKCA Advanced Web Security Scanner
+- name: vbsec
+  repo: tanviet12/vbsec
+  description: Security scanning skill for Claude Code, Codex and Antigravity. Finds
+    the 21 most common vulnerabilities in AI-written code and shows how to fix each
+    one.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
