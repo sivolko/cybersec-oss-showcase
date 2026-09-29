@@ -2037,6 +2037,11 @@ devsecops:
   repo: stijnswapped/Myrqen
   description: Security testing that runs inside the coding agent you already use.
     Source-available, not open source.
+- name: mcp-audit-tool
+  repo: graygnatconsole/mcp-audit-tool
+  description: 🛡️ Security audit CLI for Model Context Protocol (MCP) servers — scan
+    AI agent configs for tool poisoning, rug pulls, hardcoded secrets, command injection
+    & supply-chain risks. Pure Python, SARIF + CI ready.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
