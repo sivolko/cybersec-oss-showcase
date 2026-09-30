@@ -1242,6 +1242,10 @@ vulnerability_scanners:
   description: Security scanning skill for Claude Code, Codex and Antigravity. Finds
     the 21 most common vulnerabilities in AI-written code and shows how to fix each
     one.
+- name: '0'
+  repo: 0sec-labs/0
+  description: 🥷🏻 0 is an open-source AI security agent that finds, exploits, and
+    fixes vulnerabilities across your stack. [Research Preview]
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
