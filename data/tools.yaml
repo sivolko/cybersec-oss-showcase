@@ -1246,6 +1246,12 @@ vulnerability_scanners:
   repo: 0sec-labs/0
   description: 🥷🏻 0 is an open-source AI security agent that finds, exploits, and
     fixes vulnerabilities across your stack. [Research Preview]
+- name: moria
+  repo: nmatt0/moria
+  description: IoT firmware identification and extraction
+- name: mithril
+  repo: nmatt0/mithril
+  description: IoT static scanner for secrets, SBOM, CVEs and more.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
