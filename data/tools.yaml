@@ -1252,6 +1252,11 @@ vulnerability_scanners:
 - name: mithril
   repo: nmatt0/mithril
   description: IoT static scanner for secrets, SBOM, CVEs and more.
+- name: VulnHunter
+  repo: nealbridges/VulnHunter
+  description: Agentic AI security scanner that hunts exploitable vulnerabilities
+    like an adversary, proves them with executable PoCs, and fixes them test-first.
+    A maintained fork of Capital One's VulnHunter, rebuilt for any agent harness.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
