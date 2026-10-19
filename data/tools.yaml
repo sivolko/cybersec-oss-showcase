@@ -1263,6 +1263,10 @@ vulnerability_scanners:
     tool offers robust network security solutions for professionals and enthusiasts.
     With features like decryption, analysis, scanning, and traceability, it provides
     a user-friendly interface and diverse functionality.
+- name: ARTEX
+  repo: trhhubsd/ARTEX
+  description: ARTEX · AI autonomous penetration testing system (multi-agent LLM,
+    Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑战赛冠军
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
