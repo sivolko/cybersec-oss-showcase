@@ -1272,6 +1272,11 @@ vulnerability_scanners:
   description: 'A free, open-source alternative to Burp Suite: an intercepting proxy
     and web app security testing suite with Repeater, Intruder, Collaborator and a
     built-in OWASP ZAP scanner. Linux, AGPL-3.0.'
+- name: HydraSoft-DLL-Hijack-Scanner
+  repo: HydraSoft/HydraSoft-DLL-Hijack-Scanner
+  description: 'HydraSoft: dependency-free Windows DLL hijack scanner with centralized
+    remote management — HydraAgent, PHP API, and a web console for endpoint security
+    checks across your fleet.'
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -1642,6 +1647,11 @@ threat_intelligence:
   repo: KatrielMoses/MailAccess
   description: Free email OSINT tool, 2500+ platforms, identity clustering, breach
     detection. No API keys required. pip install mailaccess
+- name: SilentSniffer
+  repo: AhmadHassan-BTed/SilentSniffer
+  description: A professional, high-fidelity de-anonymization and vulnerability diagnostic
+    framework. Features a zero-coupling modular architecture for browser-based intelligence
+    gathering, hardware fingerprinting, and security research.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
