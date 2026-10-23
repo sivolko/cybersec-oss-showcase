@@ -2757,6 +2757,9 @@ security_learning:
   repo: oritera/Cairn
   description: A AI general-purpose state-space search engine, validated first on
     autonomous penetration testing.
+- name: Hacking-Tools
+  repo: yogsec/Hacking-Tools
+  description: A curated list of 900+ penetration testing and ethical hacking tools.
 network_security:
 - name: xray
   repo: evilsocket/xray
