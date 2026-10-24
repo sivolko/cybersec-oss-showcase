@@ -2082,6 +2082,10 @@ devsecops:
   description: 🛡️ Security audit CLI for Model Context Protocol (MCP) servers — scan
     AI agent configs for tool poisoning, rug pulls, hardcoded secrets, command injection
     & supply-chain risks. Pure Python, SARIF + CI ready.
+- name: pya
+  repo: AgriciDaniel/pya
+  description: 'PYA (Protect Your Ass): security audit plugin for Claude Code. 9 specialist
+    agents, a dated threat feed, verified findings, offline by default.'
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
