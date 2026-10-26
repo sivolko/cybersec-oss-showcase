@@ -1277,6 +1277,10 @@ vulnerability_scanners:
   description: 'HydraSoft: dependency-free Windows DLL hijack scanner with centralized
     remote management — HydraAgent, PHP API, and a web console for endpoint security
     checks across your fleet.'
+- name: CVEngine
+  repo: hevnsnt/CVEngine
+  description: AI-first external attack surface assessment with continuous discovery,
+    evidence-based vulnerability validation, and developer-agent MCP integration.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
