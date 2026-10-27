@@ -2852,6 +2852,13 @@ network_security:
 - name: ja4
   repo: FoxIO-LLC/ja4
   description: JA4+ is a suite of network fingerprinting standards
+- name: Check-Risk-WAF
+  repo: Check-Risk-WAF/Check-Risk-WAF
+  description: Check Risk WAF is an all-in-one Web Application Firewall with Anti-Bot
+    and Anti-DDoS protection at L3, L4, and L7. Available on-premises or as SaaS,
+    it protects web apps against OWASP Top 10 attacks, CWE vulnerabilities, botnets,
+    and DoS/DDoS. Free and unlimited for everyone, forever for personal, non-commercial
+    use.
 information_gathering:
 - name: argus
   repo: jasonxtn/Argus
