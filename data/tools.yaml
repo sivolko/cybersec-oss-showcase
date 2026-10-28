@@ -1281,6 +1281,11 @@ vulnerability_scanners:
   repo: hevnsnt/CVEngine
   description: AI-first external attack surface assessment with continuous discovery,
     evidence-based vulnerability validation, and developer-agent MCP integration.
+- name: crossfyre-toolchain
+  repo: clickswave/crossfyre-toolchain
+  description: Recon and vulnerability scanning tools that run in your terminal. Find
+    subdomains, scan ports, discover hidden paths, fingerprint what's running, and
+    check it for vulns.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
