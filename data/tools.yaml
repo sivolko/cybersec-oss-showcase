@@ -2864,6 +2864,9 @@ network_security:
     it protects web apps against OWASP Top 10 attacks, CWE vulnerabilities, botnets,
     and DoS/DDoS. Free and unlimited for everyone, forever for personal, non-commercial
     use.
+- name: sparta
+  repo: SECFORCE/sparta
+  description: Network Infrastructure Penetration Testing Tool
 information_gathering:
 - name: argus
   repo: jasonxtn/Argus
