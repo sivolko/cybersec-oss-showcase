@@ -2948,6 +2948,10 @@ mobile_security:
   description: Command-line tool that allows you to search for iOS, iPadOS, tvOS,
     visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app
     packages.
+- name: rea
+  repo: morluto/rea
+  description: Reverse engineer anything with agents, from app behavior down to native
+    binaries.
 blockchain_security:
 - name: mythril
   repo: ConsenSysDiligence/mythril
