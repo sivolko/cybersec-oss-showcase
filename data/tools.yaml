@@ -1454,6 +1454,11 @@ security_automation:
   repo: nuver-labs/vps-audit
   description: lightweight, dependency-free bash script for security, performance
     auditing and infrastructure monitoring of Linux servers.
+- name: artex-global
+  repo: jiwoochris/artex-global
+  description: 'Global edition of ARTEX — an LLM multi-agent autonomous penetration-testing
+    framework. English default, switchable to Korean/Chinese/Spanish/Japanese. For
+    authorized, defensive and detection use only. (upstream: Autumn-27/ARTEX, AGPL-3.0)'
 threat_intelligence:
 - name: misp
   repo: MISP/MISP
