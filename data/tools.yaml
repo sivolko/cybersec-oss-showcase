@@ -1893,6 +1893,10 @@ cloud_security:
   repo: gebalamariusz/cloud-audit
   description: Fast, opinionated AWS security scanner. Curated checks. Zero noise.
     Copy-paste fixes.
+- name: agent-beacon
+  repo: Asymptote-Labs/agent-beacon
+  description: 'The cross-harness, self-improving memory layer for AI agents. Join
+    our community: https://discord.com/invite/zdNChS2fBu'
 devsecops:
 - name: bandit
   repo: PyCQA/bandit
