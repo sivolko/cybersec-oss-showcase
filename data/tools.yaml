@@ -1666,6 +1666,11 @@ threat_intelligence:
   description: A professional, high-fidelity de-anonymization and vulnerability diagnostic
     framework. Features a zero-coupling modular architecture for browser-based intelligence
     gathering, hardware fingerprinting, and security research.
+- name: cve-intel
+  repo: Fazmin/cve-intel
+  description: Local security intelligence for CVE triage - 40 data sources and 41
+    tools, risk scores and an MCP server for AI agents, all in native Rust. Private
+    by default.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
