@@ -2603,6 +2603,12 @@ penetration_testing:
 - name: Decepticon
   repo: BitterSecurity/Decepticon
   description: Autonomous Hacking Agent for Red Team
+- name: sapper-v2
+  repo: N1nEmAn/sapper-v2
+  description: 'Autonomous pentest legion — AI commander + worker swarm + layered
+    fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634
+    teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History,
+    let a civilization grow.'
 cryptography:
 - name: libsodium
   repo: jedisct1/libsodium
