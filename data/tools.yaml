@@ -1286,6 +1286,10 @@ vulnerability_scanners:
   description: Recon and vulnerability scanning tools that run in your terminal. Find
     subdomains, scan ports, discover hidden paths, fingerprint what's running, and
     check it for vulns.
+- name: hacktheweb
+  repo: yashabcyber7/hacktheweb
+  description: ⚡ Production-Ready AI-Powered Web Application Penetration Testing &
+    Vulnerability Assessment Framework
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
@@ -2109,6 +2113,11 @@ devsecops:
   repo: AgriciDaniel/pya
   description: 'PYA (Protect Your Ass): security audit plugin for Claude Code. 9 specialist
     agents, a dated threat feed, verified findings, offline by default.'
+- name: 0security
+  repo: 0sec-labs/0security
+  description: Open-source AI cybersecurity harness. Build & deploy continuous security
+    agents that find, prove, fix and monitor vulnerabilities across code, binaries,
+    dependencies, infrastructure and AI agents. Web UI, CLI, CI and MCP.
 incident_response:
 - name: volatility
   repo: volatilityfoundation/volatility
