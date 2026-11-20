@@ -1808,6 +1808,10 @@ container_security:
     IoT firmware, CI/CD and AI/LLM endpoints (OWASP LLM Top 10). Real exploits with
     proof, on a local LLM. Privacy Gateway keeps real IPs, hosts and credentials on
     your perimeter.
+- name: ARTEX
+  repo: BaaRai/ARTEX
+  description: 'ARTEX - AI autonomous penetration testing system (English translation;
+    upstream: Autumn-27/ARTEX, AGPL-3.0)'
 cloud_security:
 - name: prowler
   repo: prowler-cloud/prowler
