@@ -1910,6 +1910,10 @@ cloud_security:
   repo: Asymptote-Labs/agent-beacon
   description: 'The cross-harness, self-improving memory layer for AI agents. Join
     our community: https://discord.com/invite/zdNChS2fBu'
+- name: Clouds-Against-Humanity
+  repo: ChiefGyk3D/Clouds-Against-Humanity
+  description: Learn cloud security by building it! An open-source homelab teaching
+    Zero Trust, DevSecOps, IaC, and cloud architecture from the ground up.
 devsecops:
 - name: bandit
   repo: PyCQA/bandit
@@ -2709,6 +2713,14 @@ cryptography:
   repo: Jayy001/Search-That-Hash
   description: 🔎Searches Hash APIs to crack your hash quickly🔎 If hash is not found,
     automatically pipes into HashCat⚡
+- name: kaspersky-premium-win
+  repo: kernelbest/kaspersky-premium-win
+  description: Kaspersky - cybersecurity suite for real-time malware protection, password
+    management and VPN encryption on Windows 10/11
+- name: kaspersky-premium-win
+  repo: orlovradha5255/kaspersky-premium-win
+  description: Kaspersky - cybersecurity suite for real-time malware protection, password
+    management and VPN encryption on Windows 10/11
 security_learning:
 - name: owasp-top10
   repo: OWASP/Top10
