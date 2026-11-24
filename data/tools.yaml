@@ -1290,6 +1290,10 @@ vulnerability_scanners:
   repo: yashabcyber7/hacktheweb
   description: ⚡ Production-Ready AI-Powered Web Application Penetration Testing &
     Vulnerability Assessment Framework
+- name: safe-anything
+  repo: erkamyaman/safe-anything
+  description: 'Find the holes before someone else does. A fast, 100% Rust vulnerability
+    scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.'
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
