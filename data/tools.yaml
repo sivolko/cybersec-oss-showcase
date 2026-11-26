@@ -1679,6 +1679,9 @@ threat_intelligence:
   description: Local security intelligence for CVE triage - 40 data sources and 41
     tools, risk scores and an MCP server for AI agents, all in native Rust. Private
     by default.
+- name: webkiller
+  repo: ultrasecurity/webkiller
+  description: agentic recon & exploitation engine for bug bounty & pentest.
 container_security:
 - name: trivy
   repo: aquasecurity/trivy
