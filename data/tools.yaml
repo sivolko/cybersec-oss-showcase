@@ -1294,6 +1294,11 @@ vulnerability_scanners:
   repo: erkamyaman/safe-anything
   description: 'Find the holes before someone else does. A fast, 100% Rust vulnerability
     scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.'
+- name: ARTEX-CC
+  repo: sresarehumantoo/ARTEX-CC
+  description: Autonomous penetration testing platform for Claude Code. 65 MCP tools,
+    dual-graph architecture, multi-instance coordination, web UI, recording proxy,
+    and evidence capture.
 security_automation:
 - name: semgrep
   repo: semgrep/semgrep
